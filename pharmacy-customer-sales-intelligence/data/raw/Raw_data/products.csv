@@ -1,0 +1,151 @@
+product_id,product_name,active_ingredient,strength,dosage_form,category,unit_of_measure,unit_cost,selling_price,product_status
+P001,Paracetamol 500 mg Tablets,Paracetamol,500 mg,Tablets,Pain & Fever,pack of 20 tablets,28.86,44.00,Active
+P002,Paracetamol 120 mg/5 mL Syrup,Paracetamol,120 mg/5 mL,Syrup,Pain & Fever,bottle of 60 mL,44.35,57.00,Active
+P003,Ibuprofen 400 mg Tablets,Ibuprofen,400 mg,Tablets,Pain & Fever,strip of 10 tablets,33.78,45.00,Active
+P004,Ibuprofen 200 mg Tablets,Ibuprofen,200 mg,Tablets,Pain & Fever,strip of 10 tablets,23.91,35.00,Active
+P005,Ibuprofen 100 mg/5 mL Suspension,Ibuprofen,100 mg/5 mL,Suspension,Pain & Fever,bottle of 100 mL,88.14,110.00,Active
+P006,Diclofenac 50 mg Tablets,Diclofenac,50 mg,Tablets,Pain & Fever,strip of 10 tablets,33.73,45.00,Active
+P007,Diclofenac 1% Gel,Diclofenac,1%,Gel,Pain & Fever,tube of 30 g,121.18,160.00,Active
+P008,Aspirin 75 mg Tablets,Aspirin,75 mg,Tablets,Pain & Fever,pack of 28 tablets,55.20,73.00,Discontinued
+P009,Mefenamic acid 500 mg Capsules,Mefenamic acid,500 mg,Capsules,Pain & Fever,strip of 10 capsules,40.43,51.00,Active
+P010,Naproxen 250 mg Tablets,Naproxen,250 mg,Tablets,Pain & Fever,strip of 10 tablets,46.98,69.00,Active
+P011,Etoricoxib 90 mg Tablets,Etoricoxib,90 mg,Tablets,Pain & Fever,strip of 10 tablets,195.84,255.00,Active
+P012,Methyl salicylate 25% Ointment,Methyl salicylate,25%,Ointment,Pain & Fever,tube of 30 g,80.79,110.00,Active
+P013,Piroxicam 20 mg Capsules,Piroxicam,20 mg,Capsules,Pain & Fever,strip of 10 capsules,63.28,94.00,Active
+P014,Amoxicillin 500 mg Capsules,Amoxicillin,500 mg,Capsules,Antibiotics,strip of 10 capsules,64.64,85.00,Active
+P015,Amoxicillin 250 mg/5 mL Suspension,Amoxicillin,250 mg/5 mL,Suspension,Antibiotics,bottle of 100 mL,122.26,155.00,Active
+P016,Amoxicillin/Clavulanic acid 625 mg Tablets,Amoxicillin/Clavulanic acid,625 mg,Tablets,Antibiotics,pack of 10 tablets,274.46,345.00,Active
+P017,Azithromycin 500 mg Tablets,Azithromycin,500 mg,Tablets,Antibiotics,pack of 3 tablets,123.03,180.00,Active
+P018,Ciprofloxacin 500 mg Tablets,Ciprofloxacin,500 mg,Tablets,Antibiotics,strip of 10 tablets,67.98,89.00,Active
+P019,Metronidazole 400 mg Tablets,Metronidazole,400 mg,Tablets,Antibiotics,strip of 10 tablets,38.23,55.00,Active
+P020,Metronidazole 200 mg/5 mL Suspension,Metronidazole,200 mg/5 mL,Suspension,Antibiotics,bottle of 100 mL,87.40,110.00,Active
+P021,Doxycycline 100 mg Capsules,Doxycycline,100 mg,Capsules,Antibiotics,strip of 10 capsules,50.86,65.00,Active
+P022,Cefuroxime 500 mg Tablets,Cefuroxime,500 mg,Tablets,Antibiotics,pack of 10 tablets,369.67,485.00,Active
+P023,Cefixime 400 mg Capsules,Cefixime,400 mg,Capsules,Antibiotics,pack of 5 capsules,307.99,395.00,Active
+P024,Erythromycin 500 mg Tablets,Erythromycin,500 mg,Tablets,Antibiotics,strip of 10 tablets,85.69,120.00,Active
+P025,Co-trimoxazole 480 mg Tablets,Co-trimoxazole,480 mg,Tablets,Antibiotics,strip of 10 tablets,31.53,41.00,Active
+P026,Co-trimoxazole 240 mg/5 mL Suspension,Co-trimoxazole,240 mg/5 mL,Suspension,Antibiotics,bottle of 100 mL,66.65,86.00,Active
+P027,Flucloxacillin 500 mg Capsules,Flucloxacillin,500 mg,Capsules,Antibiotics,strip of 10 capsules,130.75,175.00,Active
+P028,Nitrofurantoin 100 mg Capsules,Nitrofurantoin,100 mg,Capsules,Antibiotics,pack of 10 capsules,108.04,155.00,Active
+P029,Ceftriaxone 1 g Injection,Ceftriaxone,1 g,Injection,Antibiotics,vial of 1 g,117.75,150.00,Active
+P030,Clarithromycin 500 mg Tablets,Clarithromycin,500 mg,Tablets,Antibiotics,pack of 14 tablets,300.63,425.00,Discontinued
+P031,Cefalexin 500 mg Capsules,Cefalexin,500 mg,Capsules,Antibiotics,strip of 10 capsules,115.51,145.00,Active
+P032,Tinidazole 500 mg Tablets,Tinidazole,500 mg,Tablets,Antibiotics,pack of 4 tablets,62.66,89.00,Active
+P033,Artemether/Lumefantrine 20/120 mg Tablets,Artemether/Lumefantrine,20/120 mg,Tablets,Antimalarials,pack of 24 tablets,168.30,230.00,Active
+P034,Artemether/Lumefantrine 20/120 mg dispersible Tablets,Artemether/Lumefantrine,20/120 mg dispersible,Tablets,Antimalarials,pack of 12 tablets,93.67,115.00,Active
+P035,Dihydroartemisinin/Piperaquine 40/320 mg Tablets,Dihydroartemisinin/Piperaquine,40/320 mg,Tablets,Antimalarials,pack of 3 tablets,208.45,290.00,Active
+P036,Artesunate 60 mg Injection,Artesunate,60 mg,Injection,Antimalarials,vial of 60 mg,252.88,365.00,Active
+P037,Quinine 300 mg Tablets,Quinine,300 mg,Tablets,Antimalarials,strip of 10 tablets,76.97,97.00,Active
+P038,Sulfadoxine/Pyrimethamine 500/25 mg Tablets,Sulfadoxine/Pyrimethamine,500/25 mg,Tablets,Antimalarials,pack of 3 tablets,38.77,58.00,Active
+P039,Amlodipine 5 mg Tablets,Amlodipine,5 mg,Tablets,Cardiovascular,pack of 30 tablets,60.86,83.00,Active
+P040,Amlodipine 10 mg Tablets,Amlodipine,10 mg,Tablets,Cardiovascular,pack of 30 tablets,97.41,145.00,Active
+P041,Atenolol 50 mg Tablets,Atenolol,50 mg,Tablets,Cardiovascular,pack of 30 tablets,53.53,76.00,Active
+P042,Enalapril 5 mg Tablets,Enalapril,5 mg,Tablets,Cardiovascular,pack of 30 tablets,66.35,87.00,Active
+P043,Lisinopril 10 mg Tablets,Lisinopril,10 mg,Tablets,Cardiovascular,pack of 30 tablets,85.03,125.00,Discontinued
+P044,Losartan 50 mg Tablets,Losartan,50 mg,Tablets,Cardiovascular,pack of 30 tablets,111.82,145.00,Active
+P045,Hydrochlorothiazide 25 mg Tablets,Hydrochlorothiazide,25 mg,Tablets,Cardiovascular,pack of 30 tablets,44.96,67.00,Active
+P046,Nifedipine 20 mg (slow release) Tablets,Nifedipine,20 mg (slow release),Tablets,Cardiovascular,pack of 30 tablets,101.99,145.00,Active
+P047,Atorvastatin 20 mg Tablets,Atorvastatin,20 mg,Tablets,Cardiovascular,pack of 30 tablets,160.25,215.00,Active
+P048,Simvastatin 20 mg Tablets,Simvastatin,20 mg,Tablets,Cardiovascular,pack of 30 tablets,109.53,145.00,Active
+P049,Furosemide 40 mg Tablets,Furosemide,40 mg,Tablets,Cardiovascular,pack of 28 tablets,48.87,66.00,Active
+P050,Bisoprolol 5 mg Tablets,Bisoprolol,5 mg,Tablets,Cardiovascular,pack of 30 tablets,118.52,170.00,Active
+P051,Spironolactone 25 mg Tablets,Spironolactone,25 mg,Tablets,Cardiovascular,pack of 28 tablets,97.21,135.00,Active
+P052,Clopidogrel 75 mg Tablets,Clopidogrel,75 mg,Tablets,Cardiovascular,pack of 28 tablets,145.02,180.00,Active
+P053,Metformin 500 mg Tablets,Metformin,500 mg,Tablets,Diabetes,pack of 60 tablets,81.80,105.00,Active
+P054,Metformin 850 mg Tablets,Metformin,850 mg,Tablets,Diabetes,pack of 60 tablets,106.97,160.00,Active
+P055,Glibenclamide 5 mg Tablets,Glibenclamide,5 mg,Tablets,Diabetes,pack of 30 tablets,45.20,64.00,Active
+P056,Gliclazide 80 mg Tablets,Gliclazide,80 mg,Tablets,Diabetes,pack of 30 tablets,125.81,160.00,Active
+P057,Glimepiride 2 mg Tablets,Glimepiride,2 mg,Tablets,Diabetes,pack of 30 tablets,137.06,200.00,Active
+P058,Human insulin (soluble) 100 IU/mL Injection,Human insulin (soluble),100 IU/mL,Injection,Diabetes,vial of 10 mL,680.04,935.00,Active
+P059,Human insulin (isophane) 100 IU/mL Injection,Human insulin (isophane),100 IU/mL,Injection,Diabetes,vial of 10 mL,706.90,985.00,Active
+P060,Blood glucose test strips 50 strips Test strips,,50 strips,Test strips,Diabetes,box of 50 strips,913.17,1360.00,Active
+P061,Lancets 100 lancets,,100 lancets,Other,Diabetes,box of 100 lancets,205.72,305.00,Active
+P062,Omeprazole 20 mg Capsules,Omeprazole,20 mg,Capsules,Gastrointestinal,pack of 14 capsules,60.07,80.00,Active
+P063,Esomeprazole 40 mg Tablets,Esomeprazole,40 mg,Tablets,Gastrointestinal,pack of 14 tablets,157.22,225.00,Active
+P064,Pantoprazole 40 mg Tablets,Pantoprazole,40 mg,Tablets,Gastrointestinal,pack of 14 tablets,120.20,155.00,Active
+P065,Aluminium hydroxide/Magnesium hydroxide Suspension,Aluminium hydroxide/Magnesium hydroxide,,Suspension,Gastrointestinal,bottle of 200 mL,118.84,155.00,Active
+P066,Loperamide 2 mg Capsules,Loperamide,2 mg,Capsules,Gastrointestinal,strip of 6 capsules,41.37,58.00,Active
+P067,Oral rehydration salts 1 L sachet Powder,Oral rehydration salts,1 L sachet,Powder,Gastrointestinal,sachet,22.30,29.00,Active
+P068,Zinc sulfate 20 mg dispersible Tablets,Zinc sulfate,20 mg dispersible,Tablets,Gastrointestinal,pack of 10 tablets,80.57,110.00,Active
+P069,Bisacodyl 5 mg Tablets,Bisacodyl,5 mg,Tablets,Gastrointestinal,strip of 10 tablets,32.32,49.00,Active
+P070,Lactulose 3.35 g/5 mL Syrup,Lactulose,3.35 g/5 mL,Syrup,Gastrointestinal,bottle of 200 mL,357.71,525.00,Active
+P071,Hyoscine butylbromide 10 mg Tablets,Hyoscine butylbromide,10 mg,Tablets,Gastrointestinal,strip of 10 tablets,86.60,125.00,Active
+P072,Domperidone 10 mg Tablets,Domperidone,10 mg,Tablets,Gastrointestinal,strip of 10 tablets,54.63,81.00,Active
+P073,Metoclopramide 10 mg Tablets,Metoclopramide,10 mg,Tablets,Gastrointestinal,strip of 10 tablets,30.90,46.00,Active
+P074,Simethicone 40 mg Chewable tablets,Simethicone,40 mg,Chewable tablets,Gastrointestinal,strip of 10 tablets,62.02,89.00,Active
+P075,Famotidine 20 mg Tablets,Famotidine,20 mg,Tablets,Gastrointestinal,strip of 10 tablets,59.19,77.00,Active
+P076,Salbutamol 100 mcg/dose Inhaler,Salbutamol,100 mcg/dose,Inhaler,Respiratory & Allergy,inhaler of 200 doses,286.06,390.00,Active
+P077,Salbutamol 2 mg/5 mL Syrup,Salbutamol,2 mg/5 mL,Syrup,Respiratory & Allergy,bottle of 100 mL,75.81,100.00,Active
+P078,Salbutamol 4 mg Tablets,Salbutamol,4 mg,Tablets,Respiratory & Allergy,strip of 10 tablets,27.33,36.00,Active
+P079,Cetirizine 10 mg Tablets,Cetirizine,10 mg,Tablets,Respiratory & Allergy,strip of 10 tablets,36.69,48.00,Active
+P080,Loratadine 10 mg Tablets,Loratadine,10 mg,Tablets,Respiratory & Allergy,strip of 10 tablets,39.86,56.00,Active
+P081,Chlorphenamine 4 mg Tablets,Chlorphenamine,4 mg,Tablets,Respiratory & Allergy,strip of 10 tablets,22.35,34.00,Active
+P082,Promethazine 25 mg Tablets,Promethazine,25 mg,Tablets,Respiratory & Allergy,strip of 10 tablets,33.66,51.00,Active
+P083,Montelukast 10 mg Tablets,Montelukast,10 mg,Tablets,Respiratory & Allergy,pack of 28 tablets,371.61,540.00,Active
+P084,Beclometasone 100 mcg/dose Inhaler,Beclometasone,100 mcg/dose,Inhaler,Respiratory & Allergy,inhaler of 200 doses,598.92,750.00,Active
+P085,Guaifenesin 100 mg/5 mL Syrup,Guaifenesin,100 mg/5 mL,Syrup,Respiratory & Allergy,bottle of 100 mL,110.80,150.00,Active
+P086,Bromhexine 4 mg/5 mL Syrup,Bromhexine,4 mg/5 mL,Syrup,Respiratory & Allergy,bottle of 100 mL,103.20,150.00,Active
+P087,Dextromethorphan 15 mg/5 mL Syrup,Dextromethorphan,15 mg/5 mL,Syrup,Respiratory & Allergy,bottle of 100 mL,119.49,170.00,Active
+P088,Xylometazoline 0.1% Nasal drops,Xylometazoline,0.1%,Nasal drops,Respiratory & Allergy,bottle of 10 mL,113.72,150.00,Active
+P089,Prednisolone 5 mg Tablets,Prednisolone,5 mg,Tablets,Respiratory & Allergy,strip of 10 tablets,31.40,41.00,Active
+P090,Ascorbic acid (Vitamin C) 500 mg Tablets,Ascorbic acid (Vitamin C),500 mg,Tablets,Vitamins & Supplements,pack of 20 tablets,76.97,100.00,Active
+P091,Vitamin B complex Tablets,Vitamin B complex,,Tablets,Vitamins & Supplements,pack of 30 tablets,58.06,84.00,Active
+P092,Multivitamin Tablets,Multivitamin,,Tablets,Vitamins & Supplements,pack of 30 tablets,275.39,365.00,Active
+P093,Multivitamin Syrup,Multivitamin,,Syrup,Vitamins & Supplements,bottle of 100 mL,210.57,310.00,Active
+P094,Folic acid 5 mg Tablets,Folic acid,5 mg,Tablets,Vitamins & Supplements,pack of 28 tablets,40.33,60.00,Active
+P095,Ferrous sulfate 200 mg Tablets,Ferrous sulfate,200 mg,Tablets,Vitamins & Supplements,pack of 30 tablets,50.90,66.00,Active
+P096,Ferrous sulfate/Folic acid Syrup,Ferrous sulfate/Folic acid,,Syrup,Vitamins & Supplements,bottle of 200 mL,166.55,210.00,Active
+P097,Calcium/Vitamin D3 600 mg/400 IU Tablets,Calcium/Vitamin D3,600 mg/400 IU,Tablets,Vitamins & Supplements,pack of 30 tablets,290.23,395.00,Active
+P098,Vitamin D3 1000 IU Softgel capsules,Vitamin D3,1000 IU,Softgel capsules,Vitamins & Supplements,pack of 30 capsules,376.02,505.00,Active
+P099,Omega-3 fish oil 1000 mg Softgel capsules,Omega-3 fish oil,1000 mg,Softgel capsules,Vitamins & Supplements,pack of 30 capsules,762.22,985.00,Active
+P100,Vitamin E 400 IU Softgel capsules,Vitamin E,400 IU,Softgel capsules,Vitamins & Supplements,pack of 30 capsules,369.90,520.00,Active
+P101,Vitamin B12 (cyanocobalamin) 1000 mcg Tablets,Vitamin B12 (cyanocobalamin),1000 mcg,Tablets,Vitamins & Supplements,pack of 30 tablets,204.95,270.00,Active
+P102,Magnesium 250 mg Tablets,Magnesium,250 mg,Tablets,Vitamins & Supplements,pack of 30 tablets,269.79,360.00,Active
+P103,Cod liver oil Capsules,Cod liver oil,,Capsules,Vitamins & Supplements,pack of 30 capsules,394.88,545.00,Active
+P104,Clotrimazole 1% Cream,Clotrimazole,1%,Cream,Dermatology,tube of 20 g,79.77,110.00,Active
+P105,Hydrocortisone 1% Cream,Hydrocortisone,1%,Cream,Dermatology,tube of 15 g,88.06,110.00,Active
+P106,Betamethasone 0.05% Cream,Betamethasone,0.05%,Cream,Dermatology,tube of 15 g,134.48,175.00,Active
+P107,Fusidic acid 2% Cream,Fusidic acid,2%,Cream,Dermatology,tube of 15 g,240.64,345.00,Active
+P108,Terbinafine 1% Cream,Terbinafine,1%,Cream,Dermatology,tube of 15 g,243.28,340.00,Active
+P109,Miconazole 2% Cream,Miconazole,2%,Cream,Dermatology,tube of 30 g,138.45,185.00,Active
+P110,Calamine 8% Lotion,Calamine,8%,Lotion,Dermatology,bottle of 100 mL,125.17,165.00,Active
+P111,Silver sulfadiazine 1% Cream,Silver sulfadiazine,1%,Cream,Dermatology,tube of 50 g,242.74,340.00,Active
+P112,Benzoyl peroxide 5% Gel,Benzoyl peroxide,5%,Gel,Dermatology,tube of 30 g,315.71,450.00,Active
+P113,Petroleum jelly Ointment,Petroleum jelly,,Ointment,Dermatology,jar of 100 g,126.23,165.00,Active
+P114,Ketoconazole 2% Shampoo,Ketoconazole,2%,Shampoo,Dermatology,bottle of 100 mL,422.54,600.00,Active
+P115,Permethrin 5% Cream,Permethrin,5%,Cream,Dermatology,tube of 30 g,284.13,380.00,Active
+P116,Aqueous cream Cream,Aqueous cream,,Cream,Dermatology,tub of 500 g,287.13,415.00,Discontinued
+P117,Mupirocin 2% Ointment,Mupirocin,2%,Ointment,Dermatology,tube of 15 g,375.14,535.00,Active
+P118,Zinc oxide 15% Ointment,Zinc oxide,15%,Ointment,Dermatology,tube of 30 g,106.62,150.00,Active
+P119,Chloramphenicol 0.5% Eye drops,Chloramphenicol,0.5%,Eye drops,"Eye, Ear & Nose",bottle of 10 mL,98.45,135.00,Active
+P120,Ciprofloxacin 0.3% Eye drops,Ciprofloxacin,0.3%,Eye drops,"Eye, Ear & Nose",bottle of 5 mL,128.53,165.00,Active
+P121,Carboxymethylcellulose 0.5% Eye drops,Carboxymethylcellulose,0.5%,Eye drops,"Eye, Ear & Nose",bottle of 10 mL,297.78,410.00,Active
+P122,Tetracycline 1% Eye ointment,Tetracycline,1%,Eye ointment,"Eye, Ear & Nose",tube of 5 g,87.71,120.00,Active
+P123,Clotrimazole 1% Ear drops,Clotrimazole,1%,Ear drops,"Eye, Ear & Nose",bottle of 10 mL,151.19,210.00,Active
+P124,Sodium chloride 0.9% Nasal spray,Sodium chloride,0.9%,Nasal spray,"Eye, Ear & Nose",bottle of 15 mL,131.66,180.00,Active
+P125,Albendazole 400 mg Chewable tablets,Albendazole,400 mg,Chewable tablets,Other Anti-infectives,pack of 1 tablet,30.65,41.00,Active
+P126,Mebendazole 100 mg Tablets,Mebendazole,100 mg,Tablets,Other Anti-infectives,pack of 6 tablets,47.85,61.00,Active
+P127,Fluconazole 150 mg Capsules,Fluconazole,150 mg,Capsules,Other Anti-infectives,pack of 1 capsule,129.12,175.00,Active
+P128,"Nystatin 100,000 IU/mL Oral suspension",Nystatin,"100,000 IU/mL",Oral suspension,Other Anti-infectives,bottle of 30 mL,191.25,240.00,Active
+P129,Ivermectin 3 mg Tablets,Ivermectin,3 mg,Tablets,Other Anti-infectives,pack of 4 tablets,220.23,295.00,Active
+P130,Aciclovir 200 mg Tablets,Aciclovir,200 mg,Tablets,Other Anti-infectives,pack of 25 tablets,356.19,450.00,Active
+P131,Levonorgestrel 1.5 mg Tablets,Levonorgestrel,1.5 mg,Tablets,Reproductive Health,pack of 1 tablet,202.36,290.00,Active
+P132,Levonorgestrel/Ethinylestradiol 150/30 mcg Tablets,Levonorgestrel/Ethinylestradiol,150/30 mcg,Tablets,Reproductive Health,pack of 28 tablets,143.97,180.00,Active
+P133,Medroxyprogesterone 150 mg/mL Injection,Medroxyprogesterone,150 mg/mL,Injection,Reproductive Health,vial of 1 mL,152.80,215.00,Active
+P134,Clotrimazole 500 mg Pessary,Clotrimazole,500 mg,Pessary,Reproductive Health,pack of 1 pessary,160.07,210.00,Active
+P135,Male condoms,,,Other,Reproductive Health,pack of 3,43.46,61.00,Active
+P136,Pregnancy test (hCG) Test kit,,,Test kit,Reproductive Health,single test,54.96,81.00,Active
+P137,Sanitary pads,,,Other,Reproductive Health,pack of 10,105.95,155.00,Active
+P138,Povidone iodine 10% Solution,Povidone iodine,10%,Solution,First Aid & Medical Supplies,bottle of 100 mL,142.01,185.00,Discontinued
+P139,Surgical spirit Solution,Surgical spirit,,Solution,First Aid & Medical Supplies,bottle of 200 mL,102.59,135.00,Active
+P140,Hydrogen peroxide 6% Solution,Hydrogen peroxide,6%,Solution,First Aid & Medical Supplies,bottle of 100 mL,83.89,120.00,Active
+P141,Adhesive plasters,,,Other,First Aid & Medical Supplies,pack of 20,77.78,110.00,Active
+P142,Crepe bandage 7.5 cm,,7.5 cm,Other,First Aid & Medical Supplies,roll,102.87,150.00,Active
+P143,Cotton wool 100 g,,100 g,Other,First Aid & Medical Supplies,pack of 100 g,148.36,200.00,Active
+P144,Sterile gauze swabs,,,Other,First Aid & Medical Supplies,pack of 10,80.26,110.00,Active
+P145,Digital thermometer,,,Other,First Aid & Medical Supplies,each,318.72,460.00,Active
+P146,Disposable examination gloves,,,Other,First Aid & Medical Supplies,box of 100,537.10,730.00,Active
+P147,Alcohol hand sanitiser 70% Gel,Alcohol hand sanitiser,70%,Gel,First Aid & Medical Supplies,bottle of 100 mL,112.55,150.00,Active
+P148,Surgical face masks,,,Other,First Aid & Medical Supplies,box of 50,286.12,420.00,Active
+P149,Syringes with needle 5 mL,,5 mL,Other,First Aid & Medical Supplies,pack of 10,60.76,79.00,Active
+P150,Malaria rapid diagnostic test Test kit,,,Test kit,First Aid & Medical Supplies,single test,66.20,98.00,Active

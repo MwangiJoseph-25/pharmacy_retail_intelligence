@@ -1,0 +1,61 @@
+promotion_id,promotion_name,promotion_type,product_id,category,start_date,end_date,discount_type,discount_value
+PROMO001,Hydrochlorothiazide 25 mg Tablets - 5% off,Product-level,P045,,2025-01-07,2025-01-20,Percentage,5.00
+PROMO002,Dermatology promotion - 10% off,Category-level,,Dermatology,2025-01-10,2025-01-16,Percentage,10.00
+PROMO003,Surgical spirit Solution - 20% off,Product-level,P139,,2025-01-11,2025-01-24,Percentage,20.00
+PROMO004,Omega-3 fish oil 1000 mg Softgel capsules - 20% off,Product-level,P099,,2025-01-18,2025-01-27,Percentage,20.00
+PROMO005,Other Anti-infectives promotion - 5% off,Category-level,,Other Anti-infectives,2025-01-23,2025-02-05,Percentage,5.00
+PROMO006,Other Anti-infectives promotion - 10% off,Category-level,,Other Anti-infectives,2025-01-31,2025-02-20,Percentage,10.00
+PROMO007,Dihydroartemisinin/Piperaquine 40/320 mg Tablets - 5% off,Product-level,P035,,2025-02-08,2025-02-21,Percentage,5.00
+PROMO008,Alcohol hand sanitiser 70% Gel - 20% off,Product-level,P147,,2025-02-09,2025-03-01,Percentage,20.00
+PROMO009,Mefenamic acid 500 mg Capsules - 20% off,Product-level,P009,,2025-02-11,2025-02-17,Percentage,20.00
+PROMO010,Azithromycin 500 mg Tablets - 20% off,Product-level,P017,,2025-03-06,2025-03-15,Percentage,20.00
+PROMO011,Lancets 100 lancets - KES 5 off,Product-level,P061,,2025-03-12,2025-03-21,Fixed amount,5.00
+PROMO012,Beclometasone 100 mcg/dose Inhaler - 15% off,Product-level,P084,,2025-03-26,2025-04-08,Percentage,15.00
+PROMO013,Respiratory & Allergy promotion - 10% off,Category-level,,Respiratory & Allergy,2025-04-01,2025-04-07,Percentage,10.00
+PROMO014,Other Anti-infectives promotion - 10% off,Category-level,,Other Anti-infectives,2025-04-05,2025-04-25,Percentage,10.00
+PROMO015,Famotidine 20 mg Tablets - 20% off,Product-level,P075,,2025-04-06,2025-04-12,Percentage,20.00
+PROMO016,Antimalarials promotion - 5% off,Category-level,,Antimalarials,2025-04-07,2025-04-20,Percentage,5.00
+PROMO017,Domperidone 10 mg Tablets - KES 5 off,Product-level,P072,,2025-04-09,2025-04-22,Fixed amount,5.00
+PROMO018,Vitamin B complex Tablets - KES 20 off,Product-level,P091,,2025-04-12,2025-04-21,Fixed amount,20.00
+PROMO019,Ferrous sulfate 200 mg Tablets - 5% off,Product-level,P095,,2025-04-17,2025-05-07,Percentage,5.00
+PROMO020,Clotrimazole 1% Ear drops - 15% off,Product-level,P123,,2025-04-17,2025-04-26,Percentage,15.00
+PROMO021,Respiratory & Allergy promotion - 15% off,Category-level,,Respiratory & Allergy,2025-04-18,2025-05-01,Percentage,15.00
+PROMO022,Reproductive Health promotion - 10% off,Category-level,,Reproductive Health,2025-04-21,2025-05-04,Percentage,10.00
+PROMO023,Vitamins & Supplements promotion - 10% off,Category-level,,Vitamins & Supplements,2025-04-21,2025-05-04,Percentage,10.00
+PROMO024,Ciprofloxacin 500 mg Tablets - KES 20 off,Product-level,P018,,2025-04-21,2025-04-27,Fixed amount,20.00
+PROMO025,Montelukast 10 mg Tablets - KES 20 off,Product-level,P083,,2025-04-25,2025-05-01,Fixed amount,20.00
+PROMO026,Antimalarials promotion - 5% off,Category-level,,Antimalarials,2025-04-27,2025-05-17,Percentage,5.00
+PROMO027,"Eye, Ear & Nose promotion - 15% off",Category-level,,"Eye, Ear & Nose",2025-04-30,2025-05-20,Percentage,15.00
+PROMO028,Adhesive plasters - KES 10 off,Product-level,P141,,2025-05-03,2025-05-23,Fixed amount,10.00
+PROMO029,Pain & Fever promotion - 5% off,Category-level,,Pain & Fever,2025-05-04,2025-05-17,Percentage,5.00
+PROMO030,Xylometazoline 0.1% Nasal drops - 15% off,Product-level,P088,,2025-05-06,2025-05-26,Percentage,15.00
+PROMO031,Antimalarials promotion - 10% off,Category-level,,Antimalarials,2025-05-10,2025-05-16,Percentage,10.00
+PROMO032,Benzoyl peroxide 5% Gel - 10% off,Product-level,P112,,2025-05-16,2025-06-12,Percentage,10.00
+PROMO033,Albendazole 400 mg Chewable tablets - 20% off,Product-level,P125,,2025-05-23,2025-06-19,Percentage,20.00
+PROMO034,Dermatology promotion - 5% off,Category-level,,Dermatology,2025-05-26,2025-06-08,Percentage,5.00
+PROMO035,Amlodipine 5 mg Tablets - KES 20 off,Product-level,P039,,2025-05-30,2025-06-05,Fixed amount,20.00
+PROMO036,Prednisolone 5 mg Tablets - 15% off,Product-level,P089,,2025-06-04,2025-06-24,Percentage,15.00
+PROMO037,Naproxen 250 mg Tablets - 10% off,Product-level,P010,,2025-06-08,2025-06-17,Percentage,10.00
+PROMO038,Respiratory & Allergy promotion - 10% off,Category-level,,Respiratory & Allergy,2025-06-13,2025-06-26,Percentage,10.00
+PROMO039,Fluconazole 150 mg Capsules - 15% off,Product-level,P127,,2025-06-13,2025-07-10,Percentage,15.00
+PROMO040,Antibiotics promotion - 10% off,Category-level,,Antibiotics,2025-06-17,2025-06-30,Percentage,10.00
+PROMO041,Ketoconazole 2% Shampoo - 20% off,Product-level,P114,,2025-06-27,2025-07-10,Percentage,20.00
+PROMO042,Diabetes promotion - 15% off,Category-level,,Diabetes,2025-06-30,2025-07-06,Percentage,15.00
+PROMO043,Quinine 300 mg Tablets - 10% off,Product-level,P037,,2025-07-10,2025-07-19,Percentage,10.00
+PROMO044,Hyoscine butylbromide 10 mg Tablets - 15% off,Product-level,P071,,2025-08-01,2025-08-28,Percentage,15.00
+PROMO045,Sterile gauze swabs - 10% off,Product-level,P144,,2025-08-05,2025-08-18,Percentage,10.00
+PROMO046,Gliclazide 80 mg Tablets - 5% off,Product-level,P056,,2025-08-12,2025-08-21,Percentage,5.00
+PROMO047,First Aid & Medical Supplies promotion - 5% off,Category-level,,First Aid & Medical Supplies,2025-08-14,2025-08-27,Percentage,5.00
+PROMO048,"Nystatin 100,000 IU/mL Oral suspension - 5% off",Product-level,P128,,2025-08-16,2025-08-25,Percentage,5.00
+PROMO049,Permethrin 5% Cream - KES 20 off,Product-level,P115,,2025-08-18,2025-08-31,Fixed amount,20.00
+PROMO050,Magnesium 250 mg Tablets - KES 10 off,Product-level,P102,,2025-08-25,2025-09-07,Fixed amount,10.00
+PROMO051,Surgical face masks - KES 10 off,Product-level,P148,,2025-09-04,2025-09-13,Fixed amount,10.00
+PROMO052,Ferrous sulfate/Folic acid Syrup - 15% off,Product-level,P096,,2025-09-10,2025-09-23,Percentage,15.00
+PROMO053,Human insulin (isophane) 100 IU/mL Injection - 15% off,Product-level,P059,,2025-09-13,2025-09-19,Percentage,15.00
+PROMO054,First Aid & Medical Supplies promotion - 10% off,Category-level,,First Aid & Medical Supplies,2025-09-14,2025-10-04,Percentage,10.00
+PROMO055,Ivermectin 3 mg Tablets - 20% off,Product-level,P129,,2025-09-26,2025-10-16,Percentage,20.00
+PROMO056,Terbinafine 1% Cream - 20% off,Product-level,P108,,2025-10-06,2025-11-02,Percentage,20.00
+PROMO057,Flucloxacillin 500 mg Capsules - 20% off,Product-level,P027,,2025-10-24,2025-11-13,Percentage,20.00
+PROMO058,Dermatology promotion - 5% off,Category-level,,Dermatology,2025-10-25,2025-11-07,Percentage,5.00
+PROMO059,Petroleum jelly Ointment - KES 15 off,Product-level,P113,,2025-11-05,2025-11-11,Fixed amount,15.00
+PROMO060,Sulfadoxine/Pyrimethamine 500/25 mg Tablets - 5% off,Product-level,P038,,2025-11-13,2025-11-19,Percentage,5.00
