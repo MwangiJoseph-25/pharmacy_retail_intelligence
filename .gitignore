@@ -1,0 +1,29 @@
+
+# macOS system files
+.DS_Store
+**/.DS_Store
+
+# Python virtual environments
+venv/
+.venv/
+**/venv/
+**/.venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+
+# Microsoft Word temporary lock files
+~$*.docx
+
+# Public contextual data not ready for sharing
+/pharmacy-customer-sales-intelligence/data/raw/public/
+/Joseph_Proposed_Capstone_Project_Problem_statement.docx
+/pharmacy-customer-sales-intelligence/scripts/
+/pharmacy-customer-sales-intelligence/.gitignore
