@@ -1,0 +1,2003 @@
+,transaction_id,transaction_date,store_id,product_id,quantity_demanded,quantity_fulfilled,outcome
+0,TXN0001330,2025-01-07,ST07,P107,1,0,Line dropped - no stock
+1,TXN0002166,2025-01-10,ST07,P107,1,0,Line dropped - no stock
+2,TXN0002263,2025-01-11,ST07,P107,1,0,Line dropped - no stock
+3,TXN0002320,2025-01-11,ST07,P060,2,1,Partially filled
+4,TXN0002911,2025-01-14,ST07,P107,1,0,Line dropped - no stock
+5,TXN0002995,2025-01-14,ST07,P103,1,0,Line dropped - no stock
+6,TXN0003547,2025-01-17,ST11,P008,1,0,Transaction voided - no stock
+7,TXN0003708,2025-01-18,ST11,P083,2,0,Line dropped - no stock
+8,TXN0003835,2025-01-18,ST11,P083,1,0,Line dropped - no stock
+9,TXN0003858,2025-01-18,ST11,P008,2,0,Line dropped - no stock
+10,TXN0003975,2025-01-19,ST10,P074,2,0,Line dropped - no stock
+11,TXN0004124,2025-01-19,ST04,P117,2,1,Partially filled
+12,TXN0004190,2025-01-20,ST02,P043,3,0,Transaction voided - no stock
+13,TXN0004242,2025-01-20,ST08,P073,2,1,Partially filled
+14,TXN0004411,2025-01-21,ST03,P050,3,0,Line dropped - no stock
+15,TXN0004746,2025-01-22,ST10,P099,1,0,Line dropped - no stock
+16,TXN0005160,2025-01-24,ST03,P050,1,0,Line dropped - no stock
+17,TXN0005569,2025-01-26,ST09,P043,3,0,Line dropped - no stock
+18,TXN0005740,2025-01-27,ST06,P130,2,1,Partially filled
+19,TXN0005865,2025-01-28,ST07,P002,1,0,Line dropped - no stock
+20,TXN0005980,2025-01-28,ST03,P045,1,0,Line dropped - no stock
+21,TXN0006032,2025-01-28,ST07,P002,1,0,Line dropped - no stock
+22,TXN0006177,2025-01-29,ST10,P008,1,0,Line dropped - no stock
+23,TXN0006204,2025-01-29,ST10,P008,1,0,Line dropped - no stock
+24,TXN0006210,2025-01-29,ST12,P008,2,1,Partially filled
+25,TXN0006223,2025-01-29,ST07,P027,1,0,Line dropped - no stock
+26,TXN0006552,2025-01-30,ST12,P021,3,2,Partially filled
+27,TXN0006596,2025-01-30,ST12,P021,1,0,Line dropped - no stock
+28,TXN0006634,2025-01-30,ST12,P008,1,0,Line dropped - no stock
+29,TXN0006656,2025-01-30,ST12,P021,1,0,Line dropped - no stock
+30,TXN0006785,2025-01-31,ST10,P008,1,0,Line dropped - no stock
+31,TXN0006959,2025-02-01,ST10,P008,2,0,Line dropped - no stock
+32,TXN0006971,2025-02-01,ST12,P008,2,0,Transaction voided - no stock
+33,TXN0007136,2025-02-02,ST03,P030,2,0,Line dropped - no stock
+34,TXN0008188,2025-02-07,ST05,P080,2,1,Partially filled
+35,TXN0008289,2025-02-08,ST07,P146,2,1,Partially filled
+36,TXN0008814,2025-02-10,ST07,P043,2,0,Line dropped - no stock
+37,TXN0009551,2025-02-13,ST05,P035,1,0,Line dropped - no stock
+38,TXN0009693,2025-02-14,ST12,P103,2,0,Line dropped - no stock
+39,TXN0010421,2025-02-17,ST12,P005,1,0,Line dropped - no stock
+40,TXN0010456,2025-02-17,ST01,P126,1,0,Line dropped - no stock
+41,TXN0011279,2025-02-21,ST03,P007,2,0,Line dropped - no stock
+42,TXN0011393,2025-02-21,ST03,P007,1,0,Line dropped - no stock
+43,TXN0011487,2025-02-22,ST03,P077,2,1,Partially filled
+44,TXN0011570,2025-02-22,ST03,P007,1,0,Line dropped - no stock
+45,TXN0011671,2025-02-22,ST03,P007,2,0,Line dropped - no stock
+46,TXN0011868,2025-02-23,ST03,P090,1,0,Transaction voided - no stock
+47,TXN0012067,2025-02-24,ST03,P137,2,0,Transaction voided - no stock
+48,TXN0012334,2025-02-25,ST04,P064,1,0,Line dropped - no stock
+49,TXN0012367,2025-02-25,ST03,P111,2,0,Line dropped - no stock
+50,TXN0012761,2025-02-27,ST12,P046,1,0,Line dropped - no stock
+51,TXN0012876,2025-02-27,ST11,P092,1,0,Line dropped - no stock
+52,TXN0013049,2025-02-28,ST11,P097,1,0,Line dropped - no stock
+53,TXN0013077,2025-02-28,ST07,P052,3,2,Partially filled
+54,TXN0013079,2025-02-28,ST11,P092,1,0,Transaction voided - no stock
+55,TXN0013194,2025-03-01,ST11,P079,2,1,Partially filled
+56,TXN0013270,2025-03-01,ST02,P069,1,0,Line dropped - no stock
+57,TXN0013349,2025-03-01,ST01,P134,1,0,Line dropped - no stock
+58,TXN0013363,2025-03-01,ST11,P092,1,0,Line dropped - no stock
+59,TXN0013391,2025-03-01,ST11,P097,5,0,Transaction voided - no stock
+60,TXN0013421,2025-03-01,ST11,P097,3,0,Line dropped - no stock
+61,TXN0013544,2025-03-02,ST08,P023,1,0,Line dropped - no stock
+62,TXN0013547,2025-03-02,ST11,P079,1,0,Line dropped - no stock
+63,TXN0013717,2025-03-03,ST07,P004,3,2,Partially filled
+64,TXN0013856,2025-03-03,ST02,P069,1,0,Line dropped - no stock
+65,TXN0013873,2025-03-03,ST09,P100,2,1,Partially filled
+66,TXN0013886,2025-03-03,ST10,P009,2,1,Partially filled
+67,TXN0013952,2025-03-04,ST07,P143,3,0,Line dropped - no stock
+68,TXN0013953,2025-03-04,ST02,P016,1,0,Line dropped - no stock
+69,TXN0014009,2025-03-04,ST10,P009,2,0,Transaction voided - no stock
+70,TXN0014024,2025-03-04,ST07,P042,1,0,Line dropped - no stock
+71,TXN0014071,2025-03-04,ST02,P016,1,0,Line dropped - no stock
+72,TXN0014088,2025-03-04,ST07,P042,3,0,Line dropped - no stock
+73,TXN0014119,2025-03-04,ST09,P114,1,0,Transaction voided - no stock
+74,TXN0014123,2025-03-04,ST10,P009,1,0,Line dropped - no stock
+75,TXN0014139,2025-03-04,ST09,P022,1,0,Transaction voided - no stock
+76,TXN0014178,2025-03-04,ST06,P022,1,0,Line dropped - no stock
+77,TXN0014319,2025-03-05,ST07,P004,1,0,Line dropped - no stock
+78,TXN0014353,2025-03-05,ST01,P134,3,0,Line dropped - no stock
+79,TXN0014367,2025-03-05,ST09,P006,2,1,Partially filled
+80,TXN0014390,2025-03-05,ST07,P004,2,0,Line dropped - no stock
+81,TXN0014395,2025-03-05,ST09,P006,2,0,Line dropped - no stock
+82,TXN0014404,2025-03-05,ST09,P115,2,1,Partially filled
+83,TXN0014443,2025-03-06,ST04,P123,2,0,Line dropped - no stock
+84,TXN0014454,2025-03-06,ST04,P003,1,0,Line dropped - no stock
+85,TXN0014506,2025-03-06,ST04,P003,1,0,Line dropped - no stock
+86,TXN0014510,2025-03-06,ST04,P003,2,0,Line dropped - no stock
+87,TXN0014545,2025-03-06,ST06,P095,1,0,Line dropped - no stock
+88,TXN0014576,2025-03-06,ST02,P132,2,0,Line dropped - no stock
+89,TXN0014612,2025-03-06,ST04,P003,1,0,Line dropped - no stock
+90,TXN0014635,2025-03-06,ST01,P134,1,0,Line dropped - no stock
+91,TXN0014663,2025-03-06,ST07,P022,1,0,Transaction voided - no stock
+92,TXN0014697,2025-03-07,ST07,P143,1,0,Transaction voided - no stock
+93,TXN0014764,2025-03-07,ST06,P107,1,0,Line dropped - no stock
+94,TXN0014780,2025-03-07,ST09,P096,1,0,Transaction voided - no stock
+95,TXN0014829,2025-03-07,ST09,P100,1,0,Line dropped - no stock
+96,TXN0014845,2025-03-07,ST04,P094,1,0,Line dropped - no stock
+97,TXN0014871,2025-03-07,ST04,P003,1,0,Line dropped - no stock
+98,TXN0014947,2025-03-07,ST07,P017,1,0,Line dropped - no stock
+99,TXN0014992,2025-03-08,ST01,P135,2,0,Line dropped - no stock
+100,TXN0015007,2025-03-08,ST01,P135,2,0,Line dropped - no stock
+101,TXN0015109,2025-03-08,ST01,P118,3,0,Transaction voided - no stock
+102,TXN0015269,2025-03-09,ST09,P022,1,0,Line dropped - no stock
+103,TXN0015273,2025-03-09,ST07,P057,2,0,Line dropped - no stock
+104,TXN0015406,2025-03-10,ST04,P094,1,0,Line dropped - no stock
+105,TXN0015457,2025-03-10,ST07,P143,2,0,Line dropped - no stock
+106,TXN0015498,2025-03-10,ST04,P094,1,0,Line dropped - no stock
+107,TXN0015539,2025-03-11,ST01,P017,2,1,Partially filled
+108,TXN0015559,2025-03-11,ST01,P017,1,0,Line dropped - no stock
+109,TXN0015741,2025-03-11,ST04,P017,1,0,Line dropped - no stock
+110,TXN0015852,2025-03-12,ST07,P131,1,0,Line dropped - no stock
+111,TXN0015880,2025-03-12,ST05,P040,2,1,Partially filled
+112,TXN0015905,2025-03-12,ST01,P017,1,0,Line dropped - no stock
+113,TXN0015907,2025-03-12,ST01,P017,1,0,Line dropped - no stock
+114,TXN0015932,2025-03-12,ST04,P017,1,0,Line dropped - no stock
+115,TXN0015932,2025-03-12,ST04,P003,1,0,Line dropped - no stock
+116,TXN0016036,2025-03-13,ST01,P017,1,0,Line dropped - no stock
+117,TXN0016047,2025-03-13,ST08,P086,2,0,Line dropped - no stock
+118,TXN0016124,2025-03-13,ST05,P040,2,0,Line dropped - no stock
+119,TXN0016149,2025-03-13,ST05,P040,2,0,Line dropped - no stock
+120,TXN0016203,2025-03-13,ST05,P040,2,0,Line dropped - no stock
+121,TXN0016240,2025-03-13,ST06,P101,2,1,Partially filled
+122,TXN0016399,2025-03-14,ST05,P040,2,0,Line dropped - no stock
+123,TXN0016449,2025-03-14,ST01,P017,1,0,Line dropped - no stock
+124,TXN0016532,2025-03-14,ST05,P040,1,0,Transaction voided - no stock
+125,TXN0016586,2025-03-15,ST01,P017,1,0,Transaction voided - no stock
+126,TXN0016641,2025-03-15,ST02,P024,1,0,Transaction voided - no stock
+127,TXN0016645,2025-03-15,ST01,P017,2,0,Line dropped - no stock
+128,TXN0016674,2025-03-15,ST02,P058,2,0,Line dropped - no stock
+129,TXN0016823,2025-03-15,ST06,P090,1,0,Line dropped - no stock
+130,TXN0016896,2025-03-16,ST02,P061,1,0,Line dropped - no stock
+131,TXN0017016,2025-03-16,ST06,P090,1,0,Line dropped - no stock
+132,TXN0017043,2025-03-17,ST08,P059,2,1,Partially filled
+133,TXN0017049,2025-03-17,ST05,P131,1,0,Line dropped - no stock
+134,TXN0017129,2025-03-17,ST01,P017,1,0,Line dropped - no stock
+135,TXN0017137,2025-03-17,ST04,P043,3,2,Partially filled
+136,TXN0017149,2025-03-17,ST04,P043,1,0,Line dropped - no stock
+137,TXN0017223,2025-03-17,ST08,P085,1,0,Transaction voided - no stock
+138,TXN0017248,2025-03-17,ST08,P086,1,0,Line dropped - no stock
+139,TXN0017279,2025-03-18,ST02,P053,1,0,Line dropped - no stock
+140,TXN0017334,2025-03-18,ST06,P090,1,0,Line dropped - no stock
+141,TXN0017380,2025-03-18,ST02,P053,1,0,Line dropped - no stock
+142,TXN0017382,2025-03-18,ST12,P011,2,1,Partially filled
+143,TXN0017429,2025-03-18,ST04,P004,1,0,Transaction voided - no stock
+144,TXN0017456,2025-03-18,ST02,P053,3,0,Line dropped - no stock
+145,TXN0017535,2025-03-19,ST02,P053,1,0,Line dropped - no stock
+146,TXN0017557,2025-03-19,ST01,P084,2,1,Partially filled
+147,TXN0017603,2025-03-19,ST06,P090,1,0,Line dropped - no stock
+148,TXN0017620,2025-03-19,ST04,P004,1,0,Transaction voided - no stock
+149,TXN0017623,2025-03-19,ST12,P011,2,0,Transaction voided - no stock
+150,TXN0017639,2025-03-19,ST10,P065,2,0,Transaction voided - no stock
+151,TXN0017648,2025-03-19,ST04,P043,2,0,Transaction voided - no stock
+152,TXN0017660,2025-03-19,ST01,P017,1,0,Line dropped - no stock
+153,TXN0017686,2025-03-19,ST01,P084,1,0,Line dropped - no stock
+154,TXN0017689,2025-03-19,ST07,P061,2,1,Partially filled
+155,TXN0017751,2025-03-20,ST08,P085,1,0,Transaction voided - no stock
+156,TXN0017760,2025-03-20,ST12,P044,1,0,Line dropped - no stock
+157,TXN0017794,2025-03-20,ST05,P131,1,0,Transaction voided - no stock
+158,TXN0017801,2025-03-20,ST06,P041,2,0,Line dropped - no stock
+159,TXN0017837,2025-03-20,ST12,P044,2,0,Line dropped - no stock
+160,TXN0017869,2025-03-20,ST01,P017,1,0,Line dropped - no stock
+161,TXN0017940,2025-03-20,ST05,P131,1,0,Line dropped - no stock
+162,TXN0018038,2025-03-21,ST01,P003,1,0,Transaction voided - no stock
+163,TXN0018041,2025-03-21,ST12,P044,2,0,Line dropped - no stock
+164,TXN0018047,2025-03-21,ST01,P003,1,0,Line dropped - no stock
+165,TXN0018347,2025-03-22,ST07,P061,1,0,Line dropped - no stock
+166,TXN0018393,2025-03-22,ST09,P030,1,0,Line dropped - no stock
+167,TXN0018446,2025-03-22,ST01,P003,2,0,Line dropped - no stock
+168,TXN0018458,2025-03-22,ST10,P137,2,1,Partially filled
+169,TXN0018499,2025-03-22,ST04,P004,1,0,Line dropped - no stock
+170,TXN0018765,2025-03-24,ST12,P044,1,0,Line dropped - no stock
+171,TXN0018799,2025-03-24,ST12,P044,2,0,Line dropped - no stock
+172,TXN0018804,2025-03-24,ST04,P043,1,0,Line dropped - no stock
+173,TXN0018867,2025-03-24,ST04,P043,2,0,Line dropped - no stock
+174,TXN0018921,2025-03-24,ST10,P137,1,0,Line dropped - no stock
+175,TXN0019077,2025-03-25,ST03,P052,2,1,Partially filled
+176,TXN0019085,2025-03-25,ST09,P030,2,0,Line dropped - no stock
+177,TXN0019095,2025-03-25,ST08,P041,2,1,Partially filled
+178,TXN0019142,2025-03-25,ST04,P043,1,0,Line dropped - no stock
+179,TXN0019196,2025-03-26,ST05,P059,1,0,Line dropped - no stock
+180,TXN0019259,2025-03-26,ST01,P030,1,0,Transaction voided - no stock
+181,TXN0019422,2025-03-26,ST04,P004,1,0,Line dropped - no stock
+182,TXN0019516,2025-03-27,ST05,P143,2,0,Line dropped - no stock
+183,TXN0019566,2025-03-27,ST12,P003,2,0,Line dropped - no stock
+184,TXN0019617,2025-03-27,ST05,P090,2,0,Line dropped - no stock
+185,TXN0019657,2025-03-27,ST12,P042,1,0,Line dropped - no stock
+186,TXN0019688,2025-03-28,ST10,P047,2,0,Line dropped - no stock
+187,TXN0019700,2025-03-28,ST11,P071,2,1,Partially filled
+188,TXN0019743,2025-03-28,ST12,P003,1,0,Line dropped - no stock
+189,TXN0019750,2025-03-28,ST10,P047,4,0,Line dropped - no stock
+190,TXN0019770,2025-03-28,ST08,P133,1,0,Line dropped - no stock
+191,TXN0020022,2025-03-29,ST05,P143,1,0,Line dropped - no stock
+192,TXN0020059,2025-03-29,ST08,P041,1,0,Line dropped - no stock
+193,TXN0020112,2025-03-29,ST10,P064,3,2,Partially filled
+194,TXN0020170,2025-03-29,ST10,P061,2,0,Line dropped - no stock
+195,TXN0020178,2025-03-29,ST10,P061,1,0,Line dropped - no stock
+196,TXN0020201,2025-03-29,ST10,P047,1,0,Line dropped - no stock
+197,TXN0020235,2025-03-29,ST10,P061,1,0,Line dropped - no stock
+198,TXN0020267,2025-03-30,ST10,P064,1,0,Line dropped - no stock
+199,TXN0020303,2025-03-30,ST10,P091,3,2,Partially filled
+200,TXN0020357,2025-03-30,ST10,P091,1,0,Line dropped - no stock
+201,TXN0020365,2025-03-30,ST01,P036,2,1,Partially filled
+202,TXN0020376,2025-03-30,ST02,P023,1,0,Line dropped - no stock
+203,TXN0020390,2025-03-30,ST02,P012,1,0,Line dropped - no stock
+204,TXN0020400,2025-03-30,ST05,P043,3,2,Partially filled
+205,TXN0020429,2025-03-30,ST10,P131,1,0,Line dropped - no stock
+206,TXN0020464,2025-03-31,ST10,P092,1,0,Transaction voided - no stock
+207,TXN0020496,2025-03-31,ST02,P010,1,0,Transaction voided - no stock
+208,TXN0020554,2025-03-31,ST10,P092,2,0,Line dropped - no stock
+209,TXN0020587,2025-03-31,ST10,P131,1,0,Line dropped - no stock
+210,TXN0020609,2025-03-31,ST10,P092,2,0,Line dropped - no stock
+211,TXN0020668,2025-04-01,ST10,P062,2,1,Partially filled
+212,TXN0020698,2025-04-01,ST04,P015,1,0,Line dropped - no stock
+213,TXN0020712,2025-04-01,ST10,P051,3,0,Line dropped - no stock
+214,TXN0020718,2025-04-01,ST02,P012,1,0,Line dropped - no stock
+215,TXN0020813,2025-04-01,ST06,P042,1,0,Line dropped - no stock
+216,TXN0020824,2025-04-01,ST10,P047,1,0,Line dropped - no stock
+217,TXN0020853,2025-04-01,ST10,P092,1,0,Line dropped - no stock
+218,TXN0020860,2025-04-01,ST10,P062,1,0,Line dropped - no stock
+219,TXN0020865,2025-04-01,ST10,P064,1,0,Line dropped - no stock
+220,TXN0020926,2025-04-01,ST01,P091,1,0,Line dropped - no stock
+221,TXN0020950,2025-04-02,ST06,P042,1,0,Line dropped - no stock
+222,TXN0020976,2025-04-02,ST05,P092,1,0,Line dropped - no stock
+223,TXN0021045,2025-04-02,ST10,P062,1,0,Line dropped - no stock
+224,TXN0021130,2025-04-02,ST10,P062,1,0,Transaction voided - no stock
+225,TXN0021163,2025-04-03,ST05,P069,2,0,Line dropped - no stock
+226,TXN0021221,2025-04-03,ST05,P042,2,1,Partially filled
+227,TXN0021222,2025-04-03,ST10,P062,1,0,Line dropped - no stock
+228,TXN0021253,2025-04-03,ST06,P042,2,0,Line dropped - no stock
+229,TXN0021278,2025-04-03,ST05,P092,1,0,Line dropped - no stock
+230,TXN0021320,2025-04-03,ST12,P117,1,0,Line dropped - no stock
+231,TXN0021341,2025-04-03,ST04,P015,1,0,Line dropped - no stock
+232,TXN0021398,2025-04-03,ST10,P062,3,0,Line dropped - no stock
+233,TXN0021472,2025-04-04,ST05,P042,2,0,Line dropped - no stock
+234,TXN0021598,2025-04-04,ST10,P062,1,0,Line dropped - no stock
+235,TXN0021605,2025-04-04,ST06,P042,1,0,Line dropped - no stock
+236,TXN0021627,2025-04-04,ST03,P123,2,0,Line dropped - no stock
+237,TXN0021652,2025-04-04,ST05,P092,1,0,Line dropped - no stock
+238,TXN0021680,2025-04-04,ST10,P062,1,0,Line dropped - no stock
+239,TXN0021681,2025-04-04,ST06,P042,2,0,Line dropped - no stock
+240,TXN0021716,2025-04-04,ST09,P084,2,0,Line dropped - no stock
+241,TXN0021729,2025-04-04,ST10,P062,1,0,Line dropped - no stock
+242,TXN0021742,2025-04-04,ST05,P042,1,0,Line dropped - no stock
+243,TXN0021770,2025-04-05,ST04,P015,1,0,Line dropped - no stock
+244,TXN0021774,2025-04-05,ST06,P085,1,0,Line dropped - no stock
+245,TXN0021854,2025-04-05,ST11,P098,1,0,Line dropped - no stock
+246,TXN0021865,2025-04-05,ST06,P042,1,0,Line dropped - no stock
+247,TXN0021905,2025-04-05,ST09,P150,2,1,Partially filled
+248,TXN0021959,2025-04-05,ST04,P015,1,0,Line dropped - no stock
+249,TXN0021964,2025-04-05,ST03,P025,1,0,Line dropped - no stock
+250,TXN0021979,2025-04-05,ST05,P092,2,0,Line dropped - no stock
+251,TXN0022002,2025-04-05,ST06,P084,1,0,Line dropped - no stock
+252,TXN0022006,2025-04-05,ST06,P103,1,0,Line dropped - no stock
+253,TXN0022064,2025-04-06,ST11,P075,1,0,Line dropped - no stock
+254,TXN0022114,2025-04-06,ST05,P071,2,1,Partially filled
+255,TXN0022230,2025-04-07,ST03,P025,1,0,Line dropped - no stock
+256,TXN0022231,2025-04-07,ST07,P092,2,1,Partially filled
+257,TXN0022306,2025-04-07,ST06,P135,2,1,Partially filled
+258,TXN0022330,2025-04-07,ST03,P025,1,0,Line dropped - no stock
+259,TXN0022351,2025-04-07,ST04,P014,1,0,Line dropped - no stock
+260,TXN0022384,2025-04-07,ST05,P071,1,0,Line dropped - no stock
+261,TXN0022390,2025-04-07,ST03,P123,1,0,Line dropped - no stock
+262,TXN0022403,2025-04-08,ST04,P032,2,1,Partially filled
+263,TXN0022585,2025-04-08,ST04,P012,3,2,Partially filled
+264,TXN0022613,2025-04-08,ST07,P092,1,0,Line dropped - no stock
+265,TXN0022660,2025-04-09,ST05,P067,2,0,Line dropped - no stock
+266,TXN0022697,2025-04-09,ST10,P029,1,0,Line dropped - no stock
+267,TXN0022737,2025-04-09,ST05,P067,2,0,Line dropped - no stock
+268,TXN0022811,2025-04-09,ST05,P071,2,0,Line dropped - no stock
+269,TXN0022848,2025-04-09,ST05,P067,1,0,Line dropped - no stock
+270,TXN0022889,2025-04-10,ST11,P075,1,0,Line dropped - no stock
+271,TXN0022893,2025-04-10,ST06,P135,1,0,Line dropped - no stock
+272,TXN0022961,2025-04-10,ST05,P015,2,1,Partially filled
+273,TXN0022967,2025-04-10,ST05,P067,1,0,Line dropped - no stock
+274,TXN0022967,2025-04-10,ST05,P071,1,0,Line dropped - no stock
+275,TXN0022994,2025-04-10,ST12,P012,1,0,Line dropped - no stock
+276,TXN0023006,2025-04-10,ST05,P067,1,0,Line dropped - no stock
+277,TXN0023130,2025-04-11,ST05,P042,1,0,Line dropped - no stock
+278,TXN0023155,2025-04-11,ST05,P098,1,0,Transaction voided - no stock
+279,TXN0023256,2025-04-11,ST05,P015,1,0,Line dropped - no stock
+280,TXN0023327,2025-04-11,ST05,P042,1,0,Line dropped - no stock
+281,TXN0023329,2025-04-11,ST05,P071,1,0,Line dropped - no stock
+282,TXN0023383,2025-04-12,ST05,P067,2,0,Line dropped - no stock
+283,TXN0023383,2025-04-12,ST05,P042,2,0,Line dropped - no stock
+284,TXN0023465,2025-04-12,ST04,P144,1,0,Line dropped - no stock
+285,TXN0023478,2025-04-12,ST01,P052,3,1,Partially filled
+286,TXN0023546,2025-04-12,ST05,P015,1,0,Transaction voided - no stock
+287,TXN0023818,2025-04-14,ST06,P008,2,0,Line dropped - no stock
+288,TXN0023831,2025-04-14,ST02,P054,3,2,Partially filled
+289,TXN0023836,2025-04-14,ST05,P071,2,0,Line dropped - no stock
+290,TXN0023837,2025-04-14,ST05,P063,1,0,Line dropped - no stock
+291,TXN0023895,2025-04-14,ST08,P054,4,3,Partially filled
+292,TXN0023911,2025-04-14,ST06,P053,1,0,Line dropped - no stock
+293,TXN0023987,2025-04-14,ST05,P085,1,0,Line dropped - no stock
+294,TXN0023998,2025-04-14,ST05,P079,1,0,Line dropped - no stock
+295,TXN0024014,2025-04-14,ST06,P008,1,0,Line dropped - no stock
+296,TXN0024018,2025-04-14,ST02,P125,1,0,Line dropped - no stock
+297,TXN0024070,2025-04-15,ST05,P085,2,0,Line dropped - no stock
+298,TXN0024210,2025-04-15,ST05,P063,2,0,Line dropped - no stock
+299,TXN0024224,2025-04-15,ST05,P085,1,0,Line dropped - no stock
+300,TXN0024251,2025-04-15,ST06,P053,2,0,Line dropped - no stock
+301,TXN0024304,2025-04-16,ST01,P099,2,0,Line dropped - no stock
+302,TXN0024335,2025-04-16,ST06,P146,2,1,Partially filled
+303,TXN0024366,2025-04-16,ST06,P146,1,0,Line dropped - no stock
+304,TXN0024397,2025-04-16,ST06,P053,1,0,Line dropped - no stock
+305,TXN0024530,2025-04-16,ST12,P118,2,1,Partially filled
+306,TXN0024592,2025-04-17,ST01,P011,4,2,Partially filled
+307,TXN0024620,2025-04-17,ST10,P034,1,0,Line dropped - no stock
+308,TXN0024633,2025-04-17,ST01,P011,2,0,Line dropped - no stock
+309,TXN0024672,2025-04-17,ST06,P146,1,0,Line dropped - no stock
+310,TXN0024856,2025-04-18,ST06,P043,1,0,Line dropped - no stock
+311,TXN0024917,2025-04-18,ST04,P096,2,1,Partially filled
+312,TXN0025255,2025-04-19,ST06,P106,2,0,Transaction voided - no stock
+313,TXN0025498,2025-04-20,ST12,P070,2,1,Partially filled
+314,TXN0025527,2025-04-21,ST12,P100,1,0,Line dropped - no stock
+315,TXN0025818,2025-04-22,ST11,P091,2,0,Line dropped - no stock
+316,TXN0026099,2025-04-23,ST04,P076,1,0,Transaction voided - no stock
+317,TXN0026118,2025-04-23,ST11,P091,2,0,Line dropped - no stock
+318,TXN0026133,2025-04-23,ST11,P091,1,0,Line dropped - no stock
+319,TXN0026200,2025-04-23,ST11,P091,2,0,Line dropped - no stock
+320,TXN0026280,2025-04-23,ST12,P072,1,0,Line dropped - no stock
+321,TXN0026669,2025-04-25,ST10,P097,1,0,Line dropped - no stock
+322,TXN0026814,2025-04-25,ST11,P129,1,0,Line dropped - no stock
+323,TXN0026921,2025-04-26,ST12,P079,2,1,Partially filled
+324,TXN0026954,2025-04-26,ST12,P079,1,0,Line dropped - no stock
+325,TXN0026969,2025-04-26,ST10,P097,1,0,Line dropped - no stock
+326,TXN0026989,2025-04-26,ST12,P072,1,0,Line dropped - no stock
+327,TXN0027012,2025-04-26,ST12,P072,1,0,Line dropped - no stock
+328,TXN0027035,2025-04-26,ST12,P085,3,2,Partially filled
+329,TXN0027106,2025-04-26,ST12,P079,1,0,Line dropped - no stock
+330,TXN0027143,2025-04-26,ST12,P085,1,0,Line dropped - no stock
+331,TXN0027151,2025-04-26,ST11,P079,1,0,Line dropped - no stock
+332,TXN0027159,2025-04-26,ST09,P095,1,0,Transaction voided - no stock
+333,TXN0027192,2025-04-27,ST11,P138,1,0,Line dropped - no stock
+334,TXN0027249,2025-04-27,ST08,P095,1,0,Line dropped - no stock
+335,TXN0027263,2025-04-27,ST10,P097,1,0,Line dropped - no stock
+336,TXN0027268,2025-04-27,ST10,P097,2,0,Line dropped - no stock
+337,TXN0027334,2025-04-27,ST02,P090,1,0,Line dropped - no stock
+338,TXN0027341,2025-04-27,ST11,P004,2,0,Line dropped - no stock
+339,TXN0027527,2025-04-28,ST11,P079,2,0,Line dropped - no stock
+340,TXN0027539,2025-04-28,ST02,P090,1,0,Line dropped - no stock
+341,TXN0027732,2025-04-29,ST01,P121,3,2,Partially filled
+342,TXN0027891,2025-04-30,ST01,P123,1,0,Line dropped - no stock
+343,TXN0027953,2025-04-30,ST03,P120,1,0,Line dropped - no stock
+344,TXN0027969,2025-04-30,ST01,P123,1,0,Line dropped - no stock
+345,TXN0028000,2025-04-30,ST12,P042,1,0,Line dropped - no stock
+346,TXN0028010,2025-04-30,ST11,P047,4,2,Partially filled
+347,TXN0028051,2025-04-30,ST09,P095,1,0,Line dropped - no stock
+348,TXN0028113,2025-05-01,ST10,P097,1,0,Line dropped - no stock
+349,TXN0028116,2025-05-01,ST10,P004,2,1,Partially filled
+350,TXN0028152,2025-05-01,ST10,P004,3,0,Transaction voided - no stock
+351,TXN0028182,2025-05-01,ST04,P049,1,0,Line dropped - no stock
+352,TXN0028196,2025-05-01,ST09,P095,1,0,Line dropped - no stock
+353,TXN0028216,2025-05-01,ST10,P097,2,0,Line dropped - no stock
+354,TXN0028222,2025-05-01,ST10,P097,2,0,Line dropped - no stock
+355,TXN0028270,2025-05-01,ST09,P085,2,1,Partially filled
+356,TXN0028721,2025-05-03,ST07,P065,1,0,Line dropped - no stock
+357,TXN0028740,2025-05-03,ST09,P085,2,0,Line dropped - no stock
+358,TXN0028843,2025-05-03,ST07,P087,2,0,Line dropped - no stock
+359,TXN0028843,2025-05-03,ST07,P065,1,0,Line dropped - no stock
+360,TXN0028963,2025-05-04,ST01,P123,1,0,Line dropped - no stock
+361,TXN0029135,2025-05-05,ST03,P120,1,0,Line dropped - no stock
+362,TXN0029245,2025-05-05,ST11,P047,1,0,Line dropped - no stock
+363,TXN0029263,2025-05-05,ST07,P013,1,0,Line dropped - no stock
+364,TXN0029338,2025-05-05,ST01,P123,1,0,Line dropped - no stock
+365,TXN0029342,2025-05-05,ST03,P120,1,0,Line dropped - no stock
+366,TXN0029535,2025-05-06,ST08,P143,1,0,Line dropped - no stock
+367,TXN0029539,2025-05-06,ST04,P067,2,1,Partially filled
+368,TXN0029553,2025-05-06,ST11,P094,1,0,Line dropped - no stock
+369,TXN0029584,2025-05-06,ST09,P042,1,0,Line dropped - no stock
+370,TXN0029682,2025-05-07,ST07,P082,2,1,Partially filled
+371,TXN0029818,2025-05-07,ST11,P036,1,0,Line dropped - no stock
+372,TXN0029867,2025-05-08,ST11,P047,1,0,Line dropped - no stock
+373,TXN0029926,2025-05-08,ST11,P047,4,0,Line dropped - no stock
+374,TXN0029960,2025-05-08,ST09,P042,1,0,Line dropped - no stock
+375,TXN0030102,2025-05-09,ST11,P036,1,0,Transaction voided - no stock
+376,TXN0030193,2025-05-09,ST11,P036,1,0,Line dropped - no stock
+377,TXN0030282,2025-05-09,ST01,P005,3,2,Partially filled
+378,TXN0030296,2025-05-09,ST08,P143,2,0,Line dropped - no stock
+379,TXN0030391,2025-05-09,ST11,P047,1,0,Line dropped - no stock
+380,TXN0030411,2025-05-09,ST05,P033,1,0,Line dropped - no stock
+381,TXN0030446,2025-05-10,ST01,P005,2,0,Line dropped - no stock
+382,TXN0030530,2025-05-10,ST11,P094,2,0,Line dropped - no stock
+383,TXN0030544,2025-05-10,ST05,P033,1,0,Line dropped - no stock
+384,TXN0030942,2025-05-12,ST01,P033,1,0,Line dropped - no stock
+385,TXN0030943,2025-05-12,ST07,P049,1,0,Line dropped - no stock
+386,TXN0031031,2025-05-12,ST11,P047,1,0,Line dropped - no stock
+387,TXN0031043,2025-05-12,ST09,P042,1,0,Line dropped - no stock
+388,TXN0031100,2025-05-12,ST01,P005,2,0,Line dropped - no stock
+389,TXN0031107,2025-05-12,ST11,P047,2,0,Line dropped - no stock
+390,TXN0031207,2025-05-13,ST05,P128,1,0,Line dropped - no stock
+391,TXN0031236,2025-05-13,ST04,P034,2,0,Line dropped - no stock
+392,TXN0031244,2025-05-13,ST05,P022,1,0,Line dropped - no stock
+393,TXN0031256,2025-05-13,ST07,P049,1,0,Line dropped - no stock
+394,TXN0031285,2025-05-13,ST07,P008,2,1,Partially filled
+395,TXN0031384,2025-05-13,ST01,P033,1,0,Line dropped - no stock
+396,TXN0031421,2025-05-13,ST05,P022,2,0,Line dropped - no stock
+397,TXN0031440,2025-05-14,ST08,P079,2,1,Partially filled
+398,TXN0031444,2025-05-14,ST01,P033,1,0,Line dropped - no stock
+399,TXN0031455,2025-05-14,ST02,P068,1,0,Line dropped - no stock
+400,TXN0031514,2025-05-14,ST10,P094,2,1,Partially filled
+401,TXN0031607,2025-05-14,ST01,P033,1,0,Line dropped - no stock
+402,TXN0031608,2025-05-14,ST04,P034,1,0,Line dropped - no stock
+403,TXN0031658,2025-05-14,ST08,P079,1,0,Line dropped - no stock
+404,TXN0031671,2025-05-14,ST04,P034,1,0,Line dropped - no stock
+405,TXN0031755,2025-05-15,ST09,P042,1,0,Line dropped - no stock
+406,TXN0031819,2025-05-15,ST08,P079,1,0,Line dropped - no stock
+407,TXN0031858,2025-05-15,ST02,P006,1,0,Line dropped - no stock
+408,TXN0031873,2025-05-15,ST08,P079,2,0,Transaction voided - no stock
+409,TXN0031891,2025-05-15,ST08,P079,1,0,Line dropped - no stock
+410,TXN0031895,2025-05-15,ST08,P013,2,1,Partially filled
+411,TXN0032042,2025-05-16,ST02,P006,2,0,Line dropped - no stock
+412,TXN0032105,2025-05-16,ST12,P111,2,1,Partially filled
+413,TXN0032130,2025-05-16,ST07,P008,2,0,Transaction voided - no stock
+414,TXN0032157,2025-05-16,ST03,P094,2,1,Partially filled
+415,TXN0032169,2025-05-16,ST01,P141,2,1,Partially filled
+416,TXN0032321,2025-05-17,ST08,P079,1,0,Line dropped - no stock
+417,TXN0032432,2025-05-17,ST08,P062,1,0,Line dropped - no stock
+418,TXN0032441,2025-05-17,ST08,P062,1,0,Line dropped - no stock
+419,TXN0032472,2025-05-17,ST08,P079,1,0,Line dropped - no stock
+420,TXN0032478,2025-05-17,ST04,P034,1,0,Transaction voided - no stock
+421,TXN0032501,2025-05-17,ST09,P105,1,0,Line dropped - no stock
+422,TXN0032558,2025-05-18,ST08,P079,2,0,Line dropped - no stock
+423,TXN0032582,2025-05-18,ST04,P001,1,0,Line dropped - no stock
+424,TXN0032624,2025-05-18,ST10,P055,2,0,Line dropped - no stock
+425,TXN0032638,2025-05-18,ST04,P001,2,0,Line dropped - no stock
+426,TXN0032652,2025-05-18,ST09,P085,1,0,Line dropped - no stock
+427,TXN0032684,2025-05-18,ST09,P085,1,0,Line dropped - no stock
+428,TXN0032717,2025-05-18,ST08,P079,1,0,Line dropped - no stock
+429,TXN0032733,2025-05-19,ST04,P026,2,1,Partially filled
+430,TXN0032746,2025-05-19,ST08,P062,1,0,Line dropped - no stock
+431,TXN0032767,2025-05-19,ST05,P022,2,0,Line dropped - no stock
+432,TXN0032872,2025-05-19,ST04,P001,1,0,Transaction voided - no stock
+433,TXN0032894,2025-05-19,ST06,P091,1,0,Line dropped - no stock
+434,TXN0032944,2025-05-19,ST06,P091,1,0,Line dropped - no stock
+435,TXN0033024,2025-05-20,ST04,P001,1,0,Line dropped - no stock
+436,TXN0033062,2025-05-20,ST02,P006,1,0,Line dropped - no stock
+437,TXN0033067,2025-05-20,ST04,P001,1,0,Transaction voided - no stock
+438,TXN0033102,2025-05-20,ST05,P057,3,0,Line dropped - no stock
+439,TXN0033105,2025-05-20,ST02,P068,1,0,Line dropped - no stock
+440,TXN0033143,2025-05-20,ST02,P006,1,0,Line dropped - no stock
+441,TXN0033201,2025-05-20,ST12,P044,3,2,Partially filled
+442,TXN0033249,2025-05-20,ST04,P034,1,0,Line dropped - no stock
+443,TXN0033296,2025-05-21,ST02,P006,2,0,Line dropped - no stock
+444,TXN0033322,2025-05-21,ST02,P006,1,0,Line dropped - no stock
+445,TXN0033324,2025-05-21,ST02,P015,1,0,Line dropped - no stock
+446,TXN0033355,2025-05-21,ST03,P126,1,0,Line dropped - no stock
+447,TXN0033488,2025-05-21,ST05,P088,2,1,Partially filled
+448,TXN0033554,2025-05-22,ST02,P068,2,0,Line dropped - no stock
+449,TXN0033580,2025-05-22,ST12,P044,1,0,Line dropped - no stock
+450,TXN0033607,2025-05-22,ST10,P041,4,3,Partially filled
+451,TXN0033671,2025-05-22,ST01,P050,1,0,Line dropped - no stock
+452,TXN0033683,2025-05-22,ST10,P068,1,0,Line dropped - no stock
+453,TXN0033752,2025-05-22,ST02,P006,1,0,Line dropped - no stock
+454,TXN0033783,2025-05-22,ST05,P088,2,0,Line dropped - no stock
+455,TXN0033798,2025-05-22,ST05,P141,1,0,Line dropped - no stock
+456,TXN0033803,2025-05-22,ST12,P133,1,0,Line dropped - no stock
+457,TXN0033826,2025-05-23,ST04,P057,1,0,Line dropped - no stock
+458,TXN0033851,2025-05-23,ST02,P006,2,0,Transaction voided - no stock
+459,TXN0033869,2025-05-23,ST03,P126,1,0,Line dropped - no stock
+460,TXN0033937,2025-05-23,ST11,P141,3,2,Partially filled
+461,TXN0033949,2025-05-23,ST02,P043,2,1,Partially filled
+462,TXN0033967,2025-05-23,ST10,P068,1,0,Line dropped - no stock
+463,TXN0034014,2025-05-23,ST02,P065,3,2,Partially filled
+464,TXN0034022,2025-05-23,ST01,P050,2,0,Transaction voided - no stock
+465,TXN0034129,2025-05-24,ST02,P006,2,0,Line dropped - no stock
+466,TXN0034140,2025-05-24,ST10,P068,1,0,Line dropped - no stock
+467,TXN0034143,2025-05-24,ST11,P141,1,0,Line dropped - no stock
+468,TXN0034199,2025-05-24,ST05,P057,2,0,Line dropped - no stock
+469,TXN0034213,2025-05-24,ST05,P088,1,0,Line dropped - no stock
+470,TXN0034220,2025-05-24,ST02,P068,1,0,Line dropped - no stock
+471,TXN0034223,2025-05-24,ST10,P068,2,0,Line dropped - no stock
+472,TXN0034292,2025-05-24,ST02,P006,2,0,Line dropped - no stock
+473,TXN0034353,2025-05-25,ST12,P044,1,0,Line dropped - no stock
+474,TXN0034372,2025-05-25,ST05,P141,1,0,Line dropped - no stock
+475,TXN0034389,2025-05-25,ST11,P141,1,0,Line dropped - no stock
+476,TXN0034414,2025-05-25,ST05,P141,1,0,Line dropped - no stock
+477,TXN0034454,2025-05-25,ST02,P006,2,0,Line dropped - no stock
+478,TXN0034497,2025-05-25,ST02,P043,4,0,Line dropped - no stock
+479,TXN0034575,2025-05-26,ST02,P007,1,0,Line dropped - no stock
+480,TXN0034611,2025-05-26,ST02,P006,1,0,Line dropped - no stock
+481,TXN0034683,2025-05-26,ST02,P006,2,0,Transaction voided - no stock
+482,TXN0034739,2025-05-26,ST05,P057,1,0,Line dropped - no stock
+483,TXN0034754,2025-05-26,ST01,P112,3,0,Line dropped - no stock
+484,TXN0034757,2025-05-26,ST05,P087,2,1,Partially filled
+485,TXN0034777,2025-05-26,ST01,P050,3,0,Line dropped - no stock
+486,TXN0034798,2025-05-26,ST02,P117,1,0,Line dropped - no stock
+487,TXN0034830,2025-05-26,ST02,P065,1,0,Line dropped - no stock
+488,TXN0034848,2025-05-27,ST07,P043,2,1,Partially filled
+489,TXN0034866,2025-05-27,ST01,P112,1,0,Transaction voided - no stock
+490,TXN0034877,2025-05-27,ST01,P130,2,0,Line dropped - no stock
+491,TXN0034882,2025-05-27,ST01,P130,1,0,Line dropped - no stock
+492,TXN0034884,2025-05-27,ST10,P110,1,0,Line dropped - no stock
+493,TXN0034887,2025-05-27,ST02,P043,2,0,Line dropped - no stock
+494,TXN0034959,2025-05-27,ST01,P035,1,0,Line dropped - no stock
+495,TXN0035052,2025-05-27,ST09,P119,1,0,Line dropped - no stock
+496,TXN0035301,2025-05-28,ST02,P064,1,0,Transaction voided - no stock
+497,TXN0035341,2025-05-29,ST07,P043,1,0,Transaction voided - no stock
+498,TXN0035351,2025-05-29,ST01,P112,1,0,Line dropped - no stock
+499,TXN0035362,2025-05-29,ST09,P119,1,0,Line dropped - no stock
+500,TXN0035379,2025-05-29,ST11,P120,2,1,Partially filled
+501,TXN0035399,2025-05-29,ST01,P045,3,2,Partially filled
+502,TXN0035424,2025-05-29,ST10,P120,1,0,Line dropped - no stock
+503,TXN0035427,2025-05-29,ST01,P130,1,0,Line dropped - no stock
+504,TXN0035438,2025-05-29,ST04,P144,2,0,Line dropped - no stock
+505,TXN0035562,2025-05-29,ST01,P143,2,0,Line dropped - no stock
+506,TXN0035593,2025-05-29,ST10,P120,1,0,Line dropped - no stock
+507,TXN0035594,2025-05-29,ST04,P017,2,0,Line dropped - no stock
+508,TXN0035601,2025-05-29,ST01,P035,1,0,Line dropped - no stock
+509,TXN0035652,2025-05-30,ST11,P120,1,0,Line dropped - no stock
+510,TXN0035666,2025-05-30,ST04,P044,4,2,Partially filled
+511,TXN0035754,2025-05-30,ST07,P112,1,0,Line dropped - no stock
+512,TXN0035754,2025-05-30,ST07,P114,2,1,Partially filled
+513,TXN0035759,2025-05-30,ST01,P131,1,0,Line dropped - no stock
+514,TXN0035867,2025-05-30,ST02,P043,3,0,Line dropped - no stock
+515,TXN0035949,2025-05-30,ST04,P044,1,0,Line dropped - no stock
+516,TXN0035953,2025-05-30,ST07,P112,1,0,Line dropped - no stock
+517,TXN0035981,2025-05-31,ST04,P017,1,0,Line dropped - no stock
+518,TXN0035987,2025-05-31,ST04,P044,1,0,Line dropped - no stock
+519,TXN0036016,2025-05-31,ST11,P120,1,0,Line dropped - no stock
+520,TXN0036058,2025-05-31,ST04,P087,1,0,Line dropped - no stock
+521,TXN0036145,2025-05-31,ST07,P112,1,0,Line dropped - no stock
+522,TXN0036182,2025-05-31,ST11,P120,1,0,Line dropped - no stock
+523,TXN0036188,2025-05-31,ST03,P039,5,4,Partially filled
+524,TXN0036199,2025-05-31,ST04,P044,1,0,Line dropped - no stock
+525,TXN0036216,2025-05-31,ST04,P023,1,0,Line dropped - no stock
+526,TXN0036248,2025-05-31,ST09,P119,1,0,Line dropped - no stock
+527,TXN0036250,2025-05-31,ST03,P039,1,0,Transaction voided - no stock
+528,TXN0036256,2025-05-31,ST11,P120,1,0,Line dropped - no stock
+529,TXN0036263,2025-05-31,ST06,P025,1,0,Line dropped - no stock
+530,TXN0036276,2025-05-31,ST09,P025,1,0,Line dropped - no stock
+531,TXN0036286,2025-05-31,ST03,P039,1,0,Line dropped - no stock
+532,TXN0036751,2025-06-03,ST07,P112,1,0,Line dropped - no stock
+533,TXN0036823,2025-06-03,ST07,P039,2,1,Partially filled
+534,TXN0036841,2025-06-03,ST02,P046,4,0,Line dropped - no stock
+535,TXN0036901,2025-06-03,ST07,P112,1,0,Line dropped - no stock
+536,TXN0036972,2025-06-04,ST05,P039,3,2,Partially filled
+537,TXN0036980,2025-06-04,ST05,P039,1,0,Line dropped - no stock
+538,TXN0037009,2025-06-04,ST07,P112,1,0,Line dropped - no stock
+539,TXN0037053,2025-06-04,ST03,P132,1,0,Line dropped - no stock
+540,TXN0037063,2025-06-04,ST11,P098,2,1,Partially filled
+541,TXN0037099,2025-06-04,ST11,P120,1,0,Line dropped - no stock
+542,TXN0037126,2025-06-04,ST07,P035,1,0,Line dropped - no stock
+543,TXN0037186,2025-06-04,ST07,P112,1,0,Line dropped - no stock
+544,TXN0037188,2025-06-04,ST12,P076,1,0,Line dropped - no stock
+545,TXN0037194,2025-06-04,ST07,P114,1,0,Line dropped - no stock
+546,TXN0037194,2025-06-04,ST07,P035,1,0,Line dropped - no stock
+547,TXN0037260,2025-06-05,ST05,P039,2,0,Line dropped - no stock
+548,TXN0037323,2025-06-05,ST02,P127,1,0,Transaction voided - no stock
+549,TXN0037336,2025-06-05,ST07,P114,1,0,Line dropped - no stock
+550,TXN0037354,2025-06-05,ST07,P064,2,1,Partially filled
+551,TXN0037421,2025-06-05,ST07,P114,1,0,Line dropped - no stock
+552,TXN0037423,2025-06-06,ST12,P017,1,0,Line dropped - no stock
+553,TXN0037440,2025-06-06,ST01,P100,2,1,Partially filled
+554,TXN0037457,2025-06-06,ST02,P127,1,0,Line dropped - no stock
+555,TXN0037504,2025-06-06,ST02,P110,1,0,Line dropped - no stock
+556,TXN0037541,2025-06-06,ST12,P076,1,0,Line dropped - no stock
+557,TXN0037557,2025-06-06,ST12,P076,1,0,Line dropped - no stock
+558,TXN0037703,2025-06-06,ST02,P110,2,0,Transaction voided - no stock
+559,TXN0037750,2025-06-07,ST12,P047,2,0,Line dropped - no stock
+560,TXN0037750,2025-06-07,ST12,P046,2,1,Partially filled
+561,TXN0037778,2025-06-07,ST05,P039,1,0,Line dropped - no stock
+562,TXN0037808,2025-06-07,ST02,P127,1,0,Line dropped - no stock
+563,TXN0037820,2025-06-07,ST02,P127,1,0,Line dropped - no stock
+564,TXN0037824,2025-06-07,ST12,P047,1,0,Line dropped - no stock
+565,TXN0037964,2025-06-07,ST02,P046,2,0,Line dropped - no stock
+566,TXN0037983,2025-06-07,ST12,P046,1,0,Line dropped - no stock
+567,TXN0038239,2025-06-08,ST03,P064,1,0,Line dropped - no stock
+568,TXN0038256,2025-06-08,ST11,P037,2,0,Line dropped - no stock
+569,TXN0038278,2025-06-09,ST02,P110,1,0,Line dropped - no stock
+570,TXN0038280,2025-06-09,ST10,P103,2,0,Transaction voided - no stock
+571,TXN0038298,2025-06-09,ST03,P064,1,0,Line dropped - no stock
+572,TXN0038358,2025-06-09,ST02,P110,1,0,Line dropped - no stock
+573,TXN0038425,2025-06-09,ST06,P058,1,0,Line dropped - no stock
+574,TXN0038467,2025-06-09,ST09,P014,1,0,Line dropped - no stock
+575,TXN0038488,2025-06-09,ST09,P014,1,0,Line dropped - no stock
+576,TXN0038495,2025-06-09,ST02,P127,1,0,Line dropped - no stock
+577,TXN0038511,2025-06-09,ST07,P064,1,0,Line dropped - no stock
+578,TXN0038556,2025-06-09,ST05,P112,1,0,Line dropped - no stock
+579,TXN0038563,2025-06-09,ST05,P112,2,0,Line dropped - no stock
+580,TXN0038674,2025-06-10,ST09,P014,1,0,Line dropped - no stock
+581,TXN0038748,2025-06-10,ST09,P014,1,0,Line dropped - no stock
+582,TXN0038776,2025-06-10,ST02,P143,1,0,Line dropped - no stock
+583,TXN0038792,2025-06-10,ST07,P104,1,0,Line dropped - no stock
+584,TXN0038841,2025-06-11,ST06,P058,3,0,Line dropped - no stock
+585,TXN0038938,2025-06-11,ST06,P105,2,0,Line dropped - no stock
+586,TXN0038957,2025-06-11,ST12,P047,1,0,Transaction voided - no stock
+587,TXN0038967,2025-06-11,ST12,P047,1,0,Line dropped - no stock
+588,TXN0039038,2025-06-11,ST09,P014,1,0,Line dropped - no stock
+589,TXN0039210,2025-06-12,ST01,P150,1,0,Line dropped - no stock
+590,TXN0039253,2025-06-12,ST01,P084,1,0,Line dropped - no stock
+591,TXN0039312,2025-06-12,ST12,P047,2,0,Line dropped - no stock
+592,TXN0039321,2025-06-12,ST01,P100,1,0,Line dropped - no stock
+593,TXN0039352,2025-06-13,ST07,P104,1,0,Line dropped - no stock
+594,TXN0039418,2025-06-13,ST01,P084,1,0,Line dropped - no stock
+595,TXN0039423,2025-06-13,ST12,P047,1,0,Line dropped - no stock
+596,TXN0039428,2025-06-13,ST09,P110,1,0,Line dropped - no stock
+597,TXN0039559,2025-06-13,ST06,P105,1,0,Line dropped - no stock
+598,TXN0039581,2025-06-13,ST07,P104,1,0,Line dropped - no stock
+599,TXN0039591,2025-06-13,ST04,P056,1,0,Line dropped - no stock
+600,TXN0039592,2025-06-13,ST01,P084,3,0,Line dropped - no stock
+601,TXN0039603,2025-06-13,ST06,P002,1,0,Line dropped - no stock
+602,TXN0039622,2025-06-13,ST03,P118,1,0,Line dropped - no stock
+603,TXN0039633,2025-06-13,ST06,P143,2,1,Partially filled
+604,TXN0039645,2025-06-13,ST04,P056,2,0,Line dropped - no stock
+605,TXN0039688,2025-06-14,ST04,P047,2,0,Line dropped - no stock
+606,TXN0039730,2025-06-14,ST06,P105,1,0,Line dropped - no stock
+607,TXN0039741,2025-06-14,ST01,P084,1,0,Line dropped - no stock
+608,TXN0039758,2025-06-14,ST03,P039,1,0,Line dropped - no stock
+609,TXN0039775,2025-06-14,ST01,P084,2,0,Line dropped - no stock
+610,TXN0039776,2025-06-14,ST07,P014,2,1,Partially filled
+611,TXN0039870,2025-06-14,ST03,P039,2,0,Line dropped - no stock
+612,TXN0039876,2025-06-14,ST04,P047,2,0,Line dropped - no stock
+613,TXN0039889,2025-06-14,ST06,P143,1,0,Line dropped - no stock
+614,TXN0039920,2025-06-14,ST07,P104,1,0,Line dropped - no stock
+615,TXN0040036,2025-06-15,ST09,P110,2,0,Line dropped - no stock
+616,TXN0040062,2025-06-15,ST01,P021,2,1,Partially filled
+617,TXN0040071,2025-06-15,ST07,P014,1,0,Line dropped - no stock
+618,TXN0040078,2025-06-15,ST07,P014,1,0,Transaction voided - no stock
+619,TXN0040107,2025-06-15,ST10,P033,2,0,Line dropped - no stock
+620,TXN0040181,2025-06-15,ST08,P035,2,1,Partially filled
+621,TXN0040201,2025-06-15,ST03,P039,1,0,Line dropped - no stock
+622,TXN0040205,2025-06-15,ST07,P104,2,0,Line dropped - no stock
+623,TXN0040212,2025-06-15,ST04,P007,2,0,Line dropped - no stock
+624,TXN0040246,2025-06-16,ST10,P033,1,0,Line dropped - no stock
+625,TXN0040259,2025-06-16,ST04,P056,2,0,Line dropped - no stock
+626,TXN0040300,2025-06-16,ST10,P125,1,0,Line dropped - no stock
+627,TXN0040314,2025-06-16,ST07,P021,2,0,Transaction voided - no stock
+628,TXN0040332,2025-06-16,ST07,P021,1,0,Line dropped - no stock
+629,TXN0040404,2025-06-16,ST01,P084,1,0,Line dropped - no stock
+630,TXN0040492,2025-06-17,ST02,P101,2,1,Partially filled
+631,TXN0040522,2025-06-17,ST05,P053,2,1,Partially filled
+632,TXN0040556,2025-06-17,ST10,P125,1,0,Line dropped - no stock
+633,TXN0040566,2025-06-17,ST10,P033,1,0,Line dropped - no stock
+634,TXN0040580,2025-06-17,ST11,P149,1,0,Line dropped - no stock
+635,TXN0040592,2025-06-17,ST01,P084,1,0,Line dropped - no stock
+636,TXN0041007,2025-06-19,ST10,P125,1,0,Transaction voided - no stock
+637,TXN0041084,2025-06-19,ST08,P025,2,1,Partially filled
+638,TXN0041100,2025-06-19,ST12,P045,2,1,Partially filled
+639,TXN0041196,2025-06-19,ST12,P045,1,0,Line dropped - no stock
+640,TXN0041239,2025-06-20,ST08,P035,1,0,Line dropped - no stock
+641,TXN0041285,2025-06-20,ST11,P107,2,1,Partially filled
+642,TXN0041344,2025-06-20,ST11,P142,1,0,Line dropped - no stock
+643,TXN0041435,2025-06-20,ST12,P045,3,0,Line dropped - no stock
+644,TXN0041438,2025-06-20,ST12,P045,3,0,Line dropped - no stock
+645,TXN0041458,2025-06-20,ST11,P044,3,1,Partially filled
+646,TXN0041486,2025-06-20,ST10,P008,1,0,Line dropped - no stock
+647,TXN0041552,2025-06-21,ST08,P105,2,1,Partially filled
+648,TXN0041556,2025-06-21,ST10,P127,3,2,Partially filled
+649,TXN0041561,2025-06-21,ST05,P065,1,0,Line dropped - no stock
+650,TXN0041634,2025-06-21,ST11,P142,1,0,Transaction voided - no stock
+651,TXN0041721,2025-06-21,ST08,P105,2,0,Line dropped - no stock
+652,TXN0041727,2025-06-21,ST01,P055,2,1,Partially filled
+653,TXN0041756,2025-06-21,ST05,P065,1,0,Line dropped - no stock
+654,TXN0041823,2025-06-21,ST11,P142,1,0,Line dropped - no stock
+655,TXN0041870,2025-06-22,ST10,P127,2,0,Line dropped - no stock
+656,TXN0041886,2025-06-22,ST07,P081,1,0,Line dropped - no stock
+657,TXN0041965,2025-06-22,ST07,P098,2,0,Line dropped - no stock
+658,TXN0041968,2025-06-22,ST07,P142,4,2,Partially filled
+659,TXN0041972,2025-06-22,ST11,P142,1,0,Line dropped - no stock
+660,TXN0042031,2025-06-23,ST04,P146,1,0,Line dropped - no stock
+661,TXN0042167,2025-06-23,ST07,P081,1,0,Line dropped - no stock
+662,TXN0042197,2025-06-23,ST02,P137,2,0,Line dropped - no stock
+663,TXN0042223,2025-06-23,ST02,P137,1,0,Line dropped - no stock
+664,TXN0042267,2025-06-23,ST10,P077,1,0,Line dropped - no stock
+665,TXN0042297,2025-06-23,ST05,P008,1,0,Line dropped - no stock
+666,TXN0042307,2025-06-23,ST10,P127,1,0,Line dropped - no stock
+667,TXN0042319,2025-06-23,ST10,P127,1,0,Line dropped - no stock
+668,TXN0042328,2025-06-23,ST05,P008,1,0,Line dropped - no stock
+669,TXN0042348,2025-06-24,ST02,P082,2,0,Line dropped - no stock
+670,TXN0042355,2025-06-24,ST07,P081,2,0,Line dropped - no stock
+671,TXN0042385,2025-06-24,ST08,P025,1,0,Transaction voided - no stock
+672,TXN0042386,2025-06-24,ST08,P137,2,1,Partially filled
+673,TXN0042386,2025-06-24,ST08,P138,2,0,Line dropped - no stock
+674,TXN0042432,2025-06-24,ST01,P055,1,0,Transaction voided - no stock
+675,TXN0042445,2025-06-24,ST02,P013,1,0,Line dropped - no stock
+676,TXN0042483,2025-06-24,ST10,P127,1,0,Line dropped - no stock
+677,TXN0042487,2025-06-24,ST02,P082,1,0,Line dropped - no stock
+678,TXN0042514,2025-06-24,ST01,P055,1,0,Line dropped - no stock
+679,TXN0042742,2025-06-25,ST07,P081,1,0,Transaction voided - no stock
+680,TXN0042794,2025-06-25,ST08,P138,1,0,Line dropped - no stock
+681,TXN0042809,2025-06-25,ST11,P088,1,0,Line dropped - no stock
+682,TXN0042863,2025-06-26,ST07,P081,1,0,Line dropped - no stock
+683,TXN0042883,2025-06-26,ST10,P008,1,0,Transaction voided - no stock
+684,TXN0042940,2025-06-26,ST01,P079,2,1,Partially filled
+685,TXN0043051,2025-06-26,ST04,P091,3,2,Partially filled
+686,TXN0043070,2025-06-26,ST08,P137,1,0,Line dropped - no stock
+687,TXN0043082,2025-06-26,ST01,P079,2,0,Line dropped - no stock
+688,TXN0043152,2025-06-27,ST04,P132,1,0,Line dropped - no stock
+689,TXN0043162,2025-06-27,ST01,P079,2,0,Line dropped - no stock
+690,TXN0043175,2025-06-27,ST03,P077,3,2,Partially filled
+691,TXN0043212,2025-06-27,ST01,P079,1,0,Line dropped - no stock
+692,TXN0043237,2025-06-27,ST11,P137,2,0,Line dropped - no stock
+693,TXN0043286,2025-06-27,ST04,P146,1,0,Line dropped - no stock
+694,TXN0043370,2025-06-28,ST03,P020,1,0,Line dropped - no stock
+695,TXN0043401,2025-06-28,ST07,P081,1,0,Line dropped - no stock
+696,TXN0043423,2025-06-28,ST11,P137,2,0,Line dropped - no stock
+697,TXN0043531,2025-06-28,ST04,P134,1,0,Line dropped - no stock
+698,TXN0043585,2025-06-28,ST03,P146,2,1,Partially filled
+699,TXN0043602,2025-06-28,ST11,P137,1,0,Line dropped - no stock
+700,TXN0043613,2025-06-29,ST03,P077,1,0,Line dropped - no stock
+701,TXN0043657,2025-06-29,ST08,P100,3,2,Partially filled
+702,TXN0043668,2025-06-29,ST04,P083,1,0,Line dropped - no stock
+703,TXN0043673,2025-06-29,ST12,P021,1,0,Line dropped - no stock
+704,TXN0043960,2025-06-30,ST07,P081,1,0,Line dropped - no stock
+705,TXN0043999,2025-06-30,ST04,P079,1,0,Line dropped - no stock
+706,TXN0044024,2025-06-30,ST04,P088,2,1,Partially filled
+707,TXN0044116,2025-07-01,ST04,P132,2,0,Transaction voided - no stock
+708,TXN0044184,2025-07-01,ST04,P079,1,0,Line dropped - no stock
+709,TXN0044299,2025-07-01,ST04,P079,1,0,Line dropped - no stock
+710,TXN0044465,2025-07-02,ST05,P085,1,0,Line dropped - no stock
+711,TXN0044526,2025-07-02,ST12,P093,1,0,Line dropped - no stock
+712,TXN0044585,2025-07-02,ST03,P135,1,0,Line dropped - no stock
+713,TXN0044624,2025-07-03,ST05,P085,2,0,Line dropped - no stock
+714,TXN0044631,2025-07-03,ST08,P091,3,0,Line dropped - no stock
+715,TXN0044919,2025-07-04,ST12,P089,2,1,Partially filled
+716,TXN0044997,2025-07-04,ST12,P089,1,0,Line dropped - no stock
+717,TXN0045029,2025-07-04,ST02,P102,3,2,Partially filled
+718,TXN0045091,2025-07-04,ST12,P089,1,0,Line dropped - no stock
+719,TXN0045093,2025-07-04,ST05,P084,2,0,Line dropped - no stock
+720,TXN0045151,2025-07-04,ST03,P135,1,0,Line dropped - no stock
+721,TXN0045158,2025-07-04,ST05,P077,1,0,Line dropped - no stock
+722,TXN0045232,2025-07-04,ST05,P085,1,0,Line dropped - no stock
+723,TXN0045308,2025-07-05,ST09,P048,1,0,Line dropped - no stock
+724,TXN0045309,2025-07-05,ST05,P085,1,0,Line dropped - no stock
+725,TXN0045314,2025-07-05,ST09,P077,2,1,Partially filled
+726,TXN0045331,2025-07-05,ST05,P085,1,0,Line dropped - no stock
+727,TXN0045336,2025-07-05,ST05,P080,1,0,Transaction voided - no stock
+728,TXN0045391,2025-07-05,ST05,P085,1,0,Line dropped - no stock
+729,TXN0045392,2025-07-05,ST05,P085,1,0,Line dropped - no stock
+730,TXN0045420,2025-07-05,ST05,P080,1,0,Line dropped - no stock
+731,TXN0045431,2025-07-05,ST05,P119,1,0,Line dropped - no stock
+732,TXN0045439,2025-07-05,ST01,P040,1,0,Line dropped - no stock
+733,TXN0045492,2025-07-05,ST06,P076,2,1,Partially filled
+734,TXN0045503,2025-07-05,ST01,P040,1,0,Line dropped - no stock
+735,TXN0045536,2025-07-05,ST05,P080,1,0,Line dropped - no stock
+736,TXN0045624,2025-07-05,ST05,P080,1,0,Line dropped - no stock
+737,TXN0045668,2025-07-06,ST06,P076,2,0,Line dropped - no stock
+738,TXN0045727,2025-07-06,ST11,P132,1,0,Transaction voided - no stock
+739,TXN0045757,2025-07-06,ST09,P048,1,0,Line dropped - no stock
+740,TXN0045791,2025-07-06,ST06,P076,1,0,Line dropped - no stock
+741,TXN0045798,2025-07-06,ST01,P040,1,0,Line dropped - no stock
+742,TXN0045800,2025-07-06,ST01,P061,3,2,Partially filled
+743,TXN0045858,2025-07-07,ST01,P040,2,0,Line dropped - no stock
+744,TXN0045942,2025-07-07,ST06,P076,1,0,Line dropped - no stock
+745,TXN0046096,2025-07-07,ST10,P083,2,1,Partially filled
+746,TXN0046108,2025-07-07,ST06,P076,1,0,Line dropped - no stock
+747,TXN0046138,2025-07-07,ST02,P102,2,0,Line dropped - no stock
+748,TXN0046160,2025-07-08,ST01,P081,1,0,Line dropped - no stock
+749,TXN0046235,2025-07-08,ST09,P105,1,0,Line dropped - no stock
+750,TXN0046274,2025-07-08,ST02,P102,1,0,Line dropped - no stock
+751,TXN0046305,2025-07-08,ST01,P081,2,0,Line dropped - no stock
+752,TXN0046317,2025-07-08,ST01,P040,1,0,Line dropped - no stock
+753,TXN0046337,2025-07-08,ST02,P071,1,0,Line dropped - no stock
+754,TXN0046349,2025-07-08,ST05,P119,1,0,Line dropped - no stock
+755,TXN0046375,2025-07-08,ST10,P083,1,0,Line dropped - no stock
+756,TXN0046387,2025-07-08,ST06,P076,2,0,Line dropped - no stock
+757,TXN0046392,2025-07-08,ST01,P081,1,0,Line dropped - no stock
+758,TXN0046403,2025-07-08,ST01,P061,2,0,Line dropped - no stock
+759,TXN0046417,2025-07-08,ST06,P076,1,0,Line dropped - no stock
+760,TXN0046465,2025-07-09,ST05,P084,2,0,Line dropped - no stock
+761,TXN0046496,2025-07-09,ST10,P083,1,0,Line dropped - no stock
+762,TXN0046557,2025-07-09,ST05,P119,1,0,Line dropped - no stock
+763,TXN0046606,2025-07-09,ST09,P105,1,0,Line dropped - no stock
+764,TXN0046650,2025-07-09,ST08,P100,1,0,Line dropped - no stock
+765,TXN0046729,2025-07-10,ST09,P048,1,0,Line dropped - no stock
+766,TXN0046817,2025-07-10,ST09,P105,1,0,Line dropped - no stock
+767,TXN0047036,2025-07-11,ST10,P083,1,0,Line dropped - no stock
+768,TXN0047050,2025-07-11,ST04,P142,1,0,Line dropped - no stock
+769,TXN0047091,2025-07-11,ST06,P076,1,0,Transaction voided - no stock
+770,TXN0047107,2025-07-11,ST06,P076,1,0,Line dropped - no stock
+771,TXN0047160,2025-07-11,ST02,P068,1,0,Line dropped - no stock
+772,TXN0047234,2025-07-11,ST10,P083,1,0,Line dropped - no stock
+773,TXN0047238,2025-07-11,ST10,P083,2,0,Line dropped - no stock
+774,TXN0047250,2025-07-11,ST04,P068,2,0,Line dropped - no stock
+775,TXN0047258,2025-07-11,ST10,P083,2,0,Line dropped - no stock
+776,TXN0047265,2025-07-11,ST07,P074,2,0,Line dropped - no stock
+777,TXN0047436,2025-07-12,ST07,P066,1,0,Transaction voided - no stock
+778,TXN0047556,2025-07-12,ST07,P066,1,0,Line dropped - no stock
+779,TXN0047660,2025-07-13,ST04,P142,1,0,Line dropped - no stock
+780,TXN0047817,2025-07-13,ST07,P066,1,0,Line dropped - no stock
+781,TXN0047906,2025-07-14,ST11,P061,1,0,Line dropped - no stock
+782,TXN0047945,2025-07-14,ST04,P062,2,1,Partially filled
+783,TXN0048071,2025-07-14,ST06,P076,1,0,Line dropped - no stock
+784,TXN0048111,2025-07-15,ST09,P004,2,1,Partially filled
+785,TXN0048127,2025-07-15,ST02,P077,2,0,Line dropped - no stock
+786,TXN0048142,2025-07-15,ST05,P021,1,0,Line dropped - no stock
+787,TXN0048149,2025-07-15,ST05,P084,1,0,Line dropped - no stock
+788,TXN0048160,2025-07-15,ST09,P004,1,0,Line dropped - no stock
+789,TXN0048190,2025-07-15,ST05,P136,2,1,Partially filled
+790,TXN0048214,2025-07-15,ST07,P066,1,0,Line dropped - no stock
+791,TXN0048222,2025-07-15,ST07,P040,3,1,Partially filled
+792,TXN0048231,2025-07-15,ST05,P059,3,1,Partially filled
+793,TXN0048249,2025-07-15,ST11,P041,2,1,Partially filled
+794,TXN0048292,2025-07-15,ST04,P062,2,0,Line dropped - no stock
+795,TXN0048308,2025-07-15,ST02,P006,1,0,Line dropped - no stock
+796,TXN0048315,2025-07-15,ST05,P084,1,0,Line dropped - no stock
+797,TXN0048336,2025-07-15,ST07,P040,1,0,Line dropped - no stock
+798,TXN0048339,2025-07-15,ST04,P062,1,0,Line dropped - no stock
+799,TXN0048411,2025-07-16,ST11,P061,3,0,Line dropped - no stock
+800,TXN0048472,2025-07-16,ST04,P062,1,0,Line dropped - no stock
+801,TXN0048478,2025-07-16,ST02,P006,1,0,Line dropped - no stock
+802,TXN0048502,2025-07-16,ST04,P062,1,0,Transaction voided - no stock
+803,TXN0048539,2025-07-16,ST07,P066,1,0,Transaction voided - no stock
+804,TXN0048581,2025-07-16,ST09,P004,1,0,Line dropped - no stock
+805,TXN0048599,2025-07-16,ST04,P062,1,0,Line dropped - no stock
+806,TXN0048616,2025-07-16,ST02,P077,1,0,Line dropped - no stock
+807,TXN0048618,2025-07-16,ST02,P068,1,0,Line dropped - no stock
+808,TXN0048639,2025-07-16,ST02,P006,2,0,Line dropped - no stock
+809,TXN0048688,2025-07-17,ST05,P021,1,0,Line dropped - no stock
+810,TXN0048695,2025-07-17,ST02,P006,3,0,Line dropped - no stock
+811,TXN0048813,2025-07-17,ST05,P084,1,0,Line dropped - no stock
+812,TXN0048848,2025-07-17,ST02,P130,1,0,Line dropped - no stock
+813,TXN0048860,2025-07-17,ST12,P082,3,2,Partially filled
+814,TXN0048974,2025-07-18,ST05,P020,1,0,Line dropped - no stock
+815,TXN0049020,2025-07-18,ST12,P082,4,0,Line dropped - no stock
+816,TXN0049031,2025-07-18,ST02,P006,1,0,Line dropped - no stock
+817,TXN0049035,2025-07-18,ST08,P103,3,2,Partially filled
+818,TXN0049044,2025-07-18,ST02,P077,1,0,Line dropped - no stock
+819,TXN0049055,2025-07-18,ST02,P068,1,0,Transaction voided - no stock
+820,TXN0049073,2025-07-18,ST02,P068,1,0,Line dropped - no stock
+821,TXN0049078,2025-07-18,ST02,P006,1,0,Line dropped - no stock
+822,TXN0049134,2025-07-18,ST02,P007,1,0,Line dropped - no stock
+823,TXN0049147,2025-07-18,ST02,P077,1,0,Line dropped - no stock
+824,TXN0049182,2025-07-18,ST02,P077,1,0,Line dropped - no stock
+825,TXN0049236,2025-07-18,ST06,P062,1,0,Line dropped - no stock
+826,TXN0049241,2025-07-18,ST06,P062,1,0,Line dropped - no stock
+827,TXN0049242,2025-07-18,ST12,P042,1,0,Line dropped - no stock
+828,TXN0049247,2025-07-18,ST02,P006,3,0,Line dropped - no stock
+829,TXN0049310,2025-07-19,ST06,P062,1,0,Line dropped - no stock
+830,TXN0049322,2025-07-19,ST05,P136,2,0,Line dropped - no stock
+831,TXN0049372,2025-07-19,ST02,P068,2,0,Line dropped - no stock
+832,TXN0049392,2025-07-19,ST05,P136,1,0,Line dropped - no stock
+833,TXN0049414,2025-07-19,ST05,P021,1,0,Line dropped - no stock
+834,TXN0049421,2025-07-19,ST02,P113,1,0,Line dropped - no stock
+835,TXN0049435,2025-07-19,ST06,P062,2,0,Line dropped - no stock
+836,TXN0049496,2025-07-19,ST09,P123,2,1,Partially filled
+837,TXN0049503,2025-07-19,ST02,P007,2,0,Line dropped - no stock
+838,TXN0049533,2025-07-19,ST02,P130,1,0,Line dropped - no stock
+839,TXN0049609,2025-07-19,ST02,P006,1,0,Line dropped - no stock
+840,TXN0049620,2025-07-19,ST08,P094,3,2,Partially filled
+841,TXN0049662,2025-07-20,ST05,P020,1,0,Line dropped - no stock
+842,TXN0049668,2025-07-20,ST10,P054,4,3,Partially filled
+843,TXN0049687,2025-07-20,ST02,P113,1,0,Line dropped - no stock
+844,TXN0049697,2025-07-20,ST06,P062,1,0,Line dropped - no stock
+845,TXN0049728,2025-07-20,ST06,P062,1,0,Transaction voided - no stock
+846,TXN0049763,2025-07-20,ST06,P062,1,0,Line dropped - no stock
+847,TXN0049764,2025-07-20,ST06,P062,1,0,Line dropped - no stock
+848,TXN0049815,2025-07-20,ST06,P062,2,0,Line dropped - no stock
+849,TXN0049837,2025-07-20,ST01,P029,1,0,Line dropped - no stock
+850,TXN0049839,2025-07-20,ST06,P062,1,0,Line dropped - no stock
+851,TXN0049883,2025-07-21,ST09,P076,1,0,Line dropped - no stock
+852,TXN0049908,2025-07-21,ST07,P037,1,0,Line dropped - no stock
+853,TXN0049928,2025-07-21,ST05,P020,1,0,Transaction voided - no stock
+854,TXN0049933,2025-07-21,ST09,P098,3,1,Partially filled
+855,TXN0049947,2025-07-21,ST08,P094,2,0,Line dropped - no stock
+856,TXN0049963,2025-07-21,ST02,P130,1,0,Line dropped - no stock
+857,TXN0049968,2025-07-21,ST02,P002,2,1,Partially filled
+858,TXN0049989,2025-07-21,ST02,P002,1,0,Line dropped - no stock
+859,TXN0050001,2025-07-21,ST09,P076,2,0,Line dropped - no stock
+860,TXN0050019,2025-07-21,ST06,P062,1,0,Line dropped - no stock
+861,TXN0050037,2025-07-21,ST02,P113,1,0,Line dropped - no stock
+862,TXN0050107,2025-07-21,ST08,P103,1,0,Line dropped - no stock
+863,TXN0050113,2025-07-21,ST02,P113,1,0,Line dropped - no stock
+864,TXN0050133,2025-07-21,ST06,P062,1,0,Line dropped - no stock
+865,TXN0050146,2025-07-21,ST09,P076,1,0,Line dropped - no stock
+866,TXN0050169,2025-07-22,ST02,P002,2,0,Line dropped - no stock
+867,TXN0050290,2025-07-22,ST06,P045,2,0,Line dropped - no stock
+868,TXN0050295,2025-07-22,ST06,P046,4,3,Partially filled
+869,TXN0050353,2025-07-22,ST02,P113,1,0,Line dropped - no stock
+870,TXN0050416,2025-07-23,ST06,P046,2,0,Line dropped - no stock
+871,TXN0050473,2025-07-23,ST07,P037,1,0,Line dropped - no stock
+872,TXN0050480,2025-07-23,ST06,P062,1,0,Transaction voided - no stock
+873,TXN0050506,2025-07-23,ST09,P098,1,0,Line dropped - no stock
+874,TXN0050507,2025-07-23,ST06,P062,1,0,Line dropped - no stock
+875,TXN0050527,2025-07-23,ST07,P037,1,0,Line dropped - no stock
+876,TXN0050568,2025-07-23,ST06,P062,1,0,Line dropped - no stock
+877,TXN0050569,2025-07-23,ST02,P043,2,1,Partially filled
+878,TXN0050577,2025-07-23,ST02,P063,2,0,Line dropped - no stock
+879,TXN0050584,2025-07-23,ST02,P002,1,0,Line dropped - no stock
+880,TXN0050622,2025-07-23,ST08,P012,1,0,Line dropped - no stock
+881,TXN0050626,2025-07-23,ST06,P045,4,0,Line dropped - no stock
+882,TXN0050643,2025-07-23,ST09,P050,2,1,Partially filled
+883,TXN0050668,2025-07-23,ST09,P050,4,0,Line dropped - no stock
+884,TXN0050761,2025-07-24,ST02,P113,1,0,Line dropped - no stock
+885,TXN0050777,2025-07-24,ST10,P100,1,0,Line dropped - no stock
+886,TXN0050793,2025-07-24,ST02,P113,1,0,Line dropped - no stock
+887,TXN0050816,2025-07-24,ST02,P063,1,0,Line dropped - no stock
+888,TXN0050835,2025-07-24,ST03,P044,3,0,Line dropped - no stock
+889,TXN0050926,2025-07-24,ST01,P080,1,0,Line dropped - no stock
+890,TXN0050932,2025-07-24,ST03,P044,1,0,Line dropped - no stock
+891,TXN0050941,2025-07-24,ST06,P062,1,0,Line dropped - no stock
+892,TXN0050950,2025-07-24,ST05,P083,1,0,Line dropped - no stock
+893,TXN0050961,2025-07-24,ST01,P080,1,0,Line dropped - no stock
+894,TXN0050964,2025-07-24,ST02,P063,1,0,Line dropped - no stock
+895,TXN0050974,2025-07-25,ST08,P012,1,0,Transaction voided - no stock
+896,TXN0050981,2025-07-25,ST07,P030,1,0,Line dropped - no stock
+897,TXN0050994,2025-07-25,ST06,P062,2,0,Line dropped - no stock
+898,TXN0051018,2025-07-25,ST03,P044,2,0,Line dropped - no stock
+899,TXN0051027,2025-07-25,ST01,P080,1,0,Line dropped - no stock
+900,TXN0051040,2025-07-25,ST03,P044,1,0,Line dropped - no stock
+901,TXN0051063,2025-07-25,ST10,P001,1,0,Line dropped - no stock
+902,TXN0051132,2025-07-25,ST05,P083,1,0,Line dropped - no stock
+903,TXN0051151,2025-07-25,ST09,P076,1,0,Line dropped - no stock
+904,TXN0051210,2025-07-25,ST06,P095,2,0,Line dropped - no stock
+905,TXN0051228,2025-07-25,ST08,P012,1,0,Line dropped - no stock
+906,TXN0051231,2025-07-25,ST08,P012,1,0,Line dropped - no stock
+907,TXN0051254,2025-07-25,ST01,P080,1,0,Line dropped - no stock
+908,TXN0051261,2025-07-25,ST05,P083,1,0,Line dropped - no stock
+909,TXN0051276,2025-07-25,ST01,P080,2,0,Line dropped - no stock
+910,TXN0051299,2025-07-26,ST06,P045,1,0,Line dropped - no stock
+911,TXN0051309,2025-07-26,ST07,P037,1,0,Line dropped - no stock
+912,TXN0051315,2025-07-26,ST06,P062,1,0,Line dropped - no stock
+913,TXN0051345,2025-07-26,ST06,P099,2,1,Partially filled
+914,TXN0051411,2025-07-26,ST06,P137,1,0,Line dropped - no stock
+915,TXN0051444,2025-07-26,ST01,P080,3,0,Line dropped - no stock
+916,TXN0051459,2025-07-26,ST03,P044,1,0,Line dropped - no stock
+917,TXN0051498,2025-07-26,ST05,P083,1,0,Line dropped - no stock
+918,TXN0051547,2025-07-26,ST05,P069,2,0,Line dropped - no stock
+919,TXN0051549,2025-07-26,ST08,P012,1,0,Line dropped - no stock
+920,TXN0051553,2025-07-26,ST04,P010,1,0,Transaction voided - no stock
+921,TXN0051577,2025-07-27,ST06,P079,4,3,Partially filled
+922,TXN0051577,2025-07-27,ST06,P062,1,0,Line dropped - no stock
+923,TXN0051587,2025-07-27,ST06,P079,1,0,Line dropped - no stock
+924,TXN0051594,2025-07-27,ST06,P079,1,0,Line dropped - no stock
+925,TXN0051596,2025-07-27,ST07,P037,1,0,Line dropped - no stock
+926,TXN0051630,2025-07-27,ST03,P008,1,0,Line dropped - no stock
+927,TXN0051634,2025-07-27,ST06,P046,2,0,Line dropped - no stock
+928,TXN0051745,2025-07-27,ST09,P119,1,0,Line dropped - no stock
+929,TXN0051758,2025-07-28,ST06,P062,2,0,Line dropped - no stock
+930,TXN0051809,2025-07-28,ST09,P076,1,0,Line dropped - no stock
+931,TXN0051845,2025-07-28,ST09,P008,1,0,Line dropped - no stock
+932,TXN0051882,2025-07-28,ST06,P079,2,0,Transaction voided - no stock
+933,TXN0051886,2025-07-28,ST09,P008,1,0,Line dropped - no stock
+934,TXN0051904,2025-07-28,ST06,P062,1,0,Line dropped - no stock
+935,TXN0051928,2025-07-28,ST03,P045,4,1,Partially filled
+936,TXN0051940,2025-07-28,ST04,P039,1,0,Line dropped - no stock
+937,TXN0052058,2025-07-28,ST09,P076,2,0,Line dropped - no stock
+938,TXN0052096,2025-07-29,ST09,P076,2,0,Line dropped - no stock
+939,TXN0052112,2025-07-29,ST09,P058,3,1,Partially filled
+940,TXN0052126,2025-07-29,ST06,P046,1,0,Line dropped - no stock
+941,TXN0052126,2025-07-29,ST06,P079,1,0,Line dropped - no stock
+942,TXN0052156,2025-07-29,ST06,P079,1,0,Line dropped - no stock
+943,TXN0052162,2025-07-29,ST04,P010,1,0,Line dropped - no stock
+944,TXN0052165,2025-07-29,ST09,P076,1,0,Line dropped - no stock
+945,TXN0052174,2025-07-29,ST06,P079,1,0,Line dropped - no stock
+946,TXN0052179,2025-07-29,ST01,P146,1,0,Line dropped - no stock
+947,TXN0052222,2025-07-29,ST06,P034,1,0,Line dropped - no stock
+948,TXN0052231,2025-07-29,ST06,P079,1,0,Line dropped - no stock
+949,TXN0052411,2025-07-30,ST12,P130,1,0,Line dropped - no stock
+950,TXN0052453,2025-07-30,ST04,P014,1,0,Line dropped - no stock
+951,TXN0052457,2025-07-30,ST04,P014,2,0,Line dropped - no stock
+952,TXN0052508,2025-07-30,ST09,P058,2,0,Line dropped - no stock
+953,TXN0052560,2025-07-30,ST04,P014,2,0,Line dropped - no stock
+954,TXN0052572,2025-07-30,ST05,P083,1,0,Line dropped - no stock
+955,TXN0052632,2025-07-31,ST07,P063,2,0,Line dropped - no stock
+956,TXN0052649,2025-07-31,ST07,P063,1,0,Transaction voided - no stock
+957,TXN0052754,2025-07-31,ST07,P063,1,0,Line dropped - no stock
+958,TXN0053012,2025-08-01,ST10,P071,2,1,Partially filled
+959,TXN0053046,2025-08-01,ST11,P087,2,1,Partially filled
+960,TXN0053112,2025-08-01,ST05,P015,2,0,Line dropped - no stock
+961,TXN0053115,2025-08-01,ST10,P023,1,0,Transaction voided - no stock
+962,TXN0053188,2025-08-02,ST11,P087,1,0,Line dropped - no stock
+963,TXN0053189,2025-08-02,ST11,P087,1,0,Line dropped - no stock
+964,TXN0053255,2025-08-02,ST01,P071,1,0,Line dropped - no stock
+965,TXN0053276,2025-08-02,ST05,P083,1,0,Line dropped - no stock
+966,TXN0053297,2025-08-02,ST01,P071,1,0,Line dropped - no stock
+967,TXN0053331,2025-08-02,ST01,P071,1,0,Line dropped - no stock
+968,TXN0053334,2025-08-02,ST09,P058,1,0,Line dropped - no stock
+969,TXN0053393,2025-08-02,ST01,P071,2,0,Line dropped - no stock
+970,TXN0053466,2025-08-03,ST01,P071,1,0,Line dropped - no stock
+971,TXN0053558,2025-08-03,ST12,P098,2,0,Line dropped - no stock
+972,TXN0053564,2025-08-03,ST10,P071,1,0,Transaction voided - no stock
+973,TXN0053637,2025-08-03,ST12,P098,2,0,Line dropped - no stock
+974,TXN0053645,2025-08-03,ST05,P075,2,0,Transaction voided - no stock
+975,TXN0053688,2025-08-04,ST01,P071,1,0,Line dropped - no stock
+976,TXN0053750,2025-08-04,ST10,P016,1,0,Line dropped - no stock
+977,TXN0053784,2025-08-04,ST11,P093,1,0,Line dropped - no stock
+978,TXN0053788,2025-08-04,ST01,P071,1,0,Line dropped - no stock
+979,TXN0053823,2025-08-04,ST01,P071,2,0,Line dropped - no stock
+980,TXN0053923,2025-08-04,ST10,P121,2,1,Partially filled
+981,TXN0053926,2025-08-04,ST01,P071,2,0,Line dropped - no stock
+982,TXN0054110,2025-08-05,ST11,P086,2,1,Partially filled
+983,TXN0054153,2025-08-05,ST05,P083,1,0,Line dropped - no stock
+984,TXN0054218,2025-08-05,ST06,P113,1,0,Line dropped - no stock
+985,TXN0054251,2025-08-06,ST10,P071,1,0,Transaction voided - no stock
+986,TXN0054283,2025-08-06,ST04,P071,2,0,Line dropped - no stock
+987,TXN0054316,2025-08-06,ST10,P071,2,0,Line dropped - no stock
+988,TXN0054404,2025-08-06,ST01,P047,2,0,Line dropped - no stock
+989,TXN0054442,2025-08-06,ST04,P017,1,0,Line dropped - no stock
+990,TXN0054475,2025-08-06,ST01,P047,1,0,Line dropped - no stock
+991,TXN0054496,2025-08-06,ST10,P071,1,0,Line dropped - no stock
+992,TXN0054506,2025-08-06,ST09,P058,1,0,Line dropped - no stock
+993,TXN0054547,2025-08-07,ST07,P147,2,0,Line dropped - no stock
+994,TXN0054561,2025-08-07,ST01,P071,1,0,Line dropped - no stock
+995,TXN0054561,2025-08-07,ST01,P097,3,1,Partially filled
+996,TXN0054587,2025-08-07,ST04,P017,1,0,Line dropped - no stock
+997,TXN0054665,2025-08-07,ST01,P047,3,0,Transaction voided - no stock
+998,TXN0054674,2025-08-07,ST01,P047,1,0,Line dropped - no stock
+999,TXN0054774,2025-08-07,ST10,P144,3,1,Partially filled
+1000,TXN0054783,2025-08-07,ST10,P062,2,0,Transaction voided - no stock
+1001,TXN0054801,2025-08-08,ST10,P071,1,0,Line dropped - no stock
+1002,TXN0054804,2025-08-08,ST04,P071,1,0,Transaction voided - no stock
+1003,TXN0054835,2025-08-08,ST10,P062,1,0,Line dropped - no stock
+1004,TXN0054846,2025-08-08,ST10,P071,2,0,Line dropped - no stock
+1005,TXN0054846,2025-08-08,ST10,P062,2,0,Line dropped - no stock
+1006,TXN0054863,2025-08-08,ST06,P113,2,0,Line dropped - no stock
+1007,TXN0054874,2025-08-08,ST04,P017,1,0,Line dropped - no stock
+1008,TXN0054880,2025-08-08,ST10,P144,2,0,Line dropped - no stock
+1009,TXN0054903,2025-08-08,ST07,P147,2,0,Line dropped - no stock
+1010,TXN0054944,2025-08-08,ST07,P147,1,0,Line dropped - no stock
+1011,TXN0054963,2025-08-08,ST04,P017,1,0,Line dropped - no stock
+1012,TXN0054986,2025-08-08,ST01,P134,2,0,Transaction voided - no stock
+1013,TXN0055004,2025-08-08,ST10,P121,1,0,Line dropped - no stock
+1014,TXN0055136,2025-08-09,ST06,P113,1,0,Line dropped - no stock
+1015,TXN0055162,2025-08-09,ST04,P113,1,0,Line dropped - no stock
+1016,TXN0055242,2025-08-09,ST04,P071,1,0,Line dropped - no stock
+1017,TXN0055268,2025-08-09,ST03,P006,2,1,Partially filled
+1018,TXN0055324,2025-08-09,ST04,P017,1,0,Line dropped - no stock
+1019,TXN0055351,2025-08-09,ST04,P071,1,0,Line dropped - no stock
+1020,TXN0055529,2025-08-10,ST11,P057,1,0,Line dropped - no stock
+1021,TXN0055646,2025-08-11,ST03,P071,1,0,Line dropped - no stock
+1022,TXN0055651,2025-08-11,ST11,P134,1,0,Line dropped - no stock
+1023,TXN0055677,2025-08-11,ST07,P106,1,0,Line dropped - no stock
+1024,TXN0055677,2025-08-11,ST07,P059,2,1,Partially filled
+1025,TXN0055694,2025-08-11,ST07,P059,2,0,Line dropped - no stock
+1026,TXN0055700,2025-08-11,ST07,P116,1,0,Line dropped - no stock
+1027,TXN0055709,2025-08-11,ST09,P044,2,1,Partially filled
+1028,TXN0055756,2025-08-11,ST03,P071,1,0,Line dropped - no stock
+1029,TXN0055807,2025-08-11,ST09,P044,2,0,Line dropped - no stock
+1030,TXN0055933,2025-08-12,ST03,P071,2,0,Line dropped - no stock
+1031,TXN0055984,2025-08-12,ST11,P134,1,0,Line dropped - no stock
+1032,TXN0056126,2025-08-12,ST07,P071,2,0,Line dropped - no stock
+1033,TXN0056195,2025-08-12,ST09,P044,1,0,Line dropped - no stock
+1034,TXN0056200,2025-08-12,ST09,P044,2,0,Line dropped - no stock
+1035,TXN0056224,2025-08-13,ST11,P091,1,0,Line dropped - no stock
+1036,TXN0056224,2025-08-13,ST11,P047,1,0,Line dropped - no stock
+1037,TXN0056240,2025-08-13,ST04,P071,1,0,Line dropped - no stock
+1038,TXN0056411,2025-08-13,ST04,P071,1,0,Line dropped - no stock
+1039,TXN0056457,2025-08-14,ST11,P091,1,0,Line dropped - no stock
+1040,TXN0056518,2025-08-14,ST04,P071,1,0,Line dropped - no stock
+1041,TXN0056536,2025-08-14,ST11,P134,1,0,Line dropped - no stock
+1042,TXN0056551,2025-08-14,ST04,P071,1,0,Line dropped - no stock
+1043,TXN0056575,2025-08-14,ST11,P134,2,0,Line dropped - no stock
+1044,TXN0056698,2025-08-14,ST09,P010,2,1,Partially filled
+1045,TXN0056700,2025-08-14,ST12,P144,2,0,Line dropped - no stock
+1046,TXN0056716,2025-08-15,ST05,P107,1,0,Line dropped - no stock
+1047,TXN0056776,2025-08-15,ST09,P080,1,0,Line dropped - no stock
+1048,TXN0056799,2025-08-15,ST09,P080,1,0,Line dropped - no stock
+1049,TXN0056813,2025-08-15,ST09,P080,1,0,Line dropped - no stock
+1050,TXN0056950,2025-08-15,ST09,P010,2,0,Line dropped - no stock
+1051,TXN0056967,2025-08-15,ST11,P040,2,1,Partially filled
+1052,TXN0056985,2025-08-15,ST05,P066,2,0,Line dropped - no stock
+1053,TXN0056987,2025-08-15,ST09,P080,1,0,Line dropped - no stock
+1054,TXN0056998,2025-08-15,ST05,P107,1,0,Line dropped - no stock
+1055,TXN0057005,2025-08-15,ST09,P010,1,0,Line dropped - no stock
+1056,TXN0057187,2025-08-16,ST12,P141,2,1,Partially filled
+1057,TXN0057264,2025-08-16,ST10,P138,1,0,Line dropped - no stock
+1058,TXN0057455,2025-08-17,ST06,P064,1,0,Line dropped - no stock
+1059,TXN0057465,2025-08-17,ST01,P090,1,0,Line dropped - no stock
+1060,TXN0057467,2025-08-17,ST12,P141,1,0,Line dropped - no stock
+1061,TXN0057472,2025-08-17,ST02,P071,1,0,Line dropped - no stock
+1062,TXN0057498,2025-08-18,ST02,P108,2,0,Line dropped - no stock
+1063,TXN0057555,2025-08-18,ST02,P062,1,0,Line dropped - no stock
+1064,TXN0057595,2025-08-18,ST05,P144,2,1,Partially filled
+1065,TXN0057601,2025-08-18,ST02,P071,1,0,Line dropped - no stock
+1066,TXN0057623,2025-08-18,ST10,P052,2,0,Line dropped - no stock
+1067,TXN0057674,2025-08-18,ST02,P016,1,0,Line dropped - no stock
+1068,TXN0057687,2025-08-18,ST10,P062,3,2,Partially filled
+1069,TXN0057708,2025-08-18,ST06,P064,1,0,Line dropped - no stock
+1070,TXN0057722,2025-08-18,ST02,P108,2,0,Line dropped - no stock
+1071,TXN0057744,2025-08-18,ST02,P071,1,0,Line dropped - no stock
+1072,TXN0057857,2025-08-19,ST10,P052,2,0,Line dropped - no stock
+1073,TXN0057876,2025-08-19,ST01,P090,1,0,Line dropped - no stock
+1074,TXN0057890,2025-08-19,ST02,P016,1,0,Line dropped - no stock
+1075,TXN0057934,2025-08-19,ST05,P144,1,0,Line dropped - no stock
+1076,TXN0057938,2025-08-19,ST05,P144,1,0,Line dropped - no stock
+1077,TXN0058041,2025-08-19,ST10,P062,1,0,Line dropped - no stock
+1078,TXN0058077,2025-08-19,ST02,P062,1,0,Line dropped - no stock
+1079,TXN0058092,2025-08-19,ST01,P090,1,0,Line dropped - no stock
+1080,TXN0058207,2025-08-20,ST03,P050,1,0,Line dropped - no stock
+1081,TXN0058215,2025-08-20,ST02,P071,1,0,Line dropped - no stock
+1082,TXN0058305,2025-08-20,ST10,P062,1,0,Line dropped - no stock
+1083,TXN0058365,2025-08-20,ST02,P071,1,0,Transaction voided - no stock
+1084,TXN0058411,2025-08-21,ST06,P142,2,1,Partially filled
+1085,TXN0058514,2025-08-21,ST04,P113,1,0,Line dropped - no stock
+1086,TXN0058536,2025-08-21,ST03,P064,1,0,Line dropped - no stock
+1087,TXN0058552,2025-08-21,ST01,P091,1,0,Line dropped - no stock
+1088,TXN0058561,2025-08-21,ST10,P062,2,0,Line dropped - no stock
+1089,TXN0058584,2025-08-21,ST01,P090,1,0,Line dropped - no stock
+1090,TXN0058586,2025-08-21,ST09,P010,2,1,Partially filled
+1091,TXN0058636,2025-08-21,ST01,P095,1,0,Line dropped - no stock
+1092,TXN0058658,2025-08-21,ST03,P050,1,0,Line dropped - no stock
+1093,TXN0058930,2025-08-22,ST04,P040,2,0,Line dropped - no stock
+1094,TXN0058946,2025-08-22,ST09,P071,2,0,Line dropped - no stock
+1095,TXN0058949,2025-08-22,ST04,P113,1,0,Transaction voided - no stock
+1096,TXN0058992,2025-08-22,ST09,P071,1,0,Line dropped - no stock
+1097,TXN0059028,2025-08-22,ST04,P040,1,0,Line dropped - no stock
+1098,TXN0059032,2025-08-22,ST10,P062,1,0,Transaction voided - no stock
+1099,TXN0059077,2025-08-23,ST09,P071,1,0,Line dropped - no stock
+1100,TXN0059094,2025-08-23,ST09,P071,1,0,Line dropped - no stock
+1101,TXN0059166,2025-08-23,ST03,P050,2,0,Line dropped - no stock
+1102,TXN0059235,2025-08-23,ST04,P040,1,0,Line dropped - no stock
+1103,TXN0059260,2025-08-23,ST04,P040,1,0,Line dropped - no stock
+1104,TXN0059263,2025-08-23,ST09,P071,3,0,Line dropped - no stock
+1105,TXN0059263,2025-08-23,ST09,P010,2,0,Line dropped - no stock
+1106,TXN0059376,2025-08-23,ST06,P142,2,0,Line dropped - no stock
+1107,TXN0059399,2025-08-24,ST06,P064,2,0,Line dropped - no stock
+1108,TXN0059529,2025-08-24,ST07,P001,1,0,Line dropped - no stock
+1109,TXN0059606,2025-08-25,ST06,P147,1,0,Line dropped - no stock
+1110,TXN0059700,2025-08-25,ST04,P113,1,0,Line dropped - no stock
+1111,TXN0059771,2025-08-25,ST09,P071,1,0,Line dropped - no stock
+1112,TXN0059789,2025-08-25,ST12,P080,1,0,Line dropped - no stock
+1113,TXN0059851,2025-08-25,ST06,P064,1,0,Line dropped - no stock
+1114,TXN0059929,2025-08-26,ST09,P071,1,0,Line dropped - no stock
+1115,TXN0059968,2025-08-26,ST12,P143,1,0,Line dropped - no stock
+1116,TXN0060006,2025-08-26,ST07,P001,1,0,Transaction voided - no stock
+1117,TXN0060009,2025-08-26,ST06,P147,1,0,Line dropped - no stock
+1118,TXN0060075,2025-08-26,ST12,P080,1,0,Line dropped - no stock
+1119,TXN0060077,2025-08-26,ST07,P001,1,0,Line dropped - no stock
+1120,TXN0060132,2025-08-26,ST09,P071,1,0,Line dropped - no stock
+1121,TXN0060139,2025-08-27,ST12,P080,1,0,Line dropped - no stock
+1122,TXN0060143,2025-08-27,ST07,P001,2,0,Line dropped - no stock
+1123,TXN0060153,2025-08-27,ST07,P001,1,0,Line dropped - no stock
+1124,TXN0060187,2025-08-27,ST04,P113,1,0,Line dropped - no stock
+1125,TXN0060397,2025-08-27,ST07,P001,1,0,Line dropped - no stock
+1126,TXN0060525,2025-08-28,ST07,P001,1,0,Transaction voided - no stock
+1127,TXN0060641,2025-08-28,ST09,P018,1,0,Line dropped - no stock
+1128,TXN0060711,2025-08-28,ST08,P101,3,2,Partially filled
+1129,TXN0060726,2025-08-28,ST05,P052,1,0,Line dropped - no stock
+1130,TXN0060779,2025-08-29,ST09,P018,1,0,Line dropped - no stock
+1131,TXN0060827,2025-08-29,ST09,P018,1,0,Line dropped - no stock
+1132,TXN0060871,2025-08-29,ST08,P145,1,0,Line dropped - no stock
+1133,TXN0060959,2025-08-29,ST09,P071,1,0,Line dropped - no stock
+1134,TXN0061004,2025-08-29,ST01,P043,2,0,Line dropped - no stock
+1135,TXN0061009,2025-08-29,ST12,P080,1,0,Line dropped - no stock
+1136,TXN0061073,2025-08-29,ST10,P102,3,1,Partially filled
+1137,TXN0061130,2025-08-30,ST12,P080,1,0,Line dropped - no stock
+1138,TXN0061202,2025-08-30,ST12,P080,1,0,Line dropped - no stock
+1139,TXN0061316,2025-08-30,ST05,P115,2,0,Line dropped - no stock
+1140,TXN0061346,2025-08-30,ST05,P115,1,0,Line dropped - no stock
+1141,TXN0061347,2025-08-30,ST10,P102,1,0,Line dropped - no stock
+1142,TXN0061465,2025-08-31,ST01,P098,2,1,Partially filled
+1143,TXN0061528,2025-08-31,ST12,P143,1,0,Line dropped - no stock
+1144,TXN0061547,2025-08-31,ST01,P098,1,0,Line dropped - no stock
+1145,TXN0061556,2025-08-31,ST05,P052,1,0,Line dropped - no stock
+1146,TXN0061626,2025-09-01,ST07,P015,2,1,Partially filled
+1147,TXN0061643,2025-09-01,ST05,P052,2,0,Line dropped - no stock
+1148,TXN0061645,2025-09-01,ST06,P101,2,1,Partially filled
+1149,TXN0061682,2025-09-01,ST06,P101,2,0,Transaction voided - no stock
+1150,TXN0061727,2025-09-01,ST03,P047,5,0,Line dropped - no stock
+1151,TXN0061805,2025-09-01,ST10,P102,1,0,Line dropped - no stock
+1152,TXN0061834,2025-09-01,ST01,P043,2,0,Line dropped - no stock
+1153,TXN0061876,2025-09-02,ST07,P015,1,0,Line dropped - no stock
+1154,TXN0061879,2025-09-02,ST01,P010,3,2,Partially filled
+1155,TXN0061917,2025-09-02,ST07,P015,1,0,Line dropped - no stock
+1156,TXN0062019,2025-09-02,ST01,P130,2,1,Partially filled
+1157,TXN0062042,2025-09-02,ST06,P101,1,0,Line dropped - no stock
+1158,TXN0062046,2025-09-02,ST06,P101,1,0,Line dropped - no stock
+1159,TXN0062128,2025-09-03,ST09,P040,1,0,Line dropped - no stock
+1160,TXN0062214,2025-09-03,ST01,P098,1,0,Line dropped - no stock
+1161,TXN0062349,2025-09-03,ST03,P047,3,0,Line dropped - no stock
+1162,TXN0062509,2025-09-04,ST08,P013,2,1,Partially filled
+1163,TXN0062509,2025-09-04,ST08,P062,1,0,Line dropped - no stock
+1164,TXN0062627,2025-09-04,ST09,P137,1,0,Line dropped - no stock
+1165,TXN0062633,2025-09-04,ST11,P097,3,1,Partially filled
+1166,TXN0062642,2025-09-04,ST07,P015,1,0,Line dropped - no stock
+1167,TXN0062651,2025-09-04,ST08,P062,2,0,Transaction voided - no stock
+1168,TXN0062664,2025-09-04,ST08,P062,1,0,Line dropped - no stock
+1169,TXN0062691,2025-09-05,ST09,P137,2,0,Line dropped - no stock
+1170,TXN0062740,2025-09-05,ST09,P110,1,0,Line dropped - no stock
+1171,TXN0062798,2025-09-05,ST03,P047,1,0,Line dropped - no stock
+1172,TXN0062842,2025-09-05,ST04,P105,1,0,Line dropped - no stock
+1173,TXN0062883,2025-09-05,ST03,P047,2,0,Line dropped - no stock
+1174,TXN0062919,2025-09-05,ST09,P051,4,0,Line dropped - no stock
+1175,TXN0062919,2025-09-05,ST09,P110,2,0,Line dropped - no stock
+1176,TXN0062921,2025-09-05,ST09,P040,3,0,Line dropped - no stock
+1177,TXN0063084,2025-09-06,ST09,P137,1,0,Transaction voided - no stock
+1178,TXN0063140,2025-09-06,ST04,P105,1,0,Line dropped - no stock
+1179,TXN0063202,2025-09-06,ST09,P137,1,0,Line dropped - no stock
+1180,TXN0063245,2025-09-06,ST05,P121,1,0,Line dropped - no stock
+1181,TXN0063294,2025-09-07,ST07,P091,2,0,Line dropped - no stock
+1182,TXN0063321,2025-09-07,ST04,P105,1,0,Line dropped - no stock
+1183,TXN0063397,2025-09-07,ST11,P097,2,0,Line dropped - no stock
+1184,TXN0063435,2025-09-07,ST07,P091,2,0,Line dropped - no stock
+1185,TXN0063438,2025-09-07,ST07,P091,1,0,Line dropped - no stock
+1186,TXN0063486,2025-09-07,ST07,P091,1,0,Line dropped - no stock
+1187,TXN0063510,2025-09-07,ST06,P035,1,0,Line dropped - no stock
+1188,TXN0063616,2025-09-08,ST11,P062,1,0,Line dropped - no stock
+1189,TXN0063702,2025-09-08,ST06,P035,1,0,Line dropped - no stock
+1190,TXN0063756,2025-09-08,ST11,P097,1,0,Line dropped - no stock
+1191,TXN0063778,2025-09-08,ST09,P041,3,0,Line dropped - no stock
+1192,TXN0063797,2025-09-08,ST07,P148,1,0,Line dropped - no stock
+1193,TXN0063827,2025-09-08,ST04,P137,1,0,Line dropped - no stock
+1194,TXN0063829,2025-09-08,ST11,P097,1,0,Line dropped - no stock
+1195,TXN0063831,2025-09-08,ST04,P105,1,0,Line dropped - no stock
+1196,TXN0063913,2025-09-09,ST11,P097,2,0,Line dropped - no stock
+1197,TXN0064014,2025-09-09,ST11,P097,1,0,Line dropped - no stock
+1198,TXN0064016,2025-09-09,ST12,P037,1,0,Line dropped - no stock
+1199,TXN0064090,2025-09-09,ST11,P097,1,0,Line dropped - no stock
+1200,TXN0064119,2025-09-09,ST06,P035,1,0,Line dropped - no stock
+1201,TXN0064129,2025-09-09,ST01,P141,1,0,Transaction voided - no stock
+1202,TXN0064169,2025-09-10,ST12,P006,1,0,Transaction voided - no stock
+1203,TXN0064186,2025-09-10,ST12,P037,1,0,Line dropped - no stock
+1204,TXN0064230,2025-09-10,ST08,P147,3,0,Transaction voided - no stock
+1205,TXN0064364,2025-09-10,ST12,P064,1,0,Line dropped - no stock
+1206,TXN0064413,2025-09-10,ST01,P141,1,0,Line dropped - no stock
+1207,TXN0064438,2025-09-10,ST12,P145,1,0,Line dropped - no stock
+1208,TXN0064460,2025-09-11,ST11,P062,1,0,Line dropped - no stock
+1209,TXN0064578,2025-09-11,ST11,P062,2,0,Line dropped - no stock
+1210,TXN0064682,2025-09-11,ST12,P059,2,0,Line dropped - no stock
+1211,TXN0064687,2025-09-11,ST01,P096,3,2,Partially filled
+1212,TXN0064696,2025-09-11,ST01,P150,1,0,Line dropped - no stock
+1213,TXN0064923,2025-09-12,ST11,P097,1,0,Line dropped - no stock
+1214,TXN0065078,2025-09-12,ST01,P096,2,0,Line dropped - no stock
+1215,TXN0065081,2025-09-12,ST11,P062,1,0,Line dropped - no stock
+1216,TXN0065146,2025-09-13,ST01,P143,1,0,Line dropped - no stock
+1217,TXN0065163,2025-09-13,ST02,P138,2,1,Partially filled
+1218,TXN0065252,2025-09-13,ST01,P096,1,0,Line dropped - no stock
+1219,TXN0065259,2025-09-13,ST11,P062,1,0,Line dropped - no stock
+1220,TXN0065265,2025-09-13,ST11,P062,1,0,Line dropped - no stock
+1221,TXN0065277,2025-09-13,ST01,P143,1,0,Line dropped - no stock
+1222,TXN0065303,2025-09-13,ST10,P059,1,0,Line dropped - no stock
+1223,TXN0065320,2025-09-13,ST01,P096,3,0,Line dropped - no stock
+1224,TXN0065371,2025-09-13,ST11,P062,1,0,Line dropped - no stock
+1225,TXN0065374,2025-09-13,ST12,P033,1,0,Line dropped - no stock
+1226,TXN0065444,2025-09-13,ST01,P143,1,0,Line dropped - no stock
+1227,TXN0065463,2025-09-13,ST02,P138,1,0,Line dropped - no stock
+1228,TXN0065474,2025-09-13,ST06,P050,2,1,Partially filled
+1229,TXN0065489,2025-09-13,ST02,P146,1,0,Line dropped - no stock
+1230,TXN0065520,2025-09-14,ST02,P146,1,0,Line dropped - no stock
+1231,TXN0065608,2025-09-14,ST09,P096,1,0,Line dropped - no stock
+1232,TXN0065674,2025-09-14,ST01,P009,1,0,Line dropped - no stock
+1233,TXN0065703,2025-09-15,ST09,P095,2,1,Partially filled
+1234,TXN0065714,2025-09-15,ST09,P096,1,0,Line dropped - no stock
+1235,TXN0065816,2025-09-15,ST05,P023,2,0,Line dropped - no stock
+1236,TXN0065870,2025-09-15,ST02,P138,1,0,Line dropped - no stock
+1237,TXN0065937,2025-09-15,ST06,P050,1,0,Line dropped - no stock
+1238,TXN0066021,2025-09-16,ST09,P096,1,0,Line dropped - no stock
+1239,TXN0066071,2025-09-16,ST01,P096,2,0,Line dropped - no stock
+1240,TXN0066144,2025-09-16,ST12,P033,1,0,Line dropped - no stock
+1241,TXN0066165,2025-09-16,ST09,P095,2,0,Line dropped - no stock
+1242,TXN0066200,2025-09-16,ST01,P143,1,0,Line dropped - no stock
+1243,TXN0066214,2025-09-16,ST02,P138,1,0,Line dropped - no stock
+1244,TXN0066238,2025-09-16,ST01,P148,2,1,Partially filled
+1245,TXN0066345,2025-09-17,ST01,P096,1,0,Line dropped - no stock
+1246,TXN0066433,2025-09-17,ST01,P143,2,0,Line dropped - no stock
+1247,TXN0066437,2025-09-17,ST05,P094,3,2,Partially filled
+1248,TXN0066458,2025-09-17,ST09,P096,1,0,Line dropped - no stock
+1249,TXN0066463,2025-09-17,ST01,P148,1,0,Line dropped - no stock
+1250,TXN0066469,2025-09-17,ST01,P143,1,0,Line dropped - no stock
+1251,TXN0066544,2025-09-17,ST09,P096,2,0,Line dropped - no stock
+1252,TXN0066621,2025-09-18,ST02,P138,1,0,Line dropped - no stock
+1253,TXN0066641,2025-09-18,ST10,P094,3,0,Line dropped - no stock
+1254,TXN0066645,2025-09-18,ST05,P094,1,0,Line dropped - no stock
+1255,TXN0066654,2025-09-18,ST02,P138,1,0,Line dropped - no stock
+1256,TXN0066723,2025-09-18,ST05,P094,2,0,Line dropped - no stock
+1257,TXN0066802,2025-09-18,ST09,P096,2,0,Line dropped - no stock
+1258,TXN0066967,2025-09-19,ST07,P094,3,2,Partially filled
+1259,TXN0066993,2025-09-19,ST09,P118,1,0,Line dropped - no stock
+1260,TXN0067017,2025-09-19,ST01,P143,1,0,Line dropped - no stock
+1261,TXN0067058,2025-09-19,ST01,P143,1,0,Line dropped - no stock
+1262,TXN0067061,2025-09-19,ST10,P094,1,0,Line dropped - no stock
+1263,TXN0067115,2025-09-19,ST03,P042,1,0,Line dropped - no stock
+1264,TXN0067278,2025-09-20,ST07,P094,1,0,Line dropped - no stock
+1265,TXN0067279,2025-09-20,ST01,P150,2,0,Line dropped - no stock
+1266,TXN0067322,2025-09-20,ST01,P143,2,0,Line dropped - no stock
+1267,TXN0067433,2025-09-20,ST01,P138,1,0,Line dropped - no stock
+1268,TXN0067491,2025-09-21,ST03,P042,1,0,Line dropped - no stock
+1269,TXN0067523,2025-09-21,ST01,P150,1,0,Line dropped - no stock
+1270,TXN0067523,2025-09-21,ST01,P143,1,0,Line dropped - no stock
+1271,TXN0067543,2025-09-21,ST07,P003,1,0,Line dropped - no stock
+1272,TXN0067566,2025-09-21,ST12,P120,1,0,Line dropped - no stock
+1273,TXN0067597,2025-09-21,ST03,P042,1,0,Line dropped - no stock
+1274,TXN0067611,2025-09-21,ST01,P143,1,0,Line dropped - no stock
+1275,TXN0067642,2025-09-21,ST01,P138,2,0,Line dropped - no stock
+1276,TXN0067665,2025-09-21,ST02,P138,1,0,Line dropped - no stock
+1277,TXN0067714,2025-09-22,ST07,P094,1,0,Line dropped - no stock
+1278,TXN0067789,2025-09-22,ST04,P097,1,0,Line dropped - no stock
+1279,TXN0067803,2025-09-22,ST04,P104,2,1,Partially filled
+1280,TXN0067916,2025-09-22,ST07,P003,1,0,Line dropped - no stock
+1281,TXN0067993,2025-09-23,ST12,P120,1,0,Line dropped - no stock
+1282,TXN0068138,2025-09-23,ST07,P150,3,1,Partially filled
+1283,TXN0068146,2025-09-23,ST01,P150,1,0,Line dropped - no stock
+1284,TXN0068165,2025-09-23,ST07,P003,2,0,Line dropped - no stock
+1285,TXN0068184,2025-09-23,ST07,P150,1,0,Line dropped - no stock
+1286,TXN0068213,2025-09-23,ST03,P011,1,0,Line dropped - no stock
+1287,TXN0068269,2025-09-24,ST04,P097,1,0,Line dropped - no stock
+1288,TXN0068275,2025-09-24,ST01,P138,1,0,Line dropped - no stock
+1289,TXN0068449,2025-09-24,ST12,P120,1,0,Transaction voided - no stock
+1290,TXN0068588,2025-09-25,ST01,P143,1,0,Line dropped - no stock
+1291,TXN0068658,2025-09-25,ST04,P097,1,0,Line dropped - no stock
+1292,TXN0068737,2025-09-26,ST04,P097,1,0,Line dropped - no stock
+1293,TXN0068771,2025-09-26,ST04,P097,1,0,Line dropped - no stock
+1294,TXN0068965,2025-09-26,ST12,P092,2,1,Partially filled
+1295,TXN0069012,2025-09-26,ST01,P143,1,0,Line dropped - no stock
+1296,TXN0069033,2025-09-26,ST04,P097,1,0,Line dropped - no stock
+1297,TXN0069059,2025-09-26,ST12,P025,2,1,Partially filled
+1298,TXN0069059,2025-09-26,ST12,P053,2,1,Partially filled
+1299,TXN0069066,2025-09-27,ST12,P025,1,0,Line dropped - no stock
+1300,TXN0069099,2025-09-27,ST02,P138,1,0,Line dropped - no stock
+1301,TXN0069121,2025-09-27,ST01,P143,1,0,Line dropped - no stock
+1302,TXN0069156,2025-09-27,ST01,P143,2,0,Transaction voided - no stock
+1303,TXN0069201,2025-09-27,ST01,P074,3,1,Partially filled
+1304,TXN0069213,2025-09-27,ST01,P138,1,0,Transaction voided - no stock
+1305,TXN0069238,2025-09-27,ST02,P069,1,0,Line dropped - no stock
+1306,TXN0069241,2025-09-27,ST01,P138,2,0,Line dropped - no stock
+1307,TXN0069300,2025-09-27,ST01,P074,1,0,Line dropped - no stock
+1308,TXN0069334,2025-09-27,ST12,P025,1,0,Line dropped - no stock
+1309,TXN0069341,2025-09-27,ST01,P138,1,0,Transaction voided - no stock
+1310,TXN0069371,2025-09-27,ST01,P143,1,0,Line dropped - no stock
+1311,TXN0069377,2025-09-27,ST04,P097,1,0,Line dropped - no stock
+1312,TXN0069394,2025-09-28,ST01,P141,1,0,Line dropped - no stock
+1313,TXN0069422,2025-09-28,ST05,P131,1,0,Transaction voided - no stock
+1314,TXN0069434,2025-09-28,ST01,P141,1,0,Line dropped - no stock
+1315,TXN0069484,2025-09-28,ST04,P097,3,0,Line dropped - no stock
+1316,TXN0069487,2025-09-28,ST08,P143,2,1,Partially filled
+1317,TXN0069541,2025-09-28,ST01,P141,1,0,Line dropped - no stock
+1318,TXN0069593,2025-09-29,ST01,P141,1,0,Line dropped - no stock
+1319,TXN0069728,2025-09-29,ST01,P141,3,0,Line dropped - no stock
+1320,TXN0069756,2025-09-29,ST04,P097,2,0,Line dropped - no stock
+1321,TXN0069788,2025-09-29,ST09,P060,4,0,Line dropped - no stock
+1322,TXN0069850,2025-09-30,ST08,P143,2,0,Line dropped - no stock
+1323,TXN0069925,2025-09-30,ST01,P074,2,0,Line dropped - no stock
+1324,TXN0069994,2025-09-30,ST01,P074,1,0,Line dropped - no stock
+1325,TXN0070007,2025-09-30,ST01,P141,1,0,Line dropped - no stock
+1326,TXN0070079,2025-09-30,ST10,P129,3,2,Partially filled
+1327,TXN0070081,2025-09-30,ST10,P129,1,0,Line dropped - no stock
+1328,TXN0070112,2025-09-30,ST01,P141,1,0,Line dropped - no stock
+1329,TXN0070152,2025-09-30,ST02,P103,1,0,Line dropped - no stock
+1330,TXN0070161,2025-09-30,ST09,P042,1,0,Line dropped - no stock
+1331,TXN0070169,2025-09-30,ST02,P069,1,0,Line dropped - no stock
+1332,TXN0070246,2025-10-01,ST02,P103,2,0,Line dropped - no stock
+1333,TXN0070358,2025-10-01,ST06,P015,1,0,Line dropped - no stock
+1334,TXN0070363,2025-10-01,ST01,P016,1,0,Line dropped - no stock
+1335,TXN0070363,2025-10-01,ST01,P143,1,0,Line dropped - no stock
+1336,TXN0070407,2025-10-01,ST02,P138,1,0,Line dropped - no stock
+1337,TXN0070421,2025-10-01,ST03,P146,2,0,Line dropped - no stock
+1338,TXN0070441,2025-10-01,ST02,P069,1,0,Line dropped - no stock
+1339,TXN0070460,2025-10-01,ST02,P103,1,0,Line dropped - no stock
+1340,TXN0070495,2025-10-01,ST02,P103,1,0,Line dropped - no stock
+1341,TXN0070497,2025-10-02,ST01,P150,1,0,Line dropped - no stock
+1342,TXN0070518,2025-10-02,ST01,P141,1,0,Line dropped - no stock
+1343,TXN0070526,2025-10-02,ST09,P125,1,0,Line dropped - no stock
+1344,TXN0070559,2025-10-02,ST04,P060,1,0,Line dropped - no stock
+1345,TXN0070589,2025-10-02,ST01,P141,1,0,Line dropped - no stock
+1346,TXN0070642,2025-10-02,ST01,P150,1,0,Line dropped - no stock
+1347,TXN0070656,2025-10-02,ST09,P042,3,0,Line dropped - no stock
+1348,TXN0070683,2025-10-02,ST01,P141,1,0,Line dropped - no stock
+1349,TXN0070694,2025-10-02,ST01,P143,1,0,Line dropped - no stock
+1350,TXN0070726,2025-10-02,ST01,P143,1,0,Line dropped - no stock
+1351,TXN0070911,2025-10-03,ST01,P143,1,0,Line dropped - no stock
+1352,TXN0070933,2025-10-03,ST04,P097,2,0,Line dropped - no stock
+1353,TXN0070994,2025-10-03,ST04,P060,1,0,Line dropped - no stock
+1354,TXN0070996,2025-10-03,ST04,P097,1,0,Line dropped - no stock
+1355,TXN0071087,2025-10-03,ST04,P097,1,0,Line dropped - no stock
+1356,TXN0071178,2025-10-04,ST01,P143,1,0,Line dropped - no stock
+1357,TXN0071215,2025-10-04,ST01,P150,1,0,Line dropped - no stock
+1358,TXN0071264,2025-10-04,ST04,P097,1,0,Line dropped - no stock
+1359,TXN0071275,2025-10-04,ST04,P097,2,0,Line dropped - no stock
+1360,TXN0071295,2025-10-04,ST10,P061,3,2,Partially filled
+1361,TXN0071321,2025-10-04,ST04,P097,1,0,Line dropped - no stock
+1362,TXN0071378,2025-10-04,ST09,P125,1,0,Transaction voided - no stock
+1363,TXN0071432,2025-10-04,ST04,P141,2,1,Partially filled
+1364,TXN0071593,2025-10-05,ST04,P141,2,0,Line dropped - no stock
+1365,TXN0071669,2025-10-05,ST12,P046,4,3,Partially filled
+1366,TXN0071753,2025-10-06,ST11,P128,1,0,Line dropped - no stock
+1367,TXN0071992,2025-10-06,ST04,P141,1,0,Line dropped - no stock
+1368,TXN0072134,2025-10-07,ST11,P036,1,0,Line dropped - no stock
+1369,TXN0072177,2025-10-07,ST04,P141,1,0,Line dropped - no stock
+1370,TXN0072198,2025-10-07,ST04,P141,1,0,Line dropped - no stock
+1371,TXN0072227,2025-10-07,ST11,P036,1,0,Line dropped - no stock
+1372,TXN0072261,2025-10-07,ST04,P097,1,0,Line dropped - no stock
+1373,TXN0072313,2025-10-07,ST04,P097,1,0,Line dropped - no stock
+1374,TXN0072428,2025-10-08,ST10,P061,2,0,Line dropped - no stock
+1375,TXN0072527,2025-10-08,ST04,P097,1,0,Transaction voided - no stock
+1376,TXN0072531,2025-10-08,ST11,P108,1,0,Line dropped - no stock
+1377,TXN0072551,2025-10-08,ST10,P061,1,0,Line dropped - no stock
+1378,TXN0072581,2025-10-08,ST11,P126,1,0,Line dropped - no stock
+1379,TXN0072603,2025-10-08,ST11,P128,1,0,Line dropped - no stock
+1380,TXN0072677,2025-10-09,ST10,P061,2,0,Line dropped - no stock
+1381,TXN0072942,2025-10-09,ST11,P128,1,0,Line dropped - no stock
+1382,TXN0073056,2025-10-10,ST01,P040,3,2,Partially filled
+1383,TXN0073167,2025-10-10,ST05,P021,1,0,Line dropped - no stock
+1384,TXN0073223,2025-10-10,ST01,P024,1,0,Line dropped - no stock
+1385,TXN0073279,2025-10-11,ST01,P040,1,0,Line dropped - no stock
+1386,TXN0073304,2025-10-11,ST01,P040,2,0,Line dropped - no stock
+1387,TXN0073423,2025-10-11,ST11,P088,1,0,Line dropped - no stock
+1388,TXN0073495,2025-10-11,ST02,P093,1,0,Transaction voided - no stock
+1389,TXN0073535,2025-10-11,ST05,P021,1,0,Line dropped - no stock
+1390,TXN0073574,2025-10-11,ST05,P099,1,0,Line dropped - no stock
+1391,TXN0073670,2025-10-12,ST02,P072,1,0,Line dropped - no stock
+1392,TXN0073689,2025-10-12,ST01,P019,1,0,Line dropped - no stock
+1393,TXN0073719,2025-10-12,ST11,P063,1,0,Line dropped - no stock
+1394,TXN0073752,2025-10-12,ST02,P072,2,0,Line dropped - no stock
+1395,TXN0073762,2025-10-12,ST10,P061,1,0,Transaction voided - no stock
+1396,TXN0074015,2025-10-13,ST01,P040,3,0,Line dropped - no stock
+1397,TXN0074056,2025-10-13,ST02,P072,1,0,Line dropped - no stock
+1398,TXN0074077,2025-10-13,ST06,P090,3,2,Partially filled
+1399,TXN0074096,2025-10-14,ST01,P039,2,1,Partially filled
+1400,TXN0074149,2025-10-14,ST10,P044,2,1,Partially filled
+1401,TXN0074237,2025-10-14,ST10,P044,1,0,Line dropped - no stock
+1402,TXN0074275,2025-10-14,ST09,P022,2,1,Partially filled
+1403,TXN0074375,2025-10-14,ST06,P090,1,0,Line dropped - no stock
+1404,TXN0074416,2025-10-15,ST01,P040,1,0,Line dropped - no stock
+1405,TXN0074549,2025-10-15,ST02,P072,1,0,Line dropped - no stock
+1406,TXN0074589,2025-10-15,ST01,P039,1,0,Line dropped - no stock
+1407,TXN0074609,2025-10-15,ST01,P067,1,0,Line dropped - no stock
+1408,TXN0074669,2025-10-15,ST01,P067,1,0,Line dropped - no stock
+1409,TXN0074768,2025-10-16,ST01,P067,2,0,Line dropped - no stock
+1410,TXN0074771,2025-10-16,ST05,P025,2,1,Partially filled
+1411,TXN0074813,2025-10-16,ST01,P067,1,0,Line dropped - no stock
+1412,TXN0074839,2025-10-16,ST05,P025,1,0,Line dropped - no stock
+1413,TXN0074850,2025-10-16,ST01,P067,1,0,Line dropped - no stock
+1414,TXN0074857,2025-10-16,ST05,P025,1,0,Line dropped - no stock
+1415,TXN0074894,2025-10-16,ST08,P050,1,0,Line dropped - no stock
+1416,TXN0074910,2025-10-16,ST10,P029,1,0,Line dropped - no stock
+1417,TXN0075015,2025-10-16,ST10,P022,1,0,Line dropped - no stock
+1418,TXN0075028,2025-10-16,ST08,P050,1,0,Line dropped - no stock
+1419,TXN0075132,2025-10-17,ST10,P074,1,0,Line dropped - no stock
+1420,TXN0075281,2025-10-17,ST01,P067,1,0,Line dropped - no stock
+1421,TXN0075296,2025-10-17,ST09,P086,2,0,Line dropped - no stock
+1422,TXN0075475,2025-10-18,ST09,P086,1,0,Line dropped - no stock
+1423,TXN0075500,2025-10-18,ST01,P067,2,0,Line dropped - no stock
+1424,TXN0075639,2025-10-18,ST09,P029,1,0,Transaction voided - no stock
+1425,TXN0075710,2025-10-18,ST09,P086,1,0,Line dropped - no stock
+1426,TXN0075830,2025-10-19,ST01,P067,1,0,Transaction voided - no stock
+1427,TXN0076005,2025-10-20,ST01,P067,1,0,Transaction voided - no stock
+1428,TXN0076048,2025-10-20,ST11,P085,3,1,Partially filled
+1429,TXN0076049,2025-10-20,ST01,P067,2,0,Line dropped - no stock
+1430,TXN0076132,2025-10-20,ST01,P067,1,0,Line dropped - no stock
+1431,TXN0076163,2025-10-20,ST01,P067,1,0,Transaction voided - no stock
+1432,TXN0076519,2025-10-21,ST10,P046,3,2,Partially filled
+1433,TXN0076664,2025-10-22,ST12,P090,2,1,Partially filled
+1434,TXN0076714,2025-10-22,ST10,P016,1,0,Line dropped - no stock
+1435,TXN0076845,2025-10-22,ST11,P085,2,0,Line dropped - no stock
+1436,TXN0076897,2025-10-23,ST07,P025,1,0,Line dropped - no stock
+1437,TXN0076999,2025-10-23,ST01,P046,1,0,Line dropped - no stock
+1438,TXN0077011,2025-10-23,ST12,P129,2,1,Partially filled
+1439,TXN0077070,2025-10-23,ST11,P085,1,0,Line dropped - no stock
+1440,TXN0077084,2025-10-23,ST12,P090,3,0,Transaction voided - no stock
+1441,TXN0077124,2025-10-23,ST12,P090,1,0,Line dropped - no stock
+1442,TXN0077264,2025-10-24,ST01,P046,3,0,Line dropped - no stock
+1443,TXN0077319,2025-10-24,ST02,P054,1,0,Line dropped - no stock
+1444,TXN0077331,2025-10-24,ST11,P085,1,0,Line dropped - no stock
+1445,TXN0077381,2025-10-24,ST08,P107,1,0,Line dropped - no stock
+1446,TXN0077390,2025-10-24,ST07,P025,1,0,Line dropped - no stock
+1447,TXN0077417,2025-10-24,ST07,P025,1,0,Line dropped - no stock
+1448,TXN0077455,2025-10-24,ST02,P061,1,0,Line dropped - no stock
+1449,TXN0077464,2025-10-24,ST11,P085,1,0,Line dropped - no stock
+1450,TXN0077479,2025-10-24,ST02,P054,2,0,Line dropped - no stock
+1451,TXN0077497,2025-10-24,ST11,P085,1,0,Line dropped - no stock
+1452,TXN0077530,2025-10-24,ST07,P025,1,0,Line dropped - no stock
+1453,TXN0077551,2025-10-24,ST04,P132,2,1,Partially filled
+1454,TXN0077579,2025-10-24,ST02,P054,1,0,Line dropped - no stock
+1455,TXN0077657,2025-10-25,ST11,P085,1,0,Line dropped - no stock
+1456,TXN0077679,2025-10-25,ST02,P061,2,0,Line dropped - no stock
+1457,TXN0077741,2025-10-25,ST02,P061,3,0,Line dropped - no stock
+1458,TXN0077756,2025-10-25,ST08,P113,1,0,Line dropped - no stock
+1459,TXN0077778,2025-10-25,ST08,P113,1,0,Line dropped - no stock
+1460,TXN0077853,2025-10-25,ST03,P101,1,0,Line dropped - no stock
+1461,TXN0077864,2025-10-25,ST02,P131,2,1,Partially filled
+1462,TXN0077946,2025-10-26,ST02,P045,2,1,Partially filled
+1463,TXN0078015,2025-10-26,ST10,P016,1,0,Line dropped - no stock
+1464,TXN0078056,2025-10-26,ST02,P054,2,0,Line dropped - no stock
+1465,TXN0078066,2025-10-26,ST08,P068,2,1,Partially filled
+1466,TXN0078262,2025-10-27,ST04,P099,1,0,Line dropped - no stock
+1467,TXN0078269,2025-10-27,ST03,P101,2,0,Line dropped - no stock
+1468,TXN0078512,2025-10-28,ST10,P003,2,0,Line dropped - no stock
+1469,TXN0078512,2025-10-28,ST10,P016,1,0,Line dropped - no stock
+1470,TXN0078538,2025-10-28,ST02,P106,2,0,Line dropped - no stock
+1471,TXN0078572,2025-10-28,ST03,P090,1,0,Line dropped - no stock
+1472,TXN0078581,2025-10-28,ST11,P131,1,0,Transaction voided - no stock
+1473,TXN0078622,2025-10-28,ST04,P132,3,0,Line dropped - no stock
+1474,TXN0078715,2025-10-28,ST02,P131,2,0,Line dropped - no stock
+1475,TXN0078716,2025-10-28,ST10,P005,1,0,Line dropped - no stock
+1476,TXN0078729,2025-10-28,ST03,P090,2,0,Line dropped - no stock
+1477,TXN0078730,2025-10-28,ST11,P131,2,0,Line dropped - no stock
+1478,TXN0078779,2025-10-28,ST02,P097,1,0,Line dropped - no stock
+1479,TXN0078785,2025-10-28,ST03,P040,2,1,Partially filled
+1480,TXN0078810,2025-10-29,ST02,P131,1,0,Line dropped - no stock
+1481,TXN0078836,2025-10-29,ST11,P131,1,0,Line dropped - no stock
+1482,TXN0078845,2025-10-29,ST03,P090,1,0,Line dropped - no stock
+1483,TXN0078855,2025-10-29,ST08,P113,1,0,Line dropped - no stock
+1484,TXN0078893,2025-10-29,ST02,P131,1,0,Line dropped - no stock
+1485,TXN0078904,2025-10-29,ST06,P031,1,0,Line dropped - no stock
+1486,TXN0078931,2025-10-29,ST03,P040,1,0,Line dropped - no stock
+1487,TXN0079039,2025-10-29,ST07,P114,1,0,Line dropped - no stock
+1488,TXN0079071,2025-10-29,ST03,P101,1,0,Line dropped - no stock
+1489,TXN0079083,2025-10-29,ST08,P097,1,0,Line dropped - no stock
+1490,TXN0079158,2025-10-30,ST01,P133,1,0,Line dropped - no stock
+1491,TXN0079183,2025-10-30,ST03,P090,1,0,Line dropped - no stock
+1492,TXN0079288,2025-10-30,ST03,P111,2,0,Line dropped - no stock
+1493,TXN0079331,2025-10-30,ST11,P131,1,0,Line dropped - no stock
+1494,TXN0079415,2025-10-30,ST03,P040,2,0,Line dropped - no stock
+1495,TXN0079455,2025-10-30,ST01,P100,2,0,Line dropped - no stock
+1496,TXN0079477,2025-10-30,ST06,P031,1,0,Line dropped - no stock
+1497,TXN0079643,2025-10-31,ST10,P066,3,2,Partially filled
+1498,TXN0079718,2025-10-31,ST04,P132,1,0,Line dropped - no stock
+1499,TXN0079761,2025-10-31,ST03,P040,2,0,Line dropped - no stock
+1500,TXN0079778,2025-10-31,ST04,P132,1,0,Line dropped - no stock
+1501,TXN0079813,2025-10-31,ST10,P069,1,0,Line dropped - no stock
+1502,TXN0079829,2025-10-31,ST08,P113,1,0,Line dropped - no stock
+1503,TXN0079835,2025-10-31,ST10,P063,1,0,Transaction voided - no stock
+1504,TXN0079847,2025-10-31,ST10,P016,1,0,Line dropped - no stock
+1505,TXN0079857,2025-11-01,ST10,P134,1,0,Line dropped - no stock
+1506,TXN0079881,2025-11-01,ST03,P039,3,1,Partially filled
+1507,TXN0079901,2025-11-01,ST10,P134,1,0,Line dropped - no stock
+1508,TXN0079930,2025-11-01,ST04,P099,1,0,Line dropped - no stock
+1509,TXN0079936,2025-11-01,ST01,P004,1,0,Line dropped - no stock
+1510,TXN0079937,2025-11-01,ST10,P066,1,0,Line dropped - no stock
+1511,TXN0079942,2025-11-01,ST03,P090,2,0,Line dropped - no stock
+1512,TXN0080043,2025-11-01,ST03,P101,2,0,Line dropped - no stock
+1513,TXN0080169,2025-11-01,ST08,P148,2,1,Partially filled
+1514,TXN0080172,2025-11-01,ST01,P004,1,0,Line dropped - no stock
+1515,TXN0080233,2025-11-01,ST04,P132,1,0,Line dropped - no stock
+1516,TXN0080245,2025-11-01,ST03,P137,2,1,Partially filled
+1517,TXN0080289,2025-11-02,ST03,P090,1,0,Line dropped - no stock
+1518,TXN0080355,2025-11-02,ST03,P137,1,0,Line dropped - no stock
+1519,TXN0080378,2025-11-02,ST10,P016,1,0,Line dropped - no stock
+1520,TXN0080409,2025-11-02,ST03,P101,1,0,Line dropped - no stock
+1521,TXN0080428,2025-11-02,ST06,P112,1,0,Line dropped - no stock
+1522,TXN0080439,2025-11-02,ST04,P103,2,1,Partially filled
+1523,TXN0080452,2025-11-02,ST10,P066,1,0,Line dropped - no stock
+1524,TXN0080459,2025-11-02,ST10,P066,1,0,Line dropped - no stock
+1525,TXN0080554,2025-11-03,ST10,P134,2,0,Line dropped - no stock
+1526,TXN0080562,2025-11-03,ST03,P137,1,0,Line dropped - no stock
+1527,TXN0080568,2025-11-03,ST09,P143,1,0,Line dropped - no stock
+1528,TXN0080749,2025-11-03,ST11,P059,3,2,Partially filled
+1529,TXN0080760,2025-11-03,ST04,P132,1,0,Line dropped - no stock
+1530,TXN0080774,2025-11-03,ST09,P143,1,0,Line dropped - no stock
+1531,TXN0080787,2025-11-03,ST03,P137,1,0,Line dropped - no stock
+1532,TXN0080825,2025-11-03,ST06,P002,2,1,Partially filled
+1533,TXN0080869,2025-11-04,ST09,P143,1,0,Line dropped - no stock
+1534,TXN0080924,2025-11-04,ST04,P103,1,0,Line dropped - no stock
+1535,TXN0080932,2025-11-04,ST06,P031,1,0,Line dropped - no stock
+1536,TXN0080969,2025-11-04,ST06,P033,1,0,Line dropped - no stock
+1537,TXN0081018,2025-11-04,ST04,P074,2,1,Partially filled
+1538,TXN0081073,2025-11-04,ST07,P107,1,0,Line dropped - no stock
+1539,TXN0081098,2025-11-04,ST06,P033,1,0,Transaction voided - no stock
+1540,TXN0081108,2025-11-04,ST03,P134,2,1,Partially filled
+1541,TXN0081153,2025-11-05,ST10,P125,1,0,Transaction voided - no stock
+1542,TXN0081155,2025-11-05,ST06,P106,2,0,Transaction voided - no stock
+1543,TXN0081370,2025-11-05,ST04,P074,1,0,Line dropped - no stock
+1544,TXN0081374,2025-11-05,ST11,P105,1,0,Line dropped - no stock
+1545,TXN0081387,2025-11-05,ST06,P033,1,0,Line dropped - no stock
+1546,TXN0081400,2025-11-05,ST07,P136,2,1,Partially filled
+1547,TXN0081502,2025-11-06,ST11,P105,1,0,Line dropped - no stock
+1548,TXN0081507,2025-11-06,ST11,P105,1,0,Line dropped - no stock
+1549,TXN0081639,2025-11-06,ST10,P125,1,0,Transaction voided - no stock
+1550,TXN0081649,2025-11-06,ST08,P060,2,1,Partially filled
+1551,TXN0081671,2025-11-06,ST07,P018,2,0,Line dropped - no stock
+1552,TXN0081677,2025-11-06,ST10,P134,1,0,Line dropped - no stock
+1553,TXN0081715,2025-11-06,ST07,P105,2,1,Partially filled
+1554,TXN0081716,2025-11-06,ST12,P040,3,2,Partially filled
+1555,TXN0081770,2025-11-07,ST06,P002,2,0,Line dropped - no stock
+1556,TXN0081791,2025-11-07,ST08,P074,1,0,Line dropped - no stock
+1557,TXN0081795,2025-11-07,ST06,P033,2,0,Line dropped - no stock
+1558,TXN0081828,2025-11-07,ST06,P033,1,0,Transaction voided - no stock
+1559,TXN0081898,2025-11-07,ST06,P051,4,3,Partially filled
+1560,TXN0081921,2025-11-07,ST10,P125,2,0,Line dropped - no stock
+1561,TXN0081933,2025-11-07,ST12,P080,1,0,Line dropped - no stock
+1562,TXN0081936,2025-11-07,ST06,P033,1,0,Line dropped - no stock
+1563,TXN0082002,2025-11-07,ST11,P039,2,0,Line dropped - no stock
+1564,TXN0082016,2025-11-07,ST11,P039,1,0,Line dropped - no stock
+1565,TXN0082043,2025-11-07,ST11,P039,2,0,Line dropped - no stock
+1566,TXN0082043,2025-11-07,ST11,P106,1,0,Line dropped - no stock
+1567,TXN0082056,2025-11-07,ST12,P080,1,0,Line dropped - no stock
+1568,TXN0082078,2025-11-07,ST06,P002,1,0,Line dropped - no stock
+1569,TXN0082155,2025-11-08,ST11,P105,1,0,Line dropped - no stock
+1570,TXN0082196,2025-11-08,ST06,P002,1,0,Line dropped - no stock
+1571,TXN0082232,2025-11-08,ST05,P114,1,0,Transaction voided - no stock
+1572,TXN0082262,2025-11-08,ST01,P019,2,1,Partially filled
+1573,TXN0082346,2025-11-08,ST06,P033,1,0,Line dropped - no stock
+1574,TXN0082347,2025-11-08,ST11,P097,2,1,Partially filled
+1575,TXN0082388,2025-11-08,ST05,P110,2,0,Line dropped - no stock
+1576,TXN0082431,2025-11-08,ST11,P097,1,0,Line dropped - no stock
+1577,TXN0082441,2025-11-08,ST10,P104,2,0,Line dropped - no stock
+1578,TXN0082510,2025-11-08,ST06,P033,1,0,Transaction voided - no stock
+1579,TXN0082553,2025-11-09,ST10,P104,1,0,Transaction voided - no stock
+1580,TXN0082581,2025-11-09,ST06,P033,1,0,Line dropped - no stock
+1581,TXN0082596,2025-11-09,ST10,P125,1,0,Transaction voided - no stock
+1582,TXN0082628,2025-11-09,ST10,P125,1,0,Line dropped - no stock
+1583,TXN0082685,2025-11-09,ST01,P019,1,0,Line dropped - no stock
+1584,TXN0082695,2025-11-09,ST10,P104,1,0,Line dropped - no stock
+1585,TXN0082706,2025-11-09,ST05,P110,1,0,Transaction voided - no stock
+1586,TXN0082714,2025-11-09,ST06,P033,1,0,Line dropped - no stock
+1587,TXN0082719,2025-11-09,ST10,P104,1,0,Line dropped - no stock
+1588,TXN0082735,2025-11-09,ST11,P097,1,0,Line dropped - no stock
+1589,TXN0082744,2025-11-09,ST06,P033,1,0,Line dropped - no stock
+1590,TXN0082787,2025-11-10,ST06,P105,1,0,Line dropped - no stock
+1591,TXN0082812,2025-11-10,ST10,P104,1,0,Line dropped - no stock
+1592,TXN0082853,2025-11-10,ST10,P113,4,2,Partially filled
+1593,TXN0082876,2025-11-10,ST10,P113,1,0,Line dropped - no stock
+1594,TXN0082889,2025-11-10,ST10,P104,1,0,Line dropped - no stock
+1595,TXN0082918,2025-11-10,ST06,P051,2,0,Line dropped - no stock
+1596,TXN0082970,2025-11-10,ST10,P113,1,0,Line dropped - no stock
+1597,TXN0082978,2025-11-10,ST06,P033,1,0,Line dropped - no stock
+1598,TXN0083035,2025-11-10,ST01,P019,1,0,Line dropped - no stock
+1599,TXN0083133,2025-11-11,ST10,P097,2,1,Partially filled
+1600,TXN0083141,2025-11-11,ST03,P051,2,0,Line dropped - no stock
+1601,TXN0083162,2025-11-11,ST06,P027,1,0,Line dropped - no stock
+1602,TXN0083173,2025-11-11,ST06,P027,1,0,Line dropped - no stock
+1603,TXN0083245,2025-11-11,ST10,P125,1,0,Transaction voided - no stock
+1604,TXN0083245,2025-11-11,ST10,P113,1,0,Transaction voided - no stock
+1605,TXN0083286,2025-11-11,ST06,P091,2,0,Line dropped - no stock
+1606,TXN0083287,2025-11-11,ST06,P033,1,0,Line dropped - no stock
+1607,TXN0083287,2025-11-11,ST06,P002,3,0,Line dropped - no stock
+1608,TXN0083313,2025-11-11,ST04,P020,1,0,Line dropped - no stock
+1609,TXN0083328,2025-11-11,ST04,P074,1,0,Line dropped - no stock
+1610,TXN0083353,2025-11-11,ST10,P033,1,0,Line dropped - no stock
+1611,TXN0083384,2025-11-12,ST10,P104,1,0,Line dropped - no stock
+1612,TXN0083409,2025-11-12,ST06,P033,2,0,Line dropped - no stock
+1613,TXN0083428,2025-11-12,ST06,P033,1,0,Transaction voided - no stock
+1614,TXN0083439,2025-11-12,ST06,P091,1,0,Line dropped - no stock
+1615,TXN0083467,2025-11-12,ST03,P057,4,2,Partially filled
+1616,TXN0083480,2025-11-12,ST06,P122,1,0,Line dropped - no stock
+1617,TXN0083555,2025-11-12,ST05,P114,1,0,Line dropped - no stock
+1618,TXN0083591,2025-11-12,ST06,P130,1,0,Line dropped - no stock
+1619,TXN0083604,2025-11-12,ST04,P074,1,0,Line dropped - no stock
+1620,TXN0083626,2025-11-12,ST10,P104,1,0,Line dropped - no stock
+1621,TXN0083650,2025-11-12,ST06,P105,1,0,Line dropped - no stock
+1622,TXN0083654,2025-11-12,ST06,P033,1,0,Transaction voided - no stock
+1623,TXN0083665,2025-11-13,ST03,P057,2,0,Line dropped - no stock
+1624,TXN0083781,2025-11-13,ST10,P097,2,0,Transaction voided - no stock
+1625,TXN0083872,2025-11-13,ST06,P088,1,0,Line dropped - no stock
+1626,TXN0083880,2025-11-13,ST04,P020,1,0,Line dropped - no stock
+1627,TXN0083883,2025-11-13,ST06,P098,3,0,Line dropped - no stock
+1628,TXN0083896,2025-11-13,ST04,P082,1,0,Line dropped - no stock
+1629,TXN0083903,2025-11-13,ST04,P014,1,0,Line dropped - no stock
+1630,TXN0083920,2025-11-13,ST06,P122,1,0,Line dropped - no stock
+1631,TXN0083976,2025-11-14,ST01,P090,2,1,Partially filled
+1632,TXN0083998,2025-11-14,ST01,P090,1,0,Line dropped - no stock
+1633,TXN0084050,2025-11-14,ST06,P033,1,0,Line dropped - no stock
+1634,TXN0084087,2025-11-14,ST04,P014,1,0,Line dropped - no stock
+1635,TXN0084099,2025-11-14,ST06,P088,1,0,Line dropped - no stock
+1636,TXN0084106,2025-11-14,ST04,P014,1,0,Line dropped - no stock
+1637,TXN0084144,2025-11-14,ST10,P113,1,0,Line dropped - no stock
+1638,TXN0084150,2025-11-14,ST04,P014,1,0,Line dropped - no stock
+1639,TXN0084191,2025-11-14,ST06,P033,1,0,Transaction voided - no stock
+1640,TXN0084198,2025-11-14,ST06,P033,1,0,Line dropped - no stock
+1641,TXN0084216,2025-11-14,ST11,P136,2,1,Partially filled
+1642,TXN0084226,2025-11-14,ST04,P020,1,0,Line dropped - no stock
+1643,TXN0084233,2025-11-14,ST06,P033,1,0,Line dropped - no stock
+1644,TXN0084236,2025-11-14,ST09,P112,1,0,Line dropped - no stock
+1645,TXN0084246,2025-11-14,ST04,P014,1,0,Line dropped - no stock
+1646,TXN0084310,2025-11-15,ST12,P035,1,0,Line dropped - no stock
+1647,TXN0084506,2025-11-15,ST06,P051,1,0,Line dropped - no stock
+1648,TXN0084518,2025-11-15,ST12,P035,2,0,Line dropped - no stock
+1649,TXN0084539,2025-11-15,ST06,P105,1,0,Line dropped - no stock
+1650,TXN0084613,2025-11-16,ST11,P118,1,0,Line dropped - no stock
+1651,TXN0084676,2025-11-16,ST09,P112,1,0,Line dropped - no stock
+1652,TXN0084762,2025-11-16,ST04,P135,1,0,Line dropped - no stock
+1653,TXN0084766,2025-11-16,ST03,P003,2,0,Line dropped - no stock
+1654,TXN0084854,2025-11-17,ST04,P082,1,0,Line dropped - no stock
+1655,TXN0084910,2025-11-17,ST07,P020,1,0,Line dropped - no stock
+1656,TXN0084964,2025-11-17,ST03,P123,1,0,Line dropped - no stock
+1657,TXN0085024,2025-11-17,ST04,P135,2,0,Line dropped - no stock
+1658,TXN0085089,2025-11-17,ST03,P123,1,0,Transaction voided - no stock
+1659,TXN0085096,2025-11-17,ST12,P122,1,0,Transaction voided - no stock
+1660,TXN0085099,2025-11-17,ST07,P020,1,0,Line dropped - no stock
+1661,TXN0085129,2025-11-17,ST07,P059,2,0,Line dropped - no stock
+1662,TXN0085178,2025-11-18,ST10,P028,3,1,Partially filled
+1663,TXN0085215,2025-11-18,ST11,P136,1,0,Line dropped - no stock
+1664,TXN0085297,2025-11-18,ST11,P136,1,0,Line dropped - no stock
+1665,TXN0085438,2025-11-18,ST12,P009,2,1,Partially filled
+1666,TXN0085507,2025-11-18,ST10,P028,1,0,Line dropped - no stock
+1667,TXN0085585,2025-11-19,ST12,P009,2,0,Line dropped - no stock
+1668,TXN0085932,2025-11-20,ST11,P118,2,0,Transaction voided - no stock
+1669,TXN0085978,2025-11-20,ST11,P136,1,0,Line dropped - no stock
+1670,TXN0086160,2025-11-20,ST11,P136,1,0,Line dropped - no stock
+1671,TXN0086199,2025-11-20,ST10,P028,1,0,Line dropped - no stock
+1672,TXN0086292,2025-11-21,ST12,P119,2,1,Partially filled
+1673,TXN0086315,2025-11-21,ST12,P009,1,0,Line dropped - no stock
+1674,TXN0086408,2025-11-21,ST12,P070,1,0,Line dropped - no stock
+1675,TXN0086473,2025-11-21,ST12,P119,1,0,Line dropped - no stock
+1676,TXN0086579,2025-11-22,ST12,P122,1,0,Transaction voided - no stock
+1677,TXN0086670,2025-11-22,ST12,P009,1,0,Line dropped - no stock
+1678,TXN0086675,2025-11-22,ST12,P035,1,0,Line dropped - no stock
+1679,TXN0086675,2025-11-22,ST12,P009,1,0,Line dropped - no stock
+1680,TXN0086811,2025-11-22,ST12,P035,1,0,Line dropped - no stock
+1681,TXN0086821,2025-11-22,ST12,P029,2,0,Line dropped - no stock
+1682,TXN0086823,2025-11-22,ST12,P097,3,2,Partially filled
+1683,TXN0086853,2025-11-22,ST12,P009,1,0,Line dropped - no stock
+1684,TXN0087163,2025-11-24,ST01,P062,1,0,Line dropped - no stock
+1685,TXN0087181,2025-11-24,ST08,P137,3,2,Partially filled
+1686,TXN0087189,2025-11-24,ST08,P137,2,0,Line dropped - no stock
+1687,TXN0087214,2025-11-24,ST01,P062,1,0,Line dropped - no stock
+1688,TXN0087253,2025-11-24,ST11,P136,2,0,Transaction voided - no stock
+1689,TXN0087260,2025-11-24,ST01,P062,4,0,Line dropped - no stock
+1690,TXN0087275,2025-11-24,ST01,P062,1,0,Line dropped - no stock
+1691,TXN0087340,2025-11-24,ST01,P062,1,0,Line dropped - no stock
+1692,TXN0087347,2025-11-24,ST01,P062,1,0,Line dropped - no stock
+1693,TXN0087349,2025-11-24,ST01,P062,1,0,Line dropped - no stock
+1694,TXN0087355,2025-11-24,ST01,P062,1,0,Line dropped - no stock
+1695,TXN0087480,2025-11-24,ST01,P062,2,0,Line dropped - no stock
+1696,TXN0087495,2025-11-24,ST01,P062,2,0,Line dropped - no stock
+1697,TXN0087601,2025-11-25,ST01,P012,2,1,Partially filled
+1698,TXN0087604,2025-11-25,ST02,P052,1,0,Transaction voided - no stock
+1699,TXN0087605,2025-11-25,ST01,P062,2,0,Line dropped - no stock
+1700,TXN0087616,2025-11-25,ST01,P064,1,0,Transaction voided - no stock
+1701,TXN0087622,2025-11-25,ST01,P064,1,0,Line dropped - no stock
+1702,TXN0087647,2025-11-25,ST01,P064,1,0,Line dropped - no stock
+1703,TXN0087685,2025-11-25,ST01,P062,1,0,Line dropped - no stock
+1704,TXN0087715,2025-11-25,ST01,P062,1,0,Line dropped - no stock
+1705,TXN0087719,2025-11-25,ST01,P079,1,0,Line dropped - no stock
+1706,TXN0087723,2025-11-25,ST01,P062,2,0,Line dropped - no stock
+1707,TXN0087751,2025-11-25,ST02,P035,2,0,Line dropped - no stock
+1708,TXN0087753,2025-11-25,ST01,P079,2,0,Line dropped - no stock
+1709,TXN0087759,2025-11-25,ST01,P012,1,0,Line dropped - no stock
+1710,TXN0087774,2025-11-25,ST01,P062,1,0,Line dropped - no stock
+1711,TXN0087853,2025-11-26,ST09,P096,1,0,Line dropped - no stock
+1712,TXN0087863,2025-11-26,ST01,P062,1,0,Line dropped - no stock
+1713,TXN0087904,2025-11-26,ST01,P079,3,0,Line dropped - no stock
+1714,TXN0087915,2025-11-26,ST09,P096,1,0,Line dropped - no stock
+1715,TXN0087990,2025-11-26,ST01,P079,1,0,Line dropped - no stock
+1716,TXN0088043,2025-11-26,ST01,P062,2,0,Line dropped - no stock
+1717,TXN0088124,2025-11-27,ST01,P012,1,0,Line dropped - no stock
+1718,TXN0088293,2025-11-27,ST08,P137,2,0,Line dropped - no stock
+1719,TXN0088382,2025-11-27,ST12,P017,1,0,Transaction voided - no stock
+1720,TXN0088435,2025-11-28,ST01,P012,1,0,Line dropped - no stock
+1721,TXN0088582,2025-11-28,ST01,P012,1,0,Line dropped - no stock
+1722,TXN0088586,2025-11-28,ST01,P105,1,0,Line dropped - no stock
+1723,TXN0088748,2025-11-29,ST03,P059,2,0,Line dropped - no stock
+1724,TXN0088772,2025-11-29,ST01,P012,2,0,Line dropped - no stock
+1725,TXN0088970,2025-11-29,ST03,P059,2,0,Line dropped - no stock
+1726,TXN0089039,2025-11-29,ST03,P127,1,0,Transaction voided - no stock
+1727,TXN0089063,2025-11-29,ST09,P150,2,0,Line dropped - no stock
+1728,TXN0089092,2025-11-30,ST01,P012,1,0,Line dropped - no stock
+1729,TXN0089142,2025-11-30,ST01,P012,1,0,Line dropped - no stock
+1730,TXN0089172,2025-11-30,ST03,P059,3,0,Transaction voided - no stock
+1731,TXN0089466,2025-12-01,ST07,P120,1,0,Line dropped - no stock
+1732,TXN0089552,2025-12-01,ST12,P017,1,0,Line dropped - no stock
+1733,TXN0089649,2025-12-01,ST05,P058,1,0,Line dropped - no stock
+1734,TXN0089685,2025-12-01,ST03,P059,1,0,Line dropped - no stock
+1735,TXN0089925,2025-12-02,ST11,P046,1,0,Transaction voided - no stock
+1736,TXN0089974,2025-12-02,ST11,P046,3,0,Line dropped - no stock
+1737,TXN0090033,2025-12-02,ST06,P070,1,0,Line dropped - no stock
+1738,TXN0090207,2025-12-03,ST09,P018,1,0,Line dropped - no stock
+1739,TXN0090377,2025-12-03,ST09,P018,1,0,Line dropped - no stock
+1740,TXN0090417,2025-12-04,ST06,P029,1,0,Line dropped - no stock
+1741,TXN0090435,2025-12-04,ST05,P074,1,0,Line dropped - no stock
+1742,TXN0090465,2025-12-04,ST05,P074,1,0,Line dropped - no stock
+1743,TXN0090490,2025-12-04,ST09,P018,1,0,Transaction voided - no stock
+1744,TXN0090611,2025-12-04,ST12,P042,4,2,Partially filled
+1745,TXN0090626,2025-12-04,ST06,P070,1,0,Line dropped - no stock
+1746,TXN0090628,2025-12-04,ST09,P018,1,0,Line dropped - no stock
+1747,TXN0090634,2025-12-04,ST12,P017,2,0,Line dropped - no stock
+1748,TXN0090839,2025-12-05,ST09,P018,1,0,Line dropped - no stock
+1749,TXN0090938,2025-12-05,ST09,P062,2,1,Partially filled
+1750,TXN0090993,2025-12-05,ST09,P062,1,0,Line dropped - no stock
+1751,TXN0090994,2025-12-05,ST05,P074,1,0,Line dropped - no stock
+1752,TXN0091026,2025-12-05,ST06,P029,1,0,Transaction voided - no stock
+1753,TXN0091039,2025-12-05,ST11,P039,3,0,Transaction voided - no stock
+1754,TXN0091067,2025-12-05,ST08,P006,1,0,Line dropped - no stock
+1755,TXN0091076,2025-12-05,ST12,P020,1,0,Line dropped - no stock
+1756,TXN0091111,2025-12-06,ST11,P046,1,0,Line dropped - no stock
+1757,TXN0091137,2025-12-06,ST08,P024,1,0,Line dropped - no stock
+1758,TXN0091148,2025-12-06,ST08,P006,1,0,Transaction voided - no stock
+1759,TXN0091166,2025-12-06,ST04,P046,3,1,Partially filled
+1760,TXN0091173,2025-12-06,ST09,P018,2,0,Line dropped - no stock
+1761,TXN0091199,2025-12-06,ST11,P133,1,0,Line dropped - no stock
+1762,TXN0091234,2025-12-06,ST04,P046,1,0,Line dropped - no stock
+1763,TXN0091324,2025-12-06,ST05,P132,3,1,Partially filled
+1764,TXN0091341,2025-12-06,ST06,P029,1,0,Line dropped - no stock
+1765,TXN0091360,2025-12-06,ST08,P024,1,0,Line dropped - no stock
+1766,TXN0091391,2025-12-06,ST09,P062,1,0,Line dropped - no stock
+1767,TXN0091416,2025-12-06,ST09,P062,2,0,Line dropped - no stock
+1768,TXN0091497,2025-12-07,ST08,P006,1,0,Transaction voided - no stock
+1769,TXN0091590,2025-12-07,ST02,P095,1,0,Line dropped - no stock
+1770,TXN0091630,2025-12-07,ST09,P062,1,0,Line dropped - no stock
+1771,TXN0091709,2025-12-07,ST08,P006,1,0,Line dropped - no stock
+1772,TXN0091791,2025-12-08,ST09,P062,1,0,Line dropped - no stock
+1773,TXN0091860,2025-12-08,ST05,P074,1,0,Line dropped - no stock
+1774,TXN0091869,2025-12-08,ST09,P062,1,0,Line dropped - no stock
+1775,TXN0091915,2025-12-08,ST08,P006,1,0,Line dropped - no stock
+1776,TXN0091916,2025-12-08,ST09,P062,2,0,Line dropped - no stock
+1777,TXN0092001,2025-12-08,ST10,P105,1,0,Line dropped - no stock
+1778,TXN0092013,2025-12-08,ST01,P142,2,1,Partially filled
+1779,TXN0092041,2025-12-08,ST09,P062,1,0,Transaction voided - no stock
+1780,TXN0092044,2025-12-08,ST09,P062,2,0,Line dropped - no stock
+1781,TXN0092091,2025-12-08,ST05,P132,1,0,Line dropped - no stock
+1782,TXN0092095,2025-12-08,ST08,P006,1,0,Line dropped - no stock
+1783,TXN0092171,2025-12-09,ST09,P062,1,0,Transaction voided - no stock
+1784,TXN0092213,2025-12-09,ST09,P062,1,0,Line dropped - no stock
+1785,TXN0092224,2025-12-09,ST09,P062,2,0,Line dropped - no stock
+1786,TXN0092253,2025-12-09,ST09,P018,1,0,Line dropped - no stock
+1787,TXN0092334,2025-12-09,ST10,P071,1,0,Line dropped - no stock
+1788,TXN0092340,2025-12-09,ST01,P146,1,0,Transaction voided - no stock
+1789,TXN0092380,2025-12-09,ST04,P056,2,1,Partially filled
+1790,TXN0092490,2025-12-09,ST09,P062,1,0,Line dropped - no stock
+1791,TXN0092506,2025-12-09,ST08,P040,2,0,Line dropped - no stock
+1792,TXN0092531,2025-12-10,ST10,P105,1,0,Line dropped - no stock
+1793,TXN0092538,2025-12-10,ST09,P062,1,0,Line dropped - no stock
+1794,TXN0092552,2025-12-10,ST10,P105,1,0,Line dropped - no stock
+1795,TXN0092553,2025-12-10,ST06,P011,2,1,Partially filled
+1796,TXN0092614,2025-12-10,ST08,P121,3,0,Transaction voided - no stock
+1797,TXN0092624,2025-12-10,ST09,P062,1,0,Line dropped - no stock
+1798,TXN0092645,2025-12-10,ST12,P135,2,0,Line dropped - no stock
+1799,TXN0092654,2025-12-10,ST04,P056,2,0,Line dropped - no stock
+1800,TXN0092705,2025-12-10,ST04,P056,3,0,Line dropped - no stock
+1801,TXN0092743,2025-12-10,ST08,P131,2,0,Line dropped - no stock
+1802,TXN0092763,2025-12-10,ST10,P105,1,0,Line dropped - no stock
+1803,TXN0092797,2025-12-10,ST10,P071,1,0,Line dropped - no stock
+1804,TXN0092815,2025-12-10,ST09,P062,1,0,Line dropped - no stock
+1805,TXN0092848,2025-12-10,ST05,P085,1,0,Line dropped - no stock
+1806,TXN0092871,2025-12-10,ST10,P105,1,0,Line dropped - no stock
+1807,TXN0092891,2025-12-10,ST09,P062,1,0,Line dropped - no stock
+1808,TXN0092907,2025-12-10,ST05,P132,1,0,Line dropped - no stock
+1809,TXN0092908,2025-12-10,ST09,P018,1,0,Transaction voided - no stock
+1810,TXN0092915,2025-12-10,ST08,P131,1,0,Line dropped - no stock
+1811,TXN0092959,2025-12-11,ST09,P079,1,0,Line dropped - no stock
+1812,TXN0092970,2025-12-11,ST01,P141,1,0,Line dropped - no stock
+1813,TXN0092974,2025-12-11,ST12,P135,1,0,Line dropped - no stock
+1814,TXN0092987,2025-12-11,ST10,P105,2,0,Line dropped - no stock
+1815,TXN0093001,2025-12-11,ST06,P029,1,0,Line dropped - no stock
+1816,TXN0093102,2025-12-11,ST09,P079,2,0,Transaction voided - no stock
+1817,TXN0093122,2025-12-11,ST09,P062,1,0,Line dropped - no stock
+1818,TXN0093123,2025-12-11,ST09,P079,2,0,Line dropped - no stock
+1819,TXN0093157,2025-12-11,ST04,P056,1,0,Line dropped - no stock
+1820,TXN0093216,2025-12-11,ST09,P079,3,0,Line dropped - no stock
+1821,TXN0093233,2025-12-11,ST06,P029,1,0,Transaction voided - no stock
+1822,TXN0093334,2025-12-12,ST06,P011,1,0,Line dropped - no stock
+1823,TXN0093412,2025-12-12,ST09,P062,1,0,Line dropped - no stock
+1824,TXN0093420,2025-12-12,ST07,P074,4,2,Partially filled
+1825,TXN0093434,2025-12-12,ST09,P062,1,0,Line dropped - no stock
+1826,TXN0093442,2025-12-12,ST04,P056,1,0,Line dropped - no stock
+1827,TXN0093502,2025-12-12,ST05,P085,1,0,Line dropped - no stock
+1828,TXN0093524,2025-12-12,ST04,P058,4,1,Partially filled
+1829,TXN0093560,2025-12-12,ST03,P023,1,0,Transaction voided - no stock
+1830,TXN0093690,2025-12-13,ST08,P131,1,0,Line dropped - no stock
+1831,TXN0093703,2025-12-13,ST01,P086,1,0,Transaction voided - no stock
+1832,TXN0093706,2025-12-13,ST09,P090,1,0,Line dropped - no stock
+1833,TXN0093709,2025-12-13,ST09,P062,1,0,Line dropped - no stock
+1834,TXN0093726,2025-12-13,ST09,P062,1,0,Line dropped - no stock
+1835,TXN0093735,2025-12-13,ST04,P056,1,0,Line dropped - no stock
+1836,TXN0093815,2025-12-13,ST09,P079,1,0,Line dropped - no stock
+1837,TXN0093836,2025-12-13,ST09,P062,1,0,Line dropped - no stock
+1838,TXN0093926,2025-12-14,ST12,P135,2,0,Line dropped - no stock
+1839,TXN0093952,2025-12-14,ST06,P011,1,0,Line dropped - no stock
+1840,TXN0093962,2025-12-14,ST04,P046,2,0,Line dropped - no stock
+1841,TXN0093999,2025-12-14,ST04,P056,1,0,Line dropped - no stock
+1842,TXN0094009,2025-12-14,ST05,P074,1,0,Line dropped - no stock
+1843,TXN0094068,2025-12-14,ST06,P069,3,2,Partially filled
+1844,TXN0094114,2025-12-14,ST04,P062,3,0,Line dropped - no stock
+1845,TXN0094127,2025-12-14,ST03,P023,1,0,Line dropped - no stock
+1846,TXN0094165,2025-12-15,ST05,P009,3,1,Partially filled
+1847,TXN0094236,2025-12-15,ST05,P009,2,0,Line dropped - no stock
+1848,TXN0094254,2025-12-15,ST06,P011,1,0,Line dropped - no stock
+1849,TXN0094262,2025-12-15,ST07,P074,1,0,Line dropped - no stock
+1850,TXN0094324,2025-12-15,ST02,P090,1,0,Line dropped - no stock
+1851,TXN0094342,2025-12-15,ST09,P090,1,0,Line dropped - no stock
+1852,TXN0094364,2025-12-15,ST03,P023,1,0,Line dropped - no stock
+1853,TXN0094396,2025-12-15,ST05,P009,1,0,Line dropped - no stock
+1854,TXN0094423,2025-12-15,ST04,P062,1,0,Line dropped - no stock
+1855,TXN0094469,2025-12-15,ST09,P090,2,0,Line dropped - no stock
+1856,TXN0094505,2025-12-15,ST04,P062,1,0,Transaction voided - no stock
+1857,TXN0094516,2025-12-15,ST05,P074,1,0,Line dropped - no stock
+1858,TXN0094532,2025-12-15,ST07,P074,1,0,Line dropped - no stock
+1859,TXN0094565,2025-12-15,ST04,P062,1,0,Line dropped - no stock
+1860,TXN0094650,2025-12-16,ST05,P009,1,0,Line dropped - no stock
+1861,TXN0094687,2025-12-16,ST12,P135,1,0,Line dropped - no stock
+1862,TXN0094828,2025-12-16,ST07,P074,1,0,Line dropped - no stock
+1863,TXN0094834,2025-12-16,ST08,P106,2,1,Partially filled
+1864,TXN0094926,2025-12-16,ST08,P106,1,0,Line dropped - no stock
+1865,TXN0094935,2025-12-17,ST09,P090,1,0,Line dropped - no stock
+1866,TXN0094943,2025-12-17,ST03,P023,1,0,Line dropped - no stock
+1867,TXN0094982,2025-12-17,ST08,P106,1,0,Line dropped - no stock
+1868,TXN0095018,2025-12-17,ST02,P090,2,0,Line dropped - no stock
+1869,TXN0095120,2025-12-17,ST09,P090,2,0,Line dropped - no stock
+1870,TXN0095146,2025-12-17,ST12,P142,3,1,Partially filled
+1871,TXN0095153,2025-12-17,ST12,P135,2,0,Line dropped - no stock
+1872,TXN0095257,2025-12-17,ST07,P045,2,1,Partially filled
+1873,TXN0095321,2025-12-18,ST05,P036,1,0,Line dropped - no stock
+1874,TXN0095344,2025-12-18,ST07,P029,1,0,Line dropped - no stock
+1875,TXN0095445,2025-12-18,ST12,P095,3,1,Partially filled
+1876,TXN0095477,2025-12-18,ST05,P009,1,0,Transaction voided - no stock
+1877,TXN0095478,2025-12-18,ST05,P036,1,0,Line dropped - no stock
+1878,TXN0095485,2025-12-18,ST07,P074,2,0,Line dropped - no stock
+1879,TXN0095499,2025-12-18,ST12,P142,1,0,Transaction voided - no stock
+1880,TXN0095528,2025-12-18,ST02,P090,2,0,Line dropped - no stock
+1881,TXN0095538,2025-12-18,ST02,P090,2,0,Line dropped - no stock
+1882,TXN0095561,2025-12-18,ST01,P121,1,0,Line dropped - no stock
+1883,TXN0095572,2025-12-18,ST12,P095,1,0,Line dropped - no stock
+1884,TXN0095583,2025-12-18,ST02,P090,3,0,Line dropped - no stock
+1885,TXN0095632,2025-12-19,ST02,P090,1,0,Line dropped - no stock
+1886,TXN0095643,2025-12-19,ST05,P067,2,0,Line dropped - no stock
+1887,TXN0095705,2025-12-19,ST05,P067,1,0,Transaction voided - no stock
+1888,TXN0095726,2025-12-19,ST08,P065,1,0,Line dropped - no stock
+1889,TXN0095811,2025-12-19,ST10,P067,2,1,Partially filled
+1890,TXN0095903,2025-12-19,ST05,P067,1,0,Line dropped - no stock
+1891,TXN0095918,2025-12-19,ST05,P067,1,0,Line dropped - no stock
+1892,TXN0095990,2025-12-20,ST05,P067,1,0,Line dropped - no stock
+1893,TXN0096030,2025-12-20,ST08,P065,1,0,Line dropped - no stock
+1894,TXN0096031,2025-12-20,ST02,P065,3,1,Partially filled
+1895,TXN0096059,2025-12-20,ST10,P067,1,0,Transaction voided - no stock
+1896,TXN0096106,2025-12-20,ST12,P136,2,1,Partially filled
+1897,TXN0096134,2025-12-20,ST05,P067,1,0,Line dropped - no stock
+1898,TXN0096147,2025-12-20,ST05,P076,1,0,Line dropped - no stock
+1899,TXN0096163,2025-12-20,ST10,P065,1,0,Line dropped - no stock
+1900,TXN0096172,2025-12-20,ST05,P119,1,0,Line dropped - no stock
+1901,TXN0096197,2025-12-20,ST05,P067,1,0,Line dropped - no stock
+1902,TXN0096230,2025-12-20,ST08,P106,1,0,Line dropped - no stock
+1903,TXN0096250,2025-12-20,ST02,P090,1,0,Line dropped - no stock
+1904,TXN0096257,2025-12-20,ST05,P009,2,0,Line dropped - no stock
+1905,TXN0096276,2025-12-20,ST08,P065,1,0,Line dropped - no stock
+1906,TXN0096326,2025-12-20,ST08,P106,2,0,Line dropped - no stock
+1907,TXN0096350,2025-12-20,ST10,P065,1,0,Line dropped - no stock
+1908,TXN0096417,2025-12-21,ST02,P090,1,0,Line dropped - no stock
+1909,TXN0096430,2025-12-21,ST01,P121,1,0,Transaction voided - no stock
+1910,TXN0096464,2025-12-21,ST02,P065,1,0,Line dropped - no stock
+1911,TXN0096477,2025-12-21,ST11,P066,1,0,Line dropped - no stock
+1912,TXN0096478,2025-12-21,ST05,P011,1,0,Line dropped - no stock
+1913,TXN0096491,2025-12-21,ST08,P065,1,0,Transaction voided - no stock
+1914,TXN0096537,2025-12-21,ST05,P009,1,0,Transaction voided - no stock
+1915,TXN0096539,2025-12-21,ST02,P065,1,0,Line dropped - no stock
+1916,TXN0096547,2025-12-21,ST05,P036,1,0,Line dropped - no stock
+1917,TXN0096561,2025-12-21,ST01,P121,1,0,Line dropped - no stock
+1918,TXN0096572,2025-12-21,ST05,P076,2,0,Line dropped - no stock
+1919,TXN0096630,2025-12-22,ST02,P090,1,0,Line dropped - no stock
+1920,TXN0096655,2025-12-22,ST12,P131,1,0,Line dropped - no stock
+1921,TXN0096664,2025-12-22,ST08,P065,2,0,Line dropped - no stock
+1922,TXN0096702,2025-12-22,ST12,P135,1,0,Line dropped - no stock
+1923,TXN0096705,2025-12-22,ST08,P106,1,0,Line dropped - no stock
+1924,TXN0096724,2025-12-22,ST08,P065,2,0,Line dropped - no stock
+1925,TXN0096726,2025-12-22,ST05,P137,4,2,Partially filled
+1926,TXN0096782,2025-12-22,ST10,P065,1,0,Line dropped - no stock
+1927,TXN0096796,2025-12-22,ST10,P065,1,0,Line dropped - no stock
+1928,TXN0096809,2025-12-22,ST08,P102,1,0,Line dropped - no stock
+1929,TXN0096854,2025-12-22,ST12,P137,2,1,Partially filled
+1930,TXN0096868,2025-12-22,ST10,P067,2,0,Line dropped - no stock
+1931,TXN0096873,2025-12-22,ST09,P031,1,0,Transaction voided - no stock
+1932,TXN0096899,2025-12-22,ST10,P067,2,0,Line dropped - no stock
+1933,TXN0096904,2025-12-22,ST01,P121,3,0,Transaction voided - no stock
+1934,TXN0096926,2025-12-22,ST10,P067,1,0,Transaction voided - no stock
+1935,TXN0097002,2025-12-23,ST01,P088,2,1,Partially filled
+1936,TXN0097009,2025-12-23,ST10,P102,2,1,Partially filled
+1937,TXN0097099,2025-12-23,ST01,P039,3,2,Partially filled
+1938,TXN0097111,2025-12-23,ST01,P121,1,0,Line dropped - no stock
+1939,TXN0097125,2025-12-23,ST08,P081,2,1,Partially filled
+1940,TXN0097148,2025-12-23,ST08,P065,1,0,Line dropped - no stock
+1941,TXN0097150,2025-12-23,ST10,P065,1,0,Line dropped - no stock
+1942,TXN0097161,2025-12-23,ST10,P067,1,0,Line dropped - no stock
+1943,TXN0097246,2025-12-23,ST10,P044,2,1,Partially filled
+1944,TXN0097270,2025-12-24,ST09,P031,1,0,Transaction voided - no stock
+1945,TXN0097278,2025-12-24,ST10,P044,2,0,Line dropped - no stock
+1946,TXN0097282,2025-12-24,ST10,P069,2,0,Line dropped - no stock
+1947,TXN0097316,2025-12-24,ST08,P106,1,0,Line dropped - no stock
+1948,TXN0097324,2025-12-24,ST01,P088,1,0,Line dropped - no stock
+1949,TXN0097334,2025-12-24,ST10,P044,2,0,Transaction voided - no stock
+1950,TXN0097339,2025-12-24,ST09,P122,1,0,Line dropped - no stock
+1951,TXN0097339,2025-12-24,ST09,P045,2,1,Partially filled
+1952,TXN0097347,2025-12-24,ST10,P102,1,0,Line dropped - no stock
+1953,TXN0097369,2025-12-24,ST01,P004,1,0,Line dropped - no stock
+1954,TXN0097404,2025-12-24,ST09,P031,1,0,Line dropped - no stock
+1955,TXN0097406,2025-12-24,ST10,P067,1,0,Transaction voided - no stock
+1956,TXN0097481,2025-12-24,ST09,P031,1,0,Line dropped - no stock
+1957,TXN0097533,2025-12-24,ST09,P122,1,0,Line dropped - no stock
+1958,TXN0097545,2025-12-24,ST10,P067,2,0,Line dropped - no stock
+1959,TXN0097652,2025-12-25,ST09,P122,1,0,Transaction voided - no stock
+1960,TXN0097696,2025-12-25,ST09,P031,1,0,Line dropped - no stock
+1961,TXN0097763,2025-12-25,ST09,P122,1,0,Line dropped - no stock
+1962,TXN0097786,2025-12-25,ST10,P102,2,0,Line dropped - no stock
+1963,TXN0097845,2025-12-25,ST08,P106,1,0,Line dropped - no stock
+1964,TXN0097863,2025-12-25,ST06,P126,2,1,Partially filled
+1965,TXN0097880,2025-12-25,ST08,P102,1,0,Line dropped - no stock
+1966,TXN0097886,2025-12-25,ST01,P088,1,0,Line dropped - no stock
+1967,TXN0098023,2025-12-26,ST03,P020,1,0,Line dropped - no stock
+1968,TXN0098280,2025-12-27,ST03,P064,1,0,Line dropped - no stock
+1969,TXN0098287,2025-12-27,ST03,P020,1,0,Line dropped - no stock
+1970,TXN0098363,2025-12-27,ST03,P064,1,0,Line dropped - no stock
+1971,TXN0098370,2025-12-27,ST12,P135,1,0,Line dropped - no stock
+1972,TXN0098395,2025-12-27,ST09,P137,1,0,Line dropped - no stock
+1973,TXN0098415,2025-12-27,ST08,P001,1,0,Line dropped - no stock
+1974,TXN0098455,2025-12-27,ST09,P080,2,0,Line dropped - no stock
+1975,TXN0098466,2025-12-27,ST08,P001,1,0,Line dropped - no stock
+1976,TXN0098544,2025-12-27,ST03,P064,1,0,Line dropped - no stock
+1977,TXN0098584,2025-12-27,ST09,P080,2,0,Line dropped - no stock
+1978,TXN0098650,2025-12-28,ST08,P001,1,0,Line dropped - no stock
+1979,TXN0098726,2025-12-28,ST04,P137,1,0,Line dropped - no stock
+1980,TXN0098737,2025-12-28,ST09,P080,1,0,Line dropped - no stock
+1981,TXN0098803,2025-12-28,ST08,P001,1,0,Line dropped - no stock
+1982,TXN0098848,2025-12-28,ST04,P028,1,0,Line dropped - no stock
+1983,TXN0098849,2025-12-28,ST12,P135,1,0,Line dropped - no stock
+1984,TXN0098855,2025-12-28,ST03,P063,1,0,Line dropped - no stock
+1985,TXN0098861,2025-12-28,ST09,P122,1,0,Line dropped - no stock
+1986,TXN0098921,2025-12-28,ST03,P020,1,0,Line dropped - no stock
+1987,TXN0098974,2025-12-29,ST03,P064,2,0,Line dropped - no stock
+1988,TXN0099054,2025-12-29,ST08,P001,1,0,Line dropped - no stock
+1989,TXN0099057,2025-12-29,ST12,P135,1,0,Line dropped - no stock
+1990,TXN0099063,2025-12-29,ST08,P001,1,0,Line dropped - no stock
+1991,TXN0099130,2025-12-29,ST04,P137,1,0,Transaction voided - no stock
+1992,TXN0099204,2025-12-29,ST03,P064,1,0,Line dropped - no stock
+1993,TXN0099236,2025-12-29,ST04,P137,1,0,Transaction voided - no stock
+1994,TXN0099348,2025-12-30,ST10,P101,2,1,Partially filled
+1995,TXN0099566,2025-12-30,ST08,P001,1,0,Line dropped - no stock
+1996,TXN0099605,2025-12-30,ST10,P044,4,1,Partially filled
+1997,TXN0099650,2025-12-31,ST10,P101,1,0,Line dropped - no stock
+1998,TXN0099657,2025-12-31,ST08,P085,1,0,Line dropped - no stock
+1999,TXN0099908,2025-12-31,ST08,P085,1,0,Line dropped - no stock
+2000,TXN0099923,2025-12-31,ST10,P044,3,0,Line dropped - no stock
+2001,TXN0099938,2025-12-31,ST10,P101,1,0,Line dropped - no stock

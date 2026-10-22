@@ -1,0 +1,13 @@
+,store_id,store_name,county,town,opening_date,store_status
+0,ST01,SimPharm Westlands,Nairobi,Westlands,2016-03-14,Active
+1,ST02,SimPharm Embakasi,Nairobi,Embakasi,2018-07-02,Active
+2,ST03,SimPharm Nyali,Mombasa,Nyali,2017-02-20,Active
+3,ST04,SimPharm Mombasa Island,Mombasa,Mombasa Island,2015-09-01,Active
+4,ST05,SimPharm Milimani,Kisumu,Milimani,2019-05-13,Active
+5,ST06,SimPharm Kisumu Central,Kisumu,Kisumu Central,2016-11-07,Active
+6,ST07,SimPharm Nakuru Town,Nakuru,Nakuru Town,2017-06-19,Active
+7,ST08,SimPharm Naivasha,Nakuru,Naivasha,2020-01-27,Active
+8,ST09,SimPharm Thika,Kiambu,Thika,2018-03-12,Active
+9,ST10,SimPharm Ruaka,Kiambu,Ruaka,2021-08-16,Active
+10,ST11,SimPharm Eldoret Town,Uasin Gishu,Eldoret Town,2017-10-09,Active
+11,ST12,SimPharm Langas,Uasin Gishu,Langas,2021-02-01,Active
