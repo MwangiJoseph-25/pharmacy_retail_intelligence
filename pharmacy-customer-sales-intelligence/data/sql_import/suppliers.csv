@@ -1,0 +1,25 @@
+supplier_id,supplier_name,supplier_type,supplier_status
+SUP01,SIM Supplier 01 (Pharmaceutical),Pharmaceutical wholesaler,Active
+SUP02,SIM Supplier 02 (Pharmaceutical),Pharmaceutical wholesaler,Inactive
+SUP03,SIM Supplier 03 (Pharmaceutical),Pharmaceutical wholesaler,Active
+SUP04,SIM Supplier 04 (Pharmaceutical),Pharmaceutical wholesaler,Active
+SUP05,SIM Supplier 05 (Pharmaceutical),Pharmaceutical wholesaler,Active
+SUP06,SIM Supplier 06 (Pharmaceutical),Pharmaceutical wholesaler,Active
+SUP07,SIM Supplier 07 (Pharmaceutical),Pharmaceutical wholesaler,Active
+SUP08,SIM Supplier 08 (Pharmaceutical),Pharmaceutical wholesaler,Active
+SUP09,SIM Supplier 09 (Generic),Generic manufacturer distributor,Active
+SUP10,SIM Supplier 10 (Generic),Generic manufacturer distributor,Active
+SUP11,SIM Supplier 11 (Generic),Generic manufacturer distributor,Active
+SUP12,SIM Supplier 12 (Generic),Generic manufacturer distributor,Active
+SUP13,SIM Supplier 13 (Generic),Generic manufacturer distributor,Active
+SUP14,SIM Supplier 14 (Supplements),Supplements distributor,Active
+SUP15,SIM Supplier 15 (Supplements),Supplements distributor,Active
+SUP16,SIM Supplier 16 (Supplements),Supplements distributor,Active
+SUP17,SIM Supplier 17 (OTC),OTC and consumer health distributor,Active
+SUP18,SIM Supplier 18 (OTC),OTC and consumer health distributor,Inactive
+SUP19,SIM Supplier 19 (OTC),OTC and consumer health distributor,Active
+SUP20,SIM Supplier 20 (OTC),OTC and consumer health distributor,Active
+SUP21,SIM Supplier 21 (Medical),Medical supplies distributor,Active
+SUP22,SIM Supplier 22 (Medical),Medical supplies distributor,Active
+SUP23,SIM Supplier 23 (Medical),Medical supplies distributor,Active
+SUP24,SIM Supplier 24 (Medical),Medical supplies distributor,Active
