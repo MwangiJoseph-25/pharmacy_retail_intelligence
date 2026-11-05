@@ -1,30 +1,20 @@
+-- Pharmacy Customer and Sales Intelligence
+-- Inventory reconciliation, demand analysis, customer cohorts and business summaries
+-- Uses the public schema and the existing operational tables created by 01_create_tables.sql.
 
--- DATABASE AUDIT
+-- database audit
 
--- Confirming which PostgreSQL database we are connected to
-
-select current_database(); 
-
---Listing all tables in the public schema.
--- This helps us confirm which datasets are available
+select current_database();
 
 select table_name
-	from information_schema.tables
-	where table_schema = 'public' and table_type = 'BASE TABLE'
-		order by table_name;
+from information_schema.tables
+where table_schema = 'public'
+and table_type = 'BASE TABLE'
+order by table_name;
 
--- INVENTORY MOVEMENT AUDIT
--- Identify the different types of inventory movements
--- recorded in the database and how frequently they occur.
--- This helps us understand how stock enters and leaves each branch.
+-- inventory movement audit
 
-select * from inventory_movements
-limit 10;
-
-select count(movement_type ) 
-	from inventory_movements;
-
-select 
+select
     movement_type,
     count(*) as number_of_records,
     sum(quantity_change) as total_quantity_change,
@@ -34,115 +24,84 @@ from inventory_movements
 group by movement_type
 order by number_of_records desc;
 
-
--- INVENTORY MOVEMENT REFERENCE AUDIT
--- Examine the reference types associated with inventory movements.
--- This helps in understanding which business records are linked to stock changes
--- and whether we can reconcile movements with sales, receipts and returns.
-
-select movement_type,reference_type,
-    COUNT(*) as number_of_records
-from inventory_movements
-group by
-    movement_type,
-    reference_type
-order by
-	movement_type,
-    number_of_records desc;
-
--- SALES AND INVENTORY RECONCILIATION
--- Comparing quantities recorded in inventory movements
--- against quantities recorded in transaction items.
--- This helps establish whether sales-related stock reductions
--- are consistent with the actual sales records.
-
 select
-    count(*) as total_sale_movements,
-    count(ti.transaction_id) as matched_movements,
-    count(*) - count(ti.transaction_id) as unmatched_movements,
-    sum(abs(im.quantity_change)) as inventory_units_sold,
-    sum(ti.quantity) AS transaction_units_sold
-from inventory_movements im
-left join transaction_items ti
-    on im.reference_id = ti.transaction_id
-   and im.product_id = ti.product_id
-where im.movement_type = 'Sale';
+    movement_type,
+    reference_type,
+    count(*) as number_of_records
+from inventory_movements
+group by movement_type, reference_type
+order by movement_type, number_of_records desc;
 
+-- sales and inventory reconciliation
 
-select * from inventory_movements;
-select sum(quantity) as transaction_total_quantity from transaction_items
-where ;
-
-
-
-select * from transactions;
-select * from transaction_items;
-
-
--- finding total units sold for all completed transactions
-with units_sold_df as(
-select 
-ti.transaction_id,
-t.transaction_id,
-t.transaction_status,
-sum(ti.quantity) as units_sold
-from transaction_items ti
-inner join transactions t
-	on ti.transaction_id = t.transaction_id
-where t.transaction_status = 'Completed'
-group by
-ti.transaction_id,
-t.transaction_id
+with inventory_sales as (
+    select
+        reference_id as transaction_id,
+        product_id,
+        sum(abs(quantity_change)) as inventory_units_sold
+    from inventory_movements
+    where movement_type = 'Sale'
+    group by reference_id, product_id
+),
+recorded_sales as (
+    select
+        transaction_id,
+        product_id,
+        sum(quantity) as transaction_units_sold
+    from transaction_items
+    group by transaction_id, product_id
 )
-select sum(units_sold) as total_units_sold
-	from units_sold_df;
+select
+    coalesce(sum(rs.transaction_units_sold), 0) as transaction_units_sold,
+    coalesce(sum(im.inventory_units_sold), 0) as inventory_units_sold,
+    coalesce(sum(rs.transaction_units_sold), 0)
+        - coalesce(sum(im.inventory_units_sold), 0) as quantity_difference
+from recorded_sales rs
+full outer join inventory_sales im
+    on rs.transaction_id = im.transaction_id
+    and rs.product_id = im.product_id;
 
+-- total units sold in completed transactions
 
--- PURCHASE RECEIPT RECONCILIATION
--- Compare recorded inventory receipts with purchase-order
--- quantities received, after aggregating each source independently.
--- This helps us identify missing or inconsistent receipt records.
-select * from purchase_order_items;
-select * from inventory_movements;
+select sum(ti.quantity) as total_units_sold
+from transactions t
+join transaction_items ti
+    on t.transaction_id = ti.transaction_id
+where t.transaction_status = 'Completed';
+
+-- purchase receipt reconciliation
 
 with inventory_receipts as (
     select
-        reference_id AS purchase_order_id,
+        reference_id as purchase_order_id,
         product_id,
-        sum(quantity_change) as units_received
+        sum(quantity_change) as inventory_units_received
     from inventory_movements
     where movement_type = 'Receipt'
-    group by  reference_id, product_id
+    group by reference_id, product_id
 ),
 purchase_receipts as (
     select
         purchase_order_id,
         product_id,
-        sum(quantity_received) as units_received
+        sum(quantity_received) as purchase_order_units_received
     from purchase_order_items
     group by purchase_order_id, product_id
 )
 select
-    coalesce(sum(pr.units_received), 0) as purchase_order_units_received,
-    coalesce(sum(ir.units_received), 0) as inventory_units_received,
-    coalesce(sum(pr.units_received), 0)
-      - coalesce(sum(ir.units_received), 0) as quantity_difference
+    coalesce(sum(pr.purchase_order_units_received), 0) as purchase_order_units_received,
+    coalesce(sum(ir.inventory_units_received), 0) as inventory_units_received,
+    coalesce(sum(pr.purchase_order_units_received), 0)
+        - coalesce(sum(ir.inventory_units_received), 0) as quantity_difference
 from purchase_receipts pr
 full outer join inventory_receipts ir
     on pr.purchase_order_id = ir.purchase_order_id
-   and  pr.product_id = ir.product_id;
+    and pr.product_id = ir.product_id;
 
-
--- OPENING INVENTORY AUDIT
--- Examine the opening inventory records across branches
--- and products, including the quantities available at the
--- beginning of the inventory tracking period.
-
-select * from open_inventory;
-select * from products;
+-- opening inventory audit
 
 select
-    count(*) AS total_opening_records,
+    count(*) as total_opening_records,
     count(distinct store_id) as number_of_stores,
     count(distinct product_id) as number_of_products,
     sum(opening_quantity) as total_opening_quantity,
@@ -150,64 +109,37 @@ select
     max(as_of_date) as latest_opening_date
 from open_inventory;
 
-
--- OPENING STOCK DISTRIBUTION
--- Examine how opening inventory quantities are distributed
--- across branch-product combinations.
--- This identifies products that started with zero stock and helps
--- us understand the initial stock position before 2025 sales began.
+-- opening stock distribution
 
 select
     case
-        when opening_quantity = 0 then 'Zero stock'
-        when opening_quantity between  1 and 10 then'1-10 units'
+        when opening_quantity = 0 then 'zero stock'
+        when opening_quantity between 1 and 10 then '1-10 units'
         when opening_quantity between 11 and 50 then '11-50 units'
         when opening_quantity between 51 and 100 then '51-100 units'
-        else 'Above 100 units'
+        else 'above 100 units'
     end as stock_category,
     count(*) as product_branch_combinations,
-    sum (opening_quantity) as  total_units
+    sum(opening_quantity) as total_units
 from open_inventory
-group by
-    case
-        when opening_quantity = 0 then 'Zero stock'
-        when opening_quantity between  1 and 10 then'1-10 units'
-        when opening_quantity between 11 and 50 then '11-50 units'
-        when opening_quantity between 51 and 100 then '51-100 units'
-        else 'Above 100 units'
-    end
+group by stock_category
 order by min(opening_quantity);
 
-
--- INVENTORY ADJUSTMENT AUDIT
--- Examine the reasons and quantity changes associated
--- with inventory adjustments and write-offs.
--- This helps us understand all stock reductions and additions
--- before reconstructing historical inventory balances.
+-- inventory adjustments and write-offs
 
 select * from inventory_movements;
+
 select
     movement_type,
     reference_type,
-    quantity_change,
-    count(*) as number_of_records
+    count(*) as number_of_records,
+    sum(quantity_change) as total_quantity_change
 from inventory_movements
 where movement_type in ('Adjustment', 'Write-off')
-group by
-    movement_type,
-    reference_type,
-    quantity_change
-order by
-    movement_type,
-    quantity_change;
+group by movement_type, reference_type
+order by movement_type, number_of_records desc;
 
-
---SALES RETURN AUDIT
--- Examine returned product quantities and determine
--- which returned products are marked as suitable for restocking.
--- This helps us establish which returns should increase
--- the reconstructed available inventory balance.
-select * from sales_return_items;
+-- sales returns
 
 select
     restockable,
@@ -217,14 +149,7 @@ from sales_return_items
 group by restockable
 order by restockable;
 
-
---RESTOCKABLE RETURN RECONCILIATION
--- Purpose: Compare inventory return movements with return items
--- marked as restockable.
--- This verifies whether only eligible returned products are
--- being added back into inventory.
-
-select * from sales_return_items;
+-- restockable return reconciliation
 
 with restockable_returns as (
     select
@@ -234,7 +159,7 @@ with restockable_returns as (
     from sales_return_items sri
     join sales_returns sr
         on sri.return_id = sr.return_id
-    where sri.restockable = TRUE
+    where sri.restockable = true
     group by sr.return_id, sri.product_id
 ),
 inventory_returns as (
@@ -250,18 +175,13 @@ select
     coalesce(sum(rr.units_returned), 0) as restockable_units,
     coalesce(sum(ir.units_restocked), 0) as inventory_units_restocked,
     coalesce(sum(rr.units_returned), 0)
-      - coalesce(sum(ir.units_restocked), 0) as quantity_difference
+        - coalesce(sum(ir.units_restocked), 0) as quantity_difference
 from restockable_returns rr
 full outer join inventory_returns ir
     on rr.return_id = ir.return_id
-   and rr.product_id = ir.product_id;
+    and rr.product_id = ir.product_id;
 
-
--- INVENTORY MOVEMENT RELATIONSHIP VALIDATION
--- Check whether all inventory movements reference
--- valid products and branches in their respective master tables.
--- This helps ensure that stock movements can be assigned to
--- the correct product and pharmacy branch.
+-- inventory movement references
 
 select
     count(*) as total_movements,
@@ -273,13 +193,8 @@ left join products p
 left join stores s
     on im.store_id = s.store_id;
 
+-- lost sales summary
 
--- LOST-SALES SUMMARY
--- Purpose: Summarise lost-sales records by outcome.
--- Why: Understand how customer demand, fulfilled quantities,
--- and unmet quantities are represented before using this table
--- to support product demand forecasting.
-select * from lost_sales_log;
 select
     outcome,
     count(*) as number_of_records,
@@ -290,13 +205,7 @@ from lost_sales_log
 group by outcome
 order by number_of_records desc;
 
-
-
--- LOST-SALES AND TRANSACTION STATUS
--- Purpose: Compare lost-sales outcomes with their transaction statuses.
--- Why: Establish whether lost-sales records are associated with
--- completed or voided transactions before reconciling fulfilled units
--- against recorded transaction items.
+-- lost sales and transaction status
 
 select
     ls.outcome,
@@ -307,31 +216,18 @@ select
 from lost_sales_log ls
 left join transactions t
     on ls.transaction_id = t.transaction_id
-group by
-    ls.outcome,
-    t.transaction_status
-order by
-    ls.outcome,
-    t.transaction_status;
+group by ls.outcome, t.transaction_status
+order by ls.outcome, t.transaction_status;
 
+-- compare partially fulfilled demand with recorded sales
 
--- PARTIALLY FULFILLED DEMAND RECONCILIATION
--- Purpose: Compare fulfilled quantities in lost_sales_log with
--- quantities recorded in transaction_items for the same transaction
--- and product.
--- Why: Determine whether fulfilled units are already included in
--- completed sales, preventing double-counting in the demand target.
-select * from lost_sales_log;
-
-with recorded_sales as(
+with recorded_sales as (
     select
         transaction_id,
         product_id,
         sum(quantity) as recorded_units
     from transaction_items
-    group by
-        transaction_id,
-        product_id
+    group by transaction_id, product_id
 ),
 partial_demand as (
     select
@@ -344,33 +240,21 @@ partial_demand as (
 select
     count(*) as partial_records,
     sum(pd.quantity_fulfilled) as fulfilled_units_in_lost_sales,
-    sum(coalesce(rs.recorded_units, 0)) AS corresponding_recorded_sales,
-    count(*) filter(
+    sum(coalesce(rs.recorded_units, 0)) as corresponding_recorded_sales,
+    count(*) filter (
         where pd.quantity_fulfilled = coalesce(rs.recorded_units, 0)
-    ) as records_with_matching_quantities,
-    count(*) filter(
+    ) as matching_records,
+    count(*) filter (
         where pd.quantity_fulfilled <> coalesce(rs.recorded_units, 0)
     ) as records_with_different_quantities
 from partial_demand pd
 left join recorded_sales rs
     on pd.transaction_id = rs.transaction_id
-   and pd.product_id = rs.product_id;
+    and pd.product_id = rs.product_id;
 
+-- reconstruct inventory balances
 
--- CHRONOLOGICAL INVENTORY BALANCE
--- Reconstruct stock balances after each inventory movement.
--- Identify product-branch combinations where stock becomes
--- negative, which may indicate inventory availability or timing issues.
-select 
-	movement_type,
-	count (*) as total_movement_type
-from inventory_movements
-group by(movement_type)
-order by total_movement_type desc;
-
-select * from inventory_movements;
-
-with stock_movements as(
+with stock_movements as (
     select
         im.movement_id,
         im.store_id,
@@ -382,7 +266,7 @@ with stock_movements as(
     from inventory_movements im
     join open_inventory oi
         on im.store_id = oi.store_id
-       and im.product_id = oi.product_id
+        and im.product_id = oi.product_id
 ),
 running_balances as (
     select
@@ -391,32 +275,24 @@ running_balances as (
         product_id,
         movement_datetime,
         movement_type,
-        quantity_change,
-        opening_quantity,
         opening_quantity
-        + SUM(quantity_change) over (
-            partition by store_id, product_id
-            order by movement_datetime, movement_id
-            rows between unbounded preceding and current row
-        )as stock_balance
+            + sum(quantity_change) over (
+                partition by store_id, product_id
+                order by movement_datetime, movement_id
+                rows between unbounded preceding and current row
+            ) as stock_balance
     from stock_movements
-    )
+)
 select
     count(*) as total_movement_records,
-    count(*) filter (
-        where stock_balance < 0
-    ) as movements_with_negative_stock,
+    count(*) filter (where stock_balance < 0) as movements_with_negative_stock,
     count(distinct (store_id, product_id)) filter (
         where stock_balance < 0
     ) as product_branch_combinations_with_negative_stock,
     min(stock_balance) as lowest_stock_balance
 from running_balances;
 
-
--- ZERO-STOCK INVENTORY CHECK
--- Identify inventory movements after which stock reached zero.
--- Why: Determine how frequently products had no remaining recorded
--- stock, which may help identify potential stockout periods.
+-- check movements that bring stock to zero
 
 with stock_movements as (
     select
@@ -429,7 +305,7 @@ with stock_movements as (
     from inventory_movements im
     join open_inventory oi
         on im.store_id = oi.store_id
-       and im.product_id = oi.product_id
+        and im.product_id = oi.product_id
 ),
 running_balances as (
     select
@@ -438,64 +314,47 @@ running_balances as (
         product_id,
         movement_datetime,
         opening_quantity
-        + sum(quantity_change) over (
-            partition by store_id, product_id
-            order by movement_datetime, movement_id
-            rows between unbounded preceding and current row
-        ) as stock_balance
+            + sum(quantity_change) over (
+                partition by store_id, product_id
+                order by movement_datetime, movement_id
+                rows between unbounded preceding and current row
+            ) as stock_balance
     from stock_movements
 )
 select
     count(*) filter (
         where stock_balance = 0
-    )as movements_ending_at_zero_stock,
+    ) as movements_ending_at_zero_stock,
     count(distinct (store_id, product_id)) filter (
         where stock_balance = 0
     ) as product_branch_combinations_reaching_zero,
-    count(distinct (store_id, product_id, movement_datetime::date))
-        filter (
-            where stock_balance = 0
-        ) as product_branch_days_reaching_zero
+    count(distinct (store_id, product_id, movement_datetime::date)) filter (
+        where stock_balance = 0
+    ) as product_branch_days_reaching_zero
 from running_balances;
 
-
--- COHORT CONTRUCTION
-
-
--- PRODUCT-BRANCH-DAILY COHORT
--- Generate every product, branch and calendar-day combination
--- for the 2025 forecasting period.
--- Why: Establish a complete daily dataset, including dates when
--- a product had no recorded sales at a particular branch.
+-- product branch daily cohort
 
 with calendar as (
-    select
-        generate_series(
-            date '2025-01-01',
-            date '2025-12-31',
-            interval  '1 day'
-        )::date as sales_date
+    select generate_series(
+        date '2025-01-01',
+        date '2025-12-31',
+        interval '1 day'
+    )::date as sales_date
 )
-select
-count(*) as total_cohort_rows
+select count(*) as total_cohort_rows
 from calendar c
 cross join stores s
 cross join products p;
 
-
--- COHORT UNIQUENESS VALIDATION
--- Check whether any product-branch-date combination
--- appears more than once in the generated cohort.
--- Ensures that each row represents one unique forecasting
--- observation and prevent duplication during later joins.
+-- check cohort uniqueness
 
 with calendar as (
-    select
-        generate_series(
-            date '2025-01-01',
-            date '2025-12-31',
-            interval '1 day'
-        )::date as sales_date
+    select generate_series(
+        date '2025-01-01',
+        date '2025-12-31',
+        interval '1 day'
+    )::date as sales_date
 ),
 cohort as (
     select
@@ -508,64 +367,13 @@ cohort as (
 )
 select
     count(*) as total_rows,
-    count(distinct (sales_date, store_id, product_id))
-        as unique_combinations,
-    count(*) - count(distinct (sales_date, store_id, product_id))
-        as duplicate_rows
+    count(distinct (sales_date, store_id, product_id)) as unique_combinations,
+    count(*) - count(distinct (sales_date, store_id, product_id)) as duplicate_rows
 from cohort;
 
+-- daily product branch sales
 
--- DAILY PRODUCT-BRANCH SALES
--- Aggregate completed transaction quantities by product,
--- pharmacy branch and calendar date.
--- Create the historical daily sales measure that will become
--- the starting point for our product demand forecasting dataset.
-
-with total_sales as (
-select
-    t.transaction_datetime::date as sales_date,
-    t.store_id,
-    ti.product_id,
-    sum(ti.quantity) as units_sold
-from transactions t
-join transaction_items ti
-    on t.transaction_id = ti.transaction_id
-where t.transaction_status = 'Completed'
-group by
-    t.transaction_datetime::date,
-    t.store_id,
-    ti.product_id
-order by
-    sales_date,
-    store_id,
-    product_id)
-select count(*)  from total_sales;
-
-
--- BUILD COMPLETE DAILY SALES DATASET
--- Attaching aggregated daily sales to every product-branch-date
--- combination in the forecasting cohort.
--- Create a complete time series and represent dates without
--- recorded sales as zero rather than dropping those observations.
-
-with calendar as(
-    select
-        generate_series(
-            date '2025-01-01',
-            date '2025-12-31',
-            interval '1 day'
-        )::date as sales_date
-),
-cohort as (
-    select
-        c.sales_date,
-        s.store_id,
-        p.product_id
-    from calendar c
-    cross join stores s
-    cross join products p
-),
-daily_sales as(
+with daily_sales as (
     select
         t.transaction_datetime::date as sales_date,
         t.store_id,
@@ -580,53 +388,29 @@ daily_sales as(
         t.store_id,
         ti.product_id
 )
-select
-    c.sales_date,
-    c.store_id,
-    c.product_id,
-    coalesce(ds.units_sold, 0) as units_sold
-FROM cohort c
-left join daily_sales ds
-    on c.sales_date = ds.sales_date
-   and c.store_id = ds.store_id
-   and c.product_id = ds.product_id;
+select count(*) as daily_sales_records
+from daily_sales;
 
+-- daily unfulfilled demand
 
-
---DAILY UNFULFILLED DEMAND
--- Aggregating quantities customers requested but could not
--- obtain, by date, branch and product.
--- help Capture unmet demand separately from completed sales,
--- so that i can later investigate its contribution to demand forecasting.
 select
     transaction_date as sales_date,
     store_id,
     product_id,
     sum(quantity_demanded - quantity_fulfilled) as unfulfilled_units
 from lost_sales_log
-group by
-    transaction_date,
-    store_id,
-    product_id
-order by
-    sales_date,
-    store_id,
-    product_id;
+group by transaction_date, store_id, product_id
+order by sales_date, store_id, product_id;
 
---CREATE REUSABLE DAILY DEMAND VIEW
--- DAILY SALES AND UNFULFILLED DEMAND DATASET
--- Combining the complete product-branch-day cohort with
--- completed sales and unfulfilled demand.
--- help Create a richer daily dataset that distinguishes fulfilled
--- purchases from recorded unmet customer demand.
-create or replace view public.daily_demand_base AS
+-- create daily demand base view
+
+create or replace view public.daily_demand_base as
 with calendar as (
-    select
-        generate_series(
-            date '2025-01-01',
-            date '2025-12-31',
-            interval '1 day'
-        )::date as sales_date
+    select generate_series(
+        date '2025-01-01',
+        date '2025-12-31',
+        interval '1 day'
+    )::date as sales_date
 ),
 cohort as (
     select
@@ -639,10 +423,10 @@ cohort as (
 ),
 daily_sales as (
     select
-        t.transaction_datetime::date AS sales_date,
+        t.transaction_datetime::date as sales_date,
         t.store_id,
         ti.product_id,
-        sum(ti.quantity) AS units_sold
+        sum(ti.quantity) as units_sold
     from transactions t
     join transaction_items ti
         on t.transaction_id = ti.transaction_id
@@ -657,13 +441,9 @@ daily_unfulfilled as (
         transaction_date as sales_date,
         store_id,
         product_id,
-        sum(quantity_demanded - quantity_fulfilled)
-            as unfulfilled_units
+        sum(quantity_demanded - quantity_fulfilled) as unfulfilled_units
     from lost_sales_log
-    group by
-        transaction_date,
-        store_id,
-        product_id
+    group by transaction_date, store_id, product_id
 )
 select
     c.sales_date,
@@ -674,18 +454,14 @@ select
 from cohort c
 left join daily_sales ds
     on c.sales_date = ds.sales_date
-   and c.store_id = ds.store_id
-   and c.product_id = ds.product_id
+    and c.store_id = ds.store_id
+    and c.product_id = ds.product_id
 left join daily_unfulfilled du
     on c.sales_date = du.sales_date
-   and c.store_id = du.store_id
-   and c.product_id = du.product_id;
+    and c.store_id = du.store_id
+    and c.product_id = du.product_id;
 
--- CALENDAR FEATURES
--- Adding day-of-week, month and weekend indicators
--- to the daily product-branch demand dataset.
--- Sales may vary depending on the day of the week
--- and the time of year.
+-- add calendar features
 
 create or replace view public.daily_demand_features as
 select
@@ -694,21 +470,17 @@ select
     product_id,
     units_sold,
     unfulfilled_units,
-extract(ISODOW from sales_date)::integer as day_of_week,
+    extract(isodow from sales_date)::integer as day_of_week,
     extract(month from sales_date)::integer as sales_month,
     case
-        when extract(ISODOW from sales_date) in (6, 7)
-        then 1
+        when extract(isodow from sales_date) in (6, 7) then 1
         else 0
     end as is_weekend
 from public.daily_demand_base;
 
--- HISTORICAL SALES FEATURES
--- will create lag and rolling-average features using past sales.
--- Historical sales patterns can help predict future product demand.
--- The rolling average excludes the current day to prevent data leakage.
+-- add historical sales features
 
-create or replace view public.daily_demand_model AS
+create or replace view public.daily_demand_model as
 select
     sales_date,
     store_id,
@@ -718,38 +490,34 @@ select
     day_of_week,
     sales_month,
     is_weekend,
--- Sales on the previous calendar day
-    lag(units_sold, 1) over(partition by store_id, product_id order by sales_date)as sales_previous_day,
--- Sales on the same weekday in the previous week
-    lag(units_sold, 7) over(partition by store_id, product_id order by sales_date)as sales_previous_week,
--- Average sales over the previous seven days
-    avg(units_sold), over(partition by store_id, product_id order by sales_date 
-    rows between 7 preceding and 1 preceding
+    lag(units_sold, 1) over (
+        partition by store_id, product_id
+        order by sales_date
+    ) as sales_previous_day,
+    lag(units_sold, 7) over (
+        partition by store_id, product_id
+        order by sales_date
+    ) as sales_previous_week,
+    avg(units_sold) over (
+        partition by store_id, product_id
+        order by sales_date
+        rows between 7 preceding and 1 preceding
     ) as avg_sales_previous_7_days
 from public.daily_demand_features;
 
---SEVEN-DAY FUTURE SALES TARGET
--- will calculate total units sold during the seven days
--- following each product-branch-date observation.
--- this creates the outcome the forecasting model
--- will learn to predict.
+-- calculate sales for the following seven days
 
 create or replace view public.pharmacy_forecasting_dataset as
-select *,sum(units_sold) over(
+select
+    *,
+    sum(units_sold) over (
         partition by store_id, product_id
         order by sales_date
         rows between 1 following and 7 following
     ) as target_next_7_days
 from public.daily_demand_model;
 
-select * from pharmacy_forecasting_dataset
-order by sales_date desc
-limit 20;
-
-
--- Creating the modelling dataset
--- Retain observations with complete historical features
--- and a complete seven-day future sales target.
+-- create the final modelling dataset
 
 create or replace view public.pharmacy_forecasting_model_data as
 select
@@ -762,45 +530,242 @@ select
     avg_sales_previous_7_days,
     target_next_7_days
 from public.pharmacy_forecasting_dataset
-where sales_date between date '2025-01-08'
-                     and date '2025-12-24'
-  and sales_previous_day is not null
-  and sales_previous_week is not null
-  and avg_sales_previous_7_days is not null
-  and target_next_7_days is not null;
+where sales_date between date '2025-01-08' and date '2025-12-24'
+and sales_previous_day is not null
+and sales_previous_week is not null
+and avg_sales_previous_7_days is not null
+and target_next_7_days is not null;
 
-select * from public.pharmacy_forecasting_model_data;
+select count(*) as modelling_records
+from public.pharmacy_forecasting_model_data;
 
-SELECT COUNT(*) AS modelling_records
-FROM public.pharmacy_forecasting_model_data;
+-- customer purchase cohorts
 
+with first_purchase as (
+    select
+        customer_id,
+        date_trunc('month', min(transaction_datetime))::date as cohort_month
+    from transactions
+    where transaction_status = 'Completed'
+    and customer_id is not null
+    group by customer_id
+),
+monthly_activity as (
+    select distinct
+        customer_id,
+        date_trunc('month', transaction_datetime)::date as activity_month
+    from transactions
+    where transaction_status = 'Completed'
+    and customer_id is not null
+),
+cohort_activity as (
+    select
+        fp.cohort_month,
+        ma.activity_month,
+        (
+            extract(year from age(ma.activity_month, fp.cohort_month)) * 12
+            + extract(month from age(ma.activity_month, fp.cohort_month))
+        )::integer as months_since_first_purchase,
+        ma.customer_id
+    from first_purchase fp
+    join monthly_activity ma
+        on fp.customer_id = ma.customer_id
+)
+select
+    cohort_month,
+    months_since_first_purchase,
+    count(distinct customer_id) as active_customers,
+    round(
+        100.0 * count(distinct customer_id)
+        / first_value(count(distinct customer_id)) over (
+            partition by cohort_month
+            order by months_since_first_purchase
+        ),
+        2
+    ) as retention_percentage
+from cohort_activity
+group by cohort_month, months_since_first_purchase
+order by cohort_month, months_since_first_purchase;
 
+-- rfm customer segmentation
 
+with customer_rfm as (
+    select
+        customer_id,
+        (date '2025-12-31' - max(transaction_datetime::date)) as recency_days,
+        count(transaction_id) as frequency,
+        sum(net_amount) as monetary_value
+    from transactions
+    where transaction_status = 'Completed'
+    and customer_id is not null
+    and transaction_datetime >= timestamp '2025-01-01'
+    and transaction_datetime < timestamp '2026-01-01'
+    group by customer_id
+),
+rfm_scores as (
+    select
+        *,
+        ntile(5) over (order by recency_days desc) as recency_score,
+        ntile(5) over (order by frequency) as frequency_score,
+        ntile(5) over (order by monetary_value) as monetary_score
+    from customer_rfm
+)
+select
+    customer_id,
+    recency_days,
+    frequency,
+    monetary_value,
+    recency_score,
+    frequency_score,
+    monetary_score,
+    case
+        when recency_score >= 4
+        and frequency_score >= 4
+        and monetary_score >= 4 then 'high value'
+        when recency_score >= 3
+        and frequency_score >= 3 then 'loyal'
+        when recency_score >= 4
+        and frequency_score <= 2 then 'new or promising'
+        when recency_score <= 2
+        and frequency_score >= 3 then 'at risk'
+        else 'needs attention'
+    end as customer_segment
+from rfm_scores
+order by monetary_value desc;
 
+-- rfm segment summary
 
+with customer_rfm as (
+    select
+        customer_id,
+        (date '2025-12-31' - max(transaction_datetime::date)) as recency_days,
+        count(transaction_id) as frequency,
+        sum(net_amount) as monetary_value
+    from transactions
+    where transaction_status = 'Completed'
+    and customer_id is not null
+    and transaction_datetime >= timestamp '2025-01-01'
+    and transaction_datetime < timestamp '2026-01-01'
+    group by customer_id
+),
+rfm_scores as (
+    select
+        *,
+        ntile(5) over (order by recency_days desc) as recency_score,
+        ntile(5) over (order by frequency) as frequency_score,
+        ntile(5) over (order by monetary_value) as monetary_score
+    from customer_rfm
+),
+segmented_customers as (
+    select
+        *,
+        case
+            when recency_score >= 4
+            and frequency_score >= 4
+            and monetary_score >= 4 then 'high value'
+            when recency_score >= 3
+            and frequency_score >= 3 then 'loyal'
+            when recency_score >= 4
+            and frequency_score <= 2 then 'new or promising'
+            when recency_score <= 2
+            and frequency_score >= 3 then 'at risk'
+            else 'needs attention'
+        end as customer_segment
+    from rfm_scores
+)
+select
+    customer_segment,
+    count(*) as number_of_customers,
+    round(avg(recency_days), 2) as average_recency_days,
+    round(avg(frequency), 2) as average_frequency,
+    round(sum(monetary_value), 2) as total_customer_value
+from segmented_customers
+group by customer_segment
+order by number_of_customers desc;
 
+-- sales by branch
 
+select
+    s.store_id,
+    s.store_name,
+    count(distinct t.transaction_id) as number_of_transactions,
+    sum(ti.quantity) as units_sold,
+    round(sum(ti.line_net_amount), 2) as net_sales
+from stores s
+join transactions t
+    on s.store_id = t.store_id
+join transaction_items ti
+    on t.transaction_id = ti.transaction_id
+where t.transaction_status = 'Completed'
+group by s.store_id, s.store_name
+order by net_sales desc;
 
+-- sales by county
 
+select
+    s.county,
+    count(distinct t.transaction_id) as number_of_transactions,
+    sum(ti.quantity) as units_sold,
+    round(sum(ti.line_net_amount), 2) as net_sales
+from stores s
+join transactions t
+    on s.store_id = t.store_id
+join transaction_items ti
+    on t.transaction_id = ti.transaction_id
+where t.transaction_status = 'Completed'
+group by s.county
+order by net_sales desc;
 
+-- sales by product category
 
+select
+    p.category,
+    sum(ti.quantity) as units_sold,
+    round(sum(ti.line_net_amount), 2) as net_sales,
+    round(
+        sum(ti.line_net_amount) - sum(ti.quantity * ti.unit_cost_at_sale),
+        2
+    ) as estimated_gross_profit
+from transactions t
+join transaction_items ti
+    on t.transaction_id = ti.transaction_id
+join products p
+    on ti.product_id = p.product_id
+where t.transaction_status = 'Completed'
+group by p.category
+order by net_sales desc;
 
+-- monthly sales performance
 
+select
+    date_trunc('month', t.transaction_datetime)::date as sales_month,
+    count(distinct t.transaction_id) as number_of_transactions,
+    sum(ti.quantity) as units_sold,
+    round(sum(ti.line_net_amount), 2) as net_sales
+from transactions t
+join transaction_items ti
+    on t.transaction_id = ti.transaction_id
+where t.transaction_status = 'Completed'
+group by date_trunc('month', t.transaction_datetime)
+order by sales_month;
 
+-- product performance
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+select
+    p.product_id,
+    p.product_name,
+    p.category,
+    sum(ti.quantity) as units_sold,
+    round(sum(ti.line_net_amount), 2) as net_sales,
+    round(
+        sum(ti.line_net_amount) - sum(ti.quantity * ti.unit_cost_at_sale),
+        2
+    ) as estimated_gross_profit
+from transactions t
+join transaction_items ti
+    on t.transaction_id = ti.transaction_id
+join products p
+    on ti.product_id = p.product_id
+where t.transaction_status = 'Completed'
+group by p.product_id, p.product_name, p.category
+order by units_sold desc;
