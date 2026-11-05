@@ -742,10 +742,37 @@ select *,sum(units_sold) over(
     ) as target_next_7_days
 from public.daily_demand_model;
 
-select * from pharmacy_forecasting_dataset;
-limit 10;
+select * from pharmacy_forecasting_dataset
+order by sales_date desc
+limit 20;
 
 
+-- Creating the modelling dataset
+-- Retain observations with complete historical features
+-- and a complete seven-day future sales target.
+
+create or replace view public.pharmacy_forecasting_model_data as
+select
+    sales_date,
+    store_id,
+    product_id,
+    sales_month,
+    sales_previous_day,
+    sales_previous_week,
+    avg_sales_previous_7_days,
+    target_next_7_days
+from public.pharmacy_forecasting_dataset
+where sales_date between date '2025-01-08'
+                     and date '2025-12-24'
+  and sales_previous_day is not null
+  and sales_previous_week is not null
+  and avg_sales_previous_7_days is not null
+  and target_next_7_days is not null;
+
+select * from public.pharmacy_forecasting_model_data;
+
+SELECT COUNT(*) AS modelling_records
+FROM public.pharmacy_forecasting_model_data;
 
 
 
