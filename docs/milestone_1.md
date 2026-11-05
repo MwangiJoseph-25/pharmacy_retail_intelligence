@@ -1,12 +1,16 @@
-# Milestone 1: Problem, data and SQL analysis
+# Project stages
 
-## 1. Problem identification
+The project is organised into six stages. Each stage covers a distinct part of the work, from defining the business problem through to predictive modelling.
 
-This project uses a simulated Kenyan pharmacy retailer with 12 branches across six counties. The business scenario brings together sales, customer, product, purchasing and inventory records. The aim is to understand sales and customer behaviour, compare branch and product performance, examine stock availability, and prepare the data for short-term product demand forecasting.
+## Problem identification
+
+This project uses a simulated Kenyan pharmacy retailer with 12 branches across six counties. The business scenario brings together sales, customer, product, purchasing and inventory records.
+
+The project aims to understand sales and customer behaviour, compare branch and product performance, examine stock availability, and use the prepared data to support short-term product demand forecasting.
 
 All operational records are synthetic. The findings describe this simulated business and should not be treated as evidence of actual pharmacy performance in Kenya.
 
-## 2. Data preparation
+## Data preparation
 
 The operational data covers 1 January to 31 December 2025 and consists of 15 related datasets:
 
@@ -19,7 +23,7 @@ The operational data covers 1 January to 31 December 2025 and consists of 15 rel
 - Suppliers, purchase orders and purchase order items
 - Price changes and lost sales
 
-The scenario contains 12 branches, 150 products, 8,000 synthetic customer records and 100,000 transaction headers. Around 80% of transaction headers are designed to have a customer ID; the remaining records represent unidentified purchases.
+The scenario contains 12 branches, 150 products, 8,000 synthetic customer records and 100,000 transaction headers. Around 80% of transaction headers were designed to have a customer ID; the remaining records represent unidentified purchases.
 
 The operational CSV files were generated using the project data-generation script with a fixed random seed. The prepared datasets were loaded into Python from pickle files for exploration. For sales analysis, voided transactions were excluded. Transaction items were joined to transaction details, product information and branch information. Transaction dates were converted to datetime values, and cost of goods sold and gross profit before refunds were calculated at line level.
 
@@ -27,7 +31,7 @@ Customer-level analysis was limited to completed transactions with an identified
 
 Public contextual data was kept separate from the synthetic operational records. This includes Kenya's monthly CPI and the 2025 public holiday calendar.
 
-## 3. Exploratory data analysis
+## Exploratory data analysis (EDA)
 
 The EDA focused on sales performance, branch and county comparisons, product contribution, promotions and customer purchasing patterns.
 
@@ -65,11 +69,11 @@ A 60-day period without a recorded purchase was used to flag potentially lapsed 
 
 The analysis also showed that customers with the highest transaction frequency were not always those with the highest sales or gross profit.
 
-## 4. SQL database and analysis
+## SQL
 
 The operational datasets were loaded into PostgreSQL in a database named `Customer_sales_intelligence`, using the `public` schema.
 
-The schema contains 15 operational tables. The table definitions, primary keys and foreign keys are provided separately in `sql/01_create_tables.sql`. The opening stock table is named `open_inventory` in the database. Composite primary keys are used for transaction items, sales return items, purchase order items, opening inventory, price changes, and lost-sales records.
+The schema contains 15 operational tables. The table definitions, primary keys and foreign keys are provided in `sql/01_create_tables.sql`. The opening stock table is named `open_inventory` in the database. Composite primary keys are used for transaction items, sales return items, purchase order items, opening inventory, price changes, and lost-sales records.
 
 The SQL analysis covered:
 
@@ -84,13 +88,15 @@ The SQL analysis covered:
 - Preparing a modelling dataset with complete historical features and future targets.
 - Analysing customer purchase cohorts, RFM segments and sales by branch, county, category and month.
 
-The SQL work is organised into two separate scripts: one for creating the operational tables and another for inventory reconciliation and analysis.
+The SQL work is organised into two scripts: one for creating the operational tables and another for inventory reconciliation and analysis.
 
-## 5. Scope reached
+## Statistical analysis
 
-This milestone establishes the business problem, prepares and explores the project data, and uses SQL to organise and analyse the relational datasets. It also prepares the product-branch-day dataset for the next forecasting stage.
+This stage will focus on statistical analysis of the prepared data. It will be documented separately from EDA and predictive modelling, including the statistical questions, methods, assumptions and interpretation of results.
 
-Model development and evaluation are outside the scope of this milestone document.
+## Predictive data modelling
+
+This stage will focus on developing and evaluating predictive models for pharmacy product demand. It will be documented separately from statistical analysis, including feature preparation, model selection, validation, performance evaluation and limitations.
 
 ## Data limitations
 
