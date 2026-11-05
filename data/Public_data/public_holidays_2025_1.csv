@@ -1,0 +1,14 @@
+holiday_date,holiday_name,holiday_type,source_id,verification_note
+01/01/2025,New Year's Day,Statutory,SRC-HOL-01,"Part I of the Schedule, Public Holidays Act (Cap. 110)."
+31/03/2025,Idd-ul-Fitr,Statutory,SRC-HOL-01; SRC-HOL-02,Listed in Part I (date depends on moon sighting); date fixed by Gazette Notice No. 3861 of 28 Mar 2025.
+18/04/2025,Good Friday,Statutory,SRC-HOL-01,"Part I ('March or April'); date follows Easter Sunday 20 Apr 2025 (calendar-computed, no Gazette notice needed)."
+21/04/2025,Easter Monday,Statutory,SRC-HOL-01,Part I ('March or April'); day after Easter Sunday 20 Apr 2025.
+01/05/2025,Labour Day,Statutory,SRC-HOL-01,"Part I, 1 May."
+02/06/2025,Madaraka Day (observed),Statutory,SRC-HOL-01,1 June 2025 was a Sunday; under s.4 the next day (Monday 2 June) is the holiday and 1 June ceases to be one.
+06/06/2025,Idd-ul-Azha,Specially declared,SRC-HOL-03,"Gazette Notice No. 7317 (Vol. CXXVII No. 116, 4 Jun 2025), s.2(1). Part II of the Schedule covers Islamic faith; the notice declares it a public holiday."
+10/10/2025,Mazingira Day,Statutory,SRC-HOL-01,"Part I, 10 October (Friday)."
+17/10/2025,Public holiday in honour of the late former Prime Minister Raila Amolo Odinga,Specially declared,SRC-HOL-04,"Gazette Notice No. 15007 (Vol. CXXVII No. 214, 16 Oct 2025), s.3."
+20/10/2025,Mashujaa Day,Statutory,SRC-HOL-01,"Part I, 20 October (Monday)."
+12/12/2025,Jamhuri Day,Statutory,SRC-HOL-01,"Part I, 12 December."
+25/12/2025,Christmas Day,Statutory,SRC-HOL-01,"Part I, 25 December."
+26/12/2025,Boxing Day,Statutory,SRC-HOL-01,"Part I, 26 December."
