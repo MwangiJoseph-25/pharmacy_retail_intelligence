@@ -1,0 +1,387 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20263.26.1022.1645                               -->
+<workbook _.fcp.WorkbookFingerprinting.true...author-id='ca063868098bbca68073d94e983e80aacfab66ab638e4080ff6cc9adbf20f9e0' _.fcp.WorkbookFingerprinting.true...creator-author-id='ca063868098bbca68073d94e983e80aacfab66ab638e4080ff6cc9adbf20f9e0' _.fcp.WorkbookFingerprinting.true...creator-license-type='free' _.fcp.WorkbookFingerprinting.true...creator-machine-id='50e9a30da5fe7ada705c5f99dce3c90a38e7df8f1ac1ad12def681ad853ae0f6' _.fcp.WorkbookFingerprinting.true...license-type='free' _.fcp.WorkbookFingerprinting.true...machine-id='50e9a30da5fe7ada705c5f99dce3c90a38e7df8f1ac1ad12def681ad853ae0f6' original-version='18.1' source-build='2026.3.0 (20263.26.1022.1645)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelSharedDimensions />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+    <_.fcp.WorkbookFingerprinting.true...WorkbookFingerprinting />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='customer+' inline='true' name='federated.1v0o41o14s2v3213lt1ux01au6yc' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='customer' name='textscan.02o1mia0jfug9h0zuq56z1f6zujd'>
+            <connection class='textscan' directory='/Users/mac/DEV/Capstone_Project/data/Raw_data/sql_import' filename='customer.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation type='collection'>
+          <relation connection='textscan.02o1mia0jfug9h0zuq56z1f6zujd' name='customer.csv' table='[customer#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='string' name='customer_id' ordinal='0' />
+              <column datatype='date' name='registration_date' ordinal='1' />
+              <column datatype='string' name='customer_segment' ordinal='2' />
+              <column datatype='string' name='customer_status' ordinal='3' />
+            </columns>
+          </relation>
+          <relation connection='textscan.02o1mia0jfug9h0zuq56z1f6zujd' name='inventory_movement.csv' table='[inventory_movement#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='string' name='movement_id' ordinal='0' />
+              <column datatype='datetime' name='movement_datetime' ordinal='1' />
+              <column datatype='string' name='store_id' ordinal='2' />
+              <column datatype='string' name='product_id' ordinal='3' />
+              <column datatype='string' name='movement_type' ordinal='4' />
+              <column datatype='integer' name='quantity_change' ordinal='5' />
+              <column datatype='string' name='reference_type' ordinal='6' />
+              <column datatype='string' name='reference_id' ordinal='7' />
+            </columns>
+          </relation>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[customer.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[inventory_movement.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>customer_id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[customer_id]</local-name>
+            <parent-name>[customer.csv]</parent-name>
+            <remote-alias>customer_id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[customer.csv_56139E76389546629BAEAD3F7E9B95AC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>registration_date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[registration_date]</local-name>
+            <parent-name>[customer.csv]</parent-name>
+            <remote-alias>registration_date</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[customer.csv_56139E76389546629BAEAD3F7E9B95AC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>customer_segment</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[customer_segment]</local-name>
+            <parent-name>[customer.csv]</parent-name>
+            <remote-alias>customer_segment</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[customer.csv_56139E76389546629BAEAD3F7E9B95AC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>customer_status</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[customer_status]</local-name>
+            <parent-name>[customer.csv]</parent-name>
+            <remote-alias>customer_status</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[customer.csv_56139E76389546629BAEAD3F7E9B95AC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>movement_id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[movement_id]</local-name>
+            <parent-name>[inventory_movement.csv]</parent-name>
+            <remote-alias>movement_id</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[inventory_movement.csv_293DE2DAE304446A9CF0474FE6276B0E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>movement_datetime</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[movement_datetime]</local-name>
+            <parent-name>[inventory_movement.csv]</parent-name>
+            <remote-alias>movement_datetime</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[inventory_movement.csv_293DE2DAE304446A9CF0474FE6276B0E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>store_id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[store_id]</local-name>
+            <parent-name>[inventory_movement.csv]</parent-name>
+            <remote-alias>store_id</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[inventory_movement.csv_293DE2DAE304446A9CF0474FE6276B0E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>product_id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[product_id]</local-name>
+            <parent-name>[inventory_movement.csv]</parent-name>
+            <remote-alias>product_id</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[inventory_movement.csv_293DE2DAE304446A9CF0474FE6276B0E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>movement_type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[movement_type]</local-name>
+            <parent-name>[inventory_movement.csv]</parent-name>
+            <remote-alias>movement_type</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[inventory_movement.csv_293DE2DAE304446A9CF0474FE6276B0E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>quantity_change</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[quantity_change]</local-name>
+            <parent-name>[inventory_movement.csv]</parent-name>
+            <remote-alias>quantity_change</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[inventory_movement.csv_293DE2DAE304446A9CF0474FE6276B0E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>reference_type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[reference_type]</local-name>
+            <parent-name>[inventory_movement.csv]</parent-name>
+            <remote-alias>reference_type</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[inventory_movement.csv_293DE2DAE304446A9CF0474FE6276B0E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>reference_id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[reference_id]</local-name>
+            <parent-name>[inventory_movement.csv]</parent-name>
+            <remote-alias>reference_id</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[inventory_movement.csv_293DE2DAE304446A9CF0474FE6276B0E]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='customer.csv' datatype='table' name='[__tableau_internal_object_id__].[customer.csv_56139E76389546629BAEAD3F7E9B95AC]' role='measure' type='quantitative' />
+      <column caption='inventory_movement.csv' datatype='table' name='[__tableau_internal_object_id__].[inventory_movement.csv_293DE2DAE304446A9CF0474FE6276B0E]' role='measure' type='quantitative' />
+      <column caption='Customer Id' datatype='string' name='[customer_id]' role='dimension' type='nominal' />
+      <column caption='Customer Segment' datatype='string' name='[customer_segment]' role='dimension' type='nominal' />
+      <column caption='Customer Status' datatype='string' name='[customer_status]' role='dimension' type='nominal' />
+      <column caption='Movement Datetime' datatype='datetime' name='[movement_datetime]' role='dimension' type='ordinal' />
+      <column caption='Movement Id' datatype='string' name='[movement_id]' role='dimension' type='nominal' />
+      <column caption='Movement Type' datatype='string' name='[movement_type]' role='dimension' type='nominal' />
+      <column caption='Product Id' datatype='string' name='[product_id]' role='dimension' type='nominal' />
+      <column caption='Quantity Change' datatype='integer' name='[quantity_change]' role='measure' type='quantitative' />
+      <column caption='Reference Id' datatype='string' name='[reference_id]' role='dimension' type='nominal' />
+      <column caption='Reference Type' datatype='string' name='[reference_type]' role='dimension' type='nominal' />
+      <column caption='Registration Date' datatype='date' name='[registration_date]' role='dimension' type='ordinal' />
+      <column caption='Store Id' datatype='string' name='[store_id]' role='dimension' type='nominal' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='customer.csv' id='customer.csv_56139E76389546629BAEAD3F7E9B95AC'>
+            <properties context=''>
+              <relation connection='textscan.02o1mia0jfug9h0zuq56z1f6zujd' name='customer.csv' table='[customer#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='customer_id' ordinal='0' />
+                  <column datatype='date' name='registration_date' ordinal='1' />
+                  <column datatype='string' name='customer_segment' ordinal='2' />
+                  <column datatype='string' name='customer_status' ordinal='3' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+          <object caption='inventory_movement.csv' id='inventory_movement.csv_293DE2DAE304446A9CF0474FE6276B0E'>
+            <properties context=''>
+              <relation connection='textscan.02o1mia0jfug9h0zuq56z1f6zujd' name='inventory_movement.csv' table='[inventory_movement#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='movement_id' ordinal='0' />
+                  <column datatype='datetime' name='movement_datetime' ordinal='1' />
+                  <column datatype='string' name='store_id' ordinal='2' />
+                  <column datatype='string' name='product_id' ordinal='3' />
+                  <column datatype='string' name='movement_type' ordinal='4' />
+                  <column datatype='integer' name='quantity_change' ordinal='5' />
+                  <column datatype='string' name='reference_type' ordinal='6' />
+                  <column datatype='string' name='reference_id' ordinal='7' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{03E5E7F6-DD3F-4252-BDF4-33909574424B}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{325DF03B-24FC-4A75-8645-480F03E70720}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='384' name='Sheet 1' width='384'>
+      iVBORw0KGgoAAAANSUhEUgAAAYAAAAGACAYAAACkx7W/AAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAFXUlEQVR4nO3VMQEAIAzAMMC/5yFjRxMF/XpnZg4AOW87AIAdBgAQZQAAUQYAEGUAAFEG
+      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
+      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
+      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
+      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABR
+      BgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUA
+      AFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQ
+      ZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEG
+      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
+      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
+      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
+      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABR
+      BgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUA
+      AFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQ
+      ZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEG
+      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
+      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
+      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
+      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABR
+      BgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUA
+      AFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQ
+      ZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEG
+      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
+      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
+      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
+      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEfFxoG/IiMv0YAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
